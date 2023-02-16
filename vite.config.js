@@ -1,10 +1,21 @@
 import { defineConfig } from 'vite';
+import { resolve } from 'path';
 import injectHTML from 'vite-plugin-html-inject';
 import FullReload from 'vite-plugin-full-reload';
 
 export default defineConfig({
   root: 'src',
   build: {
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'src/index.html'),
+        restourant: resolve(__dirname, 'src/restaurant'),
+        hotel: resolve(__dirname, 'src/hotel.html'),
+        lux: resolve(__dirname, 'src/room_lux.html'),
+        double: resolve(__dirname, 'src/room_double.html'),
+        triple: resolve(__dirname, 'src/room_triple.html'),
+      },
+    },
     outDir: '../dist',
   },
   plugins: [injectHTML(), FullReload(['./src/**/**.html'])],
