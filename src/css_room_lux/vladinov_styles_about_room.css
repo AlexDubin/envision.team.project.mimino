@@ -47,6 +47,8 @@
   padding: 0;
   color: var(--wight-hover);
   margin-bottom: 20px;
+  transition: background-color 250ms ease, color 250ms ease,
+    border-color 250ms ease;
 }
 .amenities-btn:focus,
 .amenities-btn:hover {
