@@ -1,7 +1,7 @@
 .amenities.section {
   padding-top: 32px;
   padding-bottom: 28px;
-  background-color: #fffdee;
+  background-color: var(--light-background-color);
 }
 .amenities-header {
   font-family: 'Times New Roman';
