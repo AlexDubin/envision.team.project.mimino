@@ -1,7 +1,7 @@
 .amenities.section {
   padding-top: 32px;
   padding-bottom: 28px;
-  background-color: #fffdee;
+  background-color: var(--light-background-color);
 }
 .amenities-header {
   font-family: 'Times New Roman';
@@ -69,7 +69,6 @@
   justify-content: center;
   gap: 12px;
   font-weight: 500;
-  font-size: 16px;
   line-height: 125%; /* 20/16 */
   letter-spacing: 0.02em;
   color: var(--brown-text-color);
