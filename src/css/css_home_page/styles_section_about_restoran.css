@@ -1,0 +1,93 @@
+/* ===========Restaurant Page============ */
+/* ===Mobile=== */
+.restaurant-page-home {
+  padding-top: 16px;
+  padding-bottom: 72px;
+  background-color: var(--light-background-color);
+}
+
+.restaurant-container {
+  overflow: hidden;
+}
+
+.over-text {
+  font-family: 'Times New Roman';
+  font-size: 20px;
+  line-height: 1.15;
+  color: var(--grey-text-color);
+  margin-bottom: 12px;
+}
+
+.logo-text {
+  font-family: 'Film P3';
+  font-size: 40px;
+  line-height: 1.07;
+  letter-spacing: 0.3em;
+  color: var(--title-text-color);
+  margin-bottom: 12px;
+}
+
+.text-img-container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.text-page-home {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.25;
+  max-width: 258px;
+  margin-bottom: 28px;
+}
+
+.brown {
+  margin-left: 20px;
+  width: 163px;
+  color: var(--brown-text-color);
+}
+
+.photo-restaurant-right {
+  margin-bottom: 32px;
+  margin-left: auto;
+}
+
+.slider-img-restoran {
+  display: flex;
+  gap: 25px;
+  margin-left: 69px;
+}
+/* ===/Mobile=== */
+
+/* ===Tablet=== */
+@media screen and (min-width: 1024px) {
+  .restaurant-page-home {
+    padding-top: 120px;
+    padding-bottom: 96px;
+  }
+
+  .container {
+    max-width: 1024px;
+  }
+
+  .logo-img-container {
+    display: flex;
+  }
+
+  .text-container {
+    flex-wrap: wrap;
+  }
+
+  .over-text {
+    font-size: 32px;
+    margin-bottom: 4px;
+  }
+}
+
+/* ===/Tablet=== */
+
+/* ===Desktop=== */
+/* ===/Desktop=== */
+
+/* ===========/Restaurant Page============ */
