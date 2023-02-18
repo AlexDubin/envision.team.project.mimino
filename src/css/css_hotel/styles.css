@@ -1,0 +1,24 @@
+@import url('../reset.css');
+
+
+@import url('../base.css');
+
+
+@import url('../styles_header.css');
+
+
+@import url('./styles_section_hero.css');
+@import url('./styles_section_lux.css');
+@import url('./styles_section_triple.css');
+@import url('./styles_section_double.css');
+
+
+
+
+@import url('../styles_footer.css');
+
+
+
+@import url('../css_modal/styles_modal_price.css');
+@import url('../css_modal/styles_modal_table.css');
+@import url('../css_modal/styles_modal_room.css');

@@ -1,20 +1,13 @@
 import { defineConfig } from 'vite';
-import { resolve } from 'path';
+import glob from 'glob';
 import injectHTML from 'vite-plugin-html-inject';
 import FullReload from 'vite-plugin-full-reload';
-
+console.log(glob.sync('./src/*.html'));
 export default defineConfig({
   root: 'src',
   build: {
     rollupOptions: {
-      input: {
-        main: resolve(__dirname, 'src/index.html'),
-        restourant: resolve(__dirname, 'src/restaurant.html'),
-        hotel: resolve(__dirname, 'src/hotel.html'),
-        lux: resolve(__dirname, 'src/room_lux.html'),
-        double: resolve(__dirname, 'src/room_double.html'),
-        triple: resolve(__dirname, 'src/room_triple.html'),
-      },
+      input: glob.sync('./src/*.html'),
     },
     outDir: '../dist',
   },
