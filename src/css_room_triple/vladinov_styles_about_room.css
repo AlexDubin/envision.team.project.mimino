@@ -55,9 +55,8 @@
   padding: 0;
   color: var(--wight-hover);
   margin-bottom: 20px;
-  transition: background-color 250ms cubic-bezier(0.65, 0.05, 0.36, 1),
-    color 250ms cubic-bezier(0.65, 0.05, 0.36, 1),
-    border-color 250ms cubic-bezier(0.65, 0.05, 0.36, 1);
+  transition: background-color 250ms var(--cubic-bezier),
+    color 250ms var(--cubic-bezier), border-color 250ms var(--cubic-bezier);
 }
 .amenities-btn:focus,
 .amenities-btn:hover {
@@ -74,7 +73,7 @@
   line-height: 125%; /* 20/16 */
   letter-spacing: 0.02em;
   color: var(--brown-text-color);
-  transition: color 250ms cubic-bezier(0.65, 0.05, 0.36, 1);
+  transition: color 250ms var(--cubic-bezier);
 }
 .amenities-link:focus,
 .amenities-link:hover {
@@ -106,7 +105,8 @@
     max-width: 400px;
   }
   .amenities-btn {
-    max-width: 434px;
+    width: auto;
+    min-width: 434px;
     padding: 18px 38px;
     font-size: 24px;
     line-height: 120.833333%; /* 29/24 */
