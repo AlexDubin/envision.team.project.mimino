@@ -10,6 +10,10 @@
   overflow: hidden;
 }
 
+.logo-img-container {
+  margin-bottom: 32px;
+}
+
 .over-text {
   font-family: 'Times New Roman';
   font-size: 20px;
@@ -27,7 +31,7 @@
   margin-bottom: 12px;
 }
 
-.text-img-container {
+.img-text-container {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
@@ -49,12 +53,12 @@
 }
 
 .photo-restaurant-right {
-  margin-bottom: 32px;
   margin-left: auto;
 }
 
-.slider-img-restoran {
+.slider-img-container {
   display: flex;
+  flex-wrap: nowrap;
   gap: 25px;
   margin-left: 69px;
 }
