@@ -1,0 +1,19 @@
+@import url('../reset.css');
+
+
+@import url('../base.css');
+
+
+@import url('../styles_header.css');
+
+@import url('./styles_section_room_hero.css');
+@import url('./styles_section_about_room.css');
+
+
+@import url('../styles_footer.css');
+
+
+
+@import url('../css_modal/styles_modal_price.css');
+@import url('../css_modal/styles_modal_table.css');
+@import url('../css_modal/styles_modal_room.css');
