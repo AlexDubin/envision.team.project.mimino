@@ -55,8 +55,9 @@
   padding: 0;
   color: var(--wight-hover);
   margin-bottom: 20px;
-  transition: background-color 250ms var(--cubic-bezier),
-    color 250ms var(--cubic-bezier), border-color 250ms var(--cubic-bezier);
+  transition: background-color var(--time-animation) var(--cubic-bezier),
+    color var(--time-animation) var(--cubic-bezier),
+    border-color var(--time-animation) var(--cubic-bezier);
 }
 .amenities-btn:focus,
 .amenities-btn:hover {
@@ -73,7 +74,7 @@
   line-height: 125%; /* 20/16 */
   letter-spacing: 0.02em;
   color: var(--brown-text-color);
-  transition: color 250ms var(--cubic-bezier);
+  transition: color var(--time-animation) var(--cubic-bezier);
 }
 .amenities-link:focus,
 .amenities-link:hover {
