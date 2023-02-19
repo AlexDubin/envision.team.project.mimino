@@ -1,0 +1,228 @@
+/* .swiper-container{
+  max-width: 414px;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+.swiper-wrapper{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+} 
+.swiper-button-prev{
+  width:40px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.65);
+}
+.swiper-button-next{
+  width:40px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.65);
+} */
+.prev{
+  cursor: pointer;
+ position: absolute;
+ top: 50%;
+ left: 15px;
+ transform: translate(0, -50%);
+} 
+.next{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translate(0, -50%);
+ }
+.navigation-hero-icon{
+  background: rgba(0, 0, 0, 0.65);
+  fill: var(--yellow-hover);
+}
+.room-page-hero {
+  padding-top: 484px;
+  padding-bottom: 18px;
+  position: relative;
+  background-color: var(--footer-background-color);
+  background-image: url(../../img/room_double/hero-room-main-bg-1x-min.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .room-page-hero {
+    background-image: url(../../img/room_double/hero-room-main-bg-2x-min.jpg);
+  }
+}
+.room-name {
+  font-family: 'Times New Roman';
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.14;
+  letter-spacing: 0.05em;
+}
+.room-about {
+  max-width: 325px;
+  margin-top: 14px;
+  margin-bottom: 17px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+}
+.hero-wrap {
+  display: flex;
+  align-items: center;
+}
+.adress-wrap {
+  display: flex;
+  position: absolute;
+  padding: 7px;
+  top: 65px;
+  right: 15px;
+  border: 1px;
+  max-width: 209px;
+  border: 1px solid #f3c653;
+  border-radius: 2px;
+  align-items: center;
+}
+.icon-adress {
+  margin-right: 13px;
+}
+.hetel-adress {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+  color: #e5e5e5;
+}
+.hero-social-list {
+  display: flex;
+  gap: 11px;
+  flex-direction: column;
+}
+.show-price {
+  margin: 0 auto;
+  padding: 14px 35px;
+  font-weight: 700;
+  color: var(--yellow-hover);
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  background: rgba(0, 0, 0, 0.4);
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+  transition-property: background-color, border-color;
+  transition-duration: var(--time-animation);
+  transition-timing-function: var(--cubic-bezier);
+}
+.show-price:hover,
+.show-price:focus {
+  background: #ffffff;
+  border: 2px solid #f3c653;
+}
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+    padding-left: 47px;
+    padding-right: 47px;
+  }
+  .room-page-hero {
+    padding-top: 468px;
+    padding-bottom: 22px;
+    background-image: url(../../img/room_double/hero-room-main-bg-tablet-1x-min.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .room-page-hero {
+      background-image: url(../../img/room_double/hero-room-main-bg-tablet-2x-min.jpg);
+    }
+  }
+  .prev{
+    left: 47px;
+   }
+   .next{
+     right: 47px;
+    }
+  .room-name {
+    font-size: 36px;
+    line-height: 1.13;
+  }
+  .room-about {
+    max-width: 400px;
+    margin-top: 24px;
+    margin-bottom: 17px;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+  }
+  .show-price {
+    position: absolute;
+    bottom: 62px;
+    right: 47px;
+  }
+  .adress-wrap {
+    position: static;
+    margin-right: 40px;
+    max-width: 284px;
+  }
+  .hetel-adress {
+    font-size: 16px;
+  }
+  .hero-social-list {
+    gap: 23px;
+    flex-direction: row;
+  }
+  .icon-adress {
+    width: 24px;
+    height: 24px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding-left: 85px;
+    padding-right: 85px;
+  }
+  .room-page-hero {
+    padding-top: 524px;
+    padding-bottom: 48px;
+    background-image: url(../../img/room_double/hero-room-main-bg-descktop-1x-min.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .room-page-hero {
+      background-image: url(../../img/room_double/hero-room-main-bg-descktop-2x-min.jpg);
+    }
+  }
+  .prev{
+    left: 85px;
+   }
+   .next{
+     right: 85px;
+    }
+  .show-price {
+    position: absolute;
+    bottom: 66px;
+    right: 85px;
+  }
+  .adress-wrap {
+   display: none;
+  }
+  .hero-social-list{
+    position: absolute;
+    top: 39px;
+    right: 88px;
+  }
+  .room-about {
+    margin-bottom: 0px;
+   
+  }
+}
