@@ -1,4 +1,5 @@
 /* ===========Restaurant Page============ */
+
 /* ===Mobile=== */
 .restaurant-page-home {
   padding-top: 16px;
@@ -56,12 +57,16 @@
   margin-left: auto;
 }
 
-.slider-img-container {
+.slider-img-mobile {
   display: flex;
-  flex-wrap: nowrap;
   gap: 25px;
   margin-left: 69px;
 }
+
+.img-slider-tablet {
+  display: none;
+}
+
 /* ===/Mobile=== */
 
 /* ===Tablet=== */
