@@ -1,4 +1,3 @@
-
 .rest-menu h2,
 .rest-menu h3 {
     font-family: 'Film P3';
@@ -16,6 +15,7 @@
     background: var(--black-text-color);
     border: 2px solid var(--black-text-color);
     border-radius: 25px;
+    transition: var(--time-animation) var(--cubic-bezier);
 }
 
 .rest-menu .btn:hover,
