@@ -10,19 +10,16 @@
         margin-left: auto;
         margin-right: auto;
     }
-    .biruzova {
-        display: none;
-    }
     .social-media {
         font-family: 'Montserrat';
         font-weight: 400;
         font-size: 16px;
         line-height: 1.25;
         letter-spacing: 0.01em;
-        color: #494848;
-        background-color: #ffffff;
+        color: var(--title-text-color);
+        background-color: var(--wight-hover);
         padding: 9px 8px 7px 16px;
-        border: 0.5px solid #F3C653;
+        border: 0.5px solid var(--akzent-yellow);
         border-radius: 2px;
         display: flex;
         gap: 16px;
@@ -31,7 +28,7 @@
     
 .footer {
     width: 100%;
-    background-color: #0E0C07;
+    background-color: var(--footer-background-color);
     padding-bottom: 41px;
     padding-top: 40px;
 }
@@ -42,7 +39,7 @@
     font-size: 40px;
     line-height: 1.07;
     letter-spacing: 0.3em;
-    color: #F3C653;
+    color: var(--akzent-yellow);
     margin-top: 58px;
     margin-bottom: 59px;
 }
@@ -72,7 +69,7 @@
     font-size: 20px;
     line-height: 1.21;
     letter-spacing: 0.02em;
-    color: #C79002;
+    color: var(--brown-text-color);
 }
 .soc-list {
     width: 112px;
@@ -80,6 +77,9 @@
     column-gap: 23px;
     margin-top: 32px;
     margin-left: 40px;
+}
+.telegram-title {
+    display: none;
 }
 }
 @media (min-width: 414px) and (max-width: 1023px) {
@@ -94,7 +94,7 @@
     
 .footer {
     width: 100%;
-    background-color: #0E0C07;
+    background-color: var(--footer-background-color);
     padding-bottom: 41px;
     padding-top: 40px;
 }
@@ -105,7 +105,7 @@
     font-size: 40px;
     line-height: 1.07;
     letter-spacing: 0.3em;
-    color: #F3C653;
+    color: var(--akzent-yellow);
     margin-top: 58px;
     margin-bottom: 59px;
 }
@@ -135,7 +135,7 @@
     font-size: 20px;
     line-height: 1.21;
     letter-spacing: 0.02em;
-    color: #C79002;
+    color: var(--brown-text-color);
 }
 .soc-list {
     width: 112px;
@@ -145,15 +145,15 @@
     margin-left: 85px;
     justify-content: center;
 }
-.biruzova {
+.telegram-title {
     display: none;
 }
 }
 
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
     .footer-container {
-        width: 746px;
+        width: 776px;
         display: flex;
     justify-content: center;
     flex-direction: column;
@@ -165,18 +165,18 @@
     
 .footer {
     width: 100%;
-    background-color: #0E0C07;
+    background-color: var(--footer-background-color);
     padding-bottom: 41px;
     padding-top: 40px;
 }
 .mimino-logo-footer {
-    width: 100%;
+    width: 202px;
     font-family: 'Film P3';
     font-weight: 700;
     font-size: 64px;
     line-height: 1.07;
     letter-spacing: 0.3em;
-    color: #F3C653;
+    color: var(--akzent-yellow);
     margin-right: 163px;
     margin-top: 77px;
 }
@@ -188,6 +188,7 @@
 .footer-nav {
     column-gap: 16px;
     margin-top: 40px;
+    margin-right: 141px;
 }
 .nav-item:not(:last-child) {
     margin-bottom: 16px;
@@ -207,23 +208,45 @@
     font-size: 20px;
     line-height: 1.21;
     letter-spacing: 0.02em;
-    color: #C79002;
+    color: var(--brown-text-color);
 }
 .soc-list {
-    width: 112px;
+    width: 100%;
     display: flex;
     flex-direction: column-reverse;
     column-gap: 23px;
-    margin-left: 85px;
     margin-top: 50px;
     justify-content: center;
     gap: 16px;
+}
+.social-item-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.telegram-title {
+    
+    margin-right: 19.5px;
+    color: var(--akzent-yellow);
+}
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 19.5px;
+    color: var(--akzent-yellow);
+}
+
+.soc {
+    width: 144px;
+    border: 0.5px solid var(--akzent-yellow);
+    border-radius: 2px;
+    padding: 5px 8px 5px 8px;
 }
 }
 
 @media (min-width: 1280px) {
     .footer-container {
-        width: 746px;
+        width: 848px;
         display: flex;
     justify-content: center;
     flex-direction: column;
@@ -235,20 +258,20 @@
     
 .footer {
     width: 100%;
-    background-color: #0E0C07;
-    padding-bottom: 41px;
+    background-color: var(--footer-background-color);
+    padding-bottom: 40px;
     padding-top: 40px;
 }
 .mimino-logo-footer {
-    width: 100%;
+    width: 202px;
     font-family: 'Film P3';
     font-weight: 700;
     font-size: 64px;
     line-height: 1.07;
     letter-spacing: 0.3em;
-    color: #F3C653;
+    color: var(--akzent-yellow);
     margin-right: 163px;
-    margin-top: 77px;
+    margin-top: 80px;
 }
 .footer-nav-soc {
     display: flex;
@@ -258,6 +281,8 @@
 .footer-nav {
     column-gap: 16px;
     margin-top: 40px;
+    margin-right: 200px;
+    margin-bottom: 79px;
 }
 .nav-item:not(:last-child) {
     margin-bottom: 16px;
@@ -277,16 +302,32 @@
     font-size: 20px;
     line-height: 1.21;
     letter-spacing: 0.02em;
-    color: #C79002;
+    color: var(--brown-text-color);
 }
 .soc-list {
-    width: 112px;
+    width: 100%;
     display: flex;
     flex-direction: column-reverse;
     column-gap: 23px;
-    margin-left: 85px;
     margin-top: 50px;
+    margin-bottom: 49px;
     justify-content: center;
     gap: 16px;
+}
+.telegram-title {
+    
+    margin-right: 19.5px;
+    color: var(--akzent-yellow);
+}
+.social-item-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.soc {
+    width: 144px;
+    border: 0.5px solid var(--akzent-yellow);
+    border-radius: 2px;
+    padding: 5px 8px 5px 8px;
 }
 }
