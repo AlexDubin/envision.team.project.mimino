@@ -2,12 +2,7 @@
   position: absolute;
   width: 100%;
 }
-div.container {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 .site-navigation {
   display: flex;
   padding-top: 16px;
@@ -50,7 +45,6 @@ div.container {
   font-weight: 400;
   font-size: 14px;
   line-height: calc(17 / 14);
-
   letter-spacing: 0.02em;
   color: var(--hero-text-color);
 }
@@ -85,7 +79,7 @@ div.container {
   .header-logo {
     font-size: 36px;
     line-height: calc(39 / 36);
-    padding-left: 47px;
+    padding-left: 32px;
   }
   .header-link {
     font-size: 16px;
@@ -97,12 +91,13 @@ div.container {
   }
 }
 @media screen and (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
+  div.container {
+    max-width: 960px;
   }
   .site-navigation {
     justify-content: space-between;
-    padding: 24px 47px 33px 47px;
+    padding-top: 24px;
+    padding-bottom: 33px;
   }
   .header-logo {
     font-size: 40px;
@@ -137,13 +132,14 @@ div.container {
   }
 }
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
+  div.container {
+    max-width: 1140px;
   }
+
   .wrap-header {
     display: flex;
     align-items: center;
-    justify-content: center;
+
     padding-top: 24px;
     padding-bottom: 33px;
   }
@@ -153,11 +149,11 @@ div.container {
   .header-logo {
     font-size: 40px;
     line-height: calc(43 / 40);
-    margin-right: 135px;
+    margin-right: 130px;
   }
   .header-soc-list {
     display: flex;
     gap: 20px;
-    margin-left: 140px;
+    margin-left: 135px;
   }
 }

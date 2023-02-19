@@ -21,7 +21,7 @@
 .hero-address {
   border: 1px solid rgba(243, 198, 83, 0.7);
   border-radius: 2px;
-  width: 200px;
+  width: 210px;
   display: flex;
   margin-left: auto;
   align-items: center;
@@ -39,6 +39,7 @@ address {
   text-align: start;
   margin-top: 8px;
   margin-bottom: 8px;
+  margin-right: 5px;
 }
 
 .address-icon {
@@ -140,7 +141,8 @@ address {
 }
 @media screen and (min-width: 1024px) {
   .container {
-    max-width: 1024px;
+    max-width: 960px;
+    position: relative;
   }
   .hero-section {
     padding-top: 188px;
@@ -185,15 +187,15 @@ address {
   }
   .hero-address {
     position: absolute;
-    top: 600px;
-    left: 47px;
-    width: 278px;
+    top: 405px;
+    left: 15px;
+    width: 285px;
     margin-bottom: 0;
   }
   .hero-address-link {
     font-size: 16px;
     line-height: calc(20 / 16);
-    letter-spacing: 0.06em;
+    letter-spacing: 0.02em;
     margin-right: 8px;
   }
   .address-icon {
@@ -219,8 +221,8 @@ address {
   }
 }
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
+  div.container {
+    max-width: 1140px;
   }
   .hero-soc-list {
     display: none;
@@ -253,6 +255,13 @@ address {
   }
   .hero-descr {
     margin-bottom: 144px;
+  }
+  .hero-address {
+    position: absolute;
+    top: 435px;
+    left: 15px;
+    width: 285px;
+    margin-bottom: 0;
   }
   .btn-wrap {
     margin-bottom: 0;
