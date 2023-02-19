@@ -20,8 +20,8 @@
 
 
 .hotel-lux-mimino {
-
-    font-weight: 700;
+    font-family: 'Film P3';
+    font-weight: bold;
     font-size: 40px;
     line-height: 1.33;
     letter-spacing: 0.3em;
@@ -136,6 +136,8 @@
     }
 
     .hotel-lux-mimino {
+        font-family: 'Film P3';
+        font-weight: bold;
         font-size: 64px;
         line-height: 1.07;
         margin-bottom: 62px;
@@ -214,6 +216,8 @@
     }
 
     .hotel-lux-mimino {
+        font-family: 'Film P3';
+        font-weight: bold;
         font-size: 64px;
         line-height: 1.07;
         margin-bottom: 62px;
