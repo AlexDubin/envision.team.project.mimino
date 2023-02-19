@@ -1,19 +1,18 @@
 .hotel-section-lux {
     background-color: #FFFDEE;
-    padding: 28px 0px 32px 0px;
-
+ 
 }
 
 .hotel-lux-title-block {
-    max-width: 350px;
+width: 350px;
 }
 
 .hotel-lux-min-text {
     font-family: 'Times New Roman';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
+    font-size: 32px;
+    line-height: 1.15;
     color: var(--grey-text-color);
     margin-bottom: 8px;
 }
@@ -28,6 +27,7 @@
     color: var(--title-text-color);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-transform: uppercase;
+    margin-bottom: 32px;
 }
 
 .hotel-lux-title {
@@ -38,7 +38,7 @@
     line-height: 1.16;
     letter-spacing: 0.05em;
     color: var(--black-text-color);
-    margin-bottom: 32px;
+    margin-bottom: 12px;
 
 }
 
@@ -51,7 +51,7 @@
     letter-spacing: 0.02em;
 
     color: var(--dark-grey-text-color);
-    max-width: 238px;
+    max-width: 258px;
     margin-bottom: 32px;
 }
 
@@ -63,13 +63,15 @@
 
 .lux-img {
     margin-left: auto;
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
 }
 
 
 
 .hotel-lux-swiper-wrapper {
-    display: flex;
-    gap: 16px;
+ display: flex;
+ gap: 16px;
 }
 
 .hotel-lux-slider-btn {
@@ -77,7 +79,7 @@
 }
 
 
-.lux-slider-img {
+.hotel-lux-slider {
     width: 100%;
     display: block;
 }
@@ -88,15 +90,20 @@
     flex-direction: column;
     flex-wrap: wrap;
     gap: 16px;
-    margin-top: 72px;
+
     align-items: center;
+}
+
+.lux-slider-img {
+    width: 194px;
+    height: 194px;
+    
 }
 
 .hotel-lux-btn {
     background-color: #000000;
     border-radius: 25px;
     border: 2px Solid #ffffff;
- 
     font-weight: 600;
     font-size: 16px;
     line-height: 1.25;
@@ -105,14 +112,39 @@
     width: 236px;
     height: 48px;
     transition: background-color var(--time-animation) var(--cubic-bezier);
-
-
 }
 
 .hotel-lux-btn:hover,
 .hotel-lux-btn:focus {
     background-color: #fff;
     border: 2px Solid var(--akzent-yellow);
+}
+
+
+.swiper {
+   padding-bottom: 52px;
+   margin-left: 0;
+   margin-bottom: 20px;
+
+}
+.swiper-button-prev::after, .swiper-button-next::after {
+    display: none;
+}
+.swiper-button-next {
+    position: absolute;
+    top: auto;
+    left: 60px;
+    bottom: 0px;
+}
+.swiper-button-prev {
+    position: absolute;
+    top: auto;
+    left: 0;
+    bottom: 0px;
+}
+
+.hotel-lux-slider-btn {
+
 }
 
 
@@ -123,15 +155,12 @@
 
 @media screen and (min-width: 1024px) {
     .container {
-        max-width: 1023px;
-    }
-
-    .hotel-section-lux {
+        max-width: 1024px;
         padding: 62px 47px 40px 47px;
     }
 
     .hotel-lux-title-block {
-        max-width: 500px;
+        width: 440px;
     }
 
     .hotel-lux-mimino {
@@ -142,50 +171,65 @@
         margin-bottom: 62px;
     }
 
+    .hotel-lux-title {
+        font-size: 30px;
+        line-height: 1.13;
+    }
+
+    .hotel-lux-text {
+        font-weight: 600;
+        font-size: 16px;
+        max-width: 440px;
+    }
+    
     .hotel-lux-title-img {
         display: flex;
     }
 
     .lux-img {
-        margin-left: 48px;
+        margin-left: 42px;
         position: relative;
         margin-top: -95px;
         z-index: 2;
-        width: 460px;
-        height: 574px;
+        width: 400px;
+        height: 524px;
     }
 
     .hotel-lux-slider-btn {
         display: flex;
-        align-items: center;
         justify-content: space-between;
     }
 
     .hotel-lux-btn-list {
-        margin-top: 0;
+    padding-top: 50px;
     }
-
-
-    .hotel-lux-title {
-        font-size: 30px;
-        line-height: 1.13;
-        width: 423px;
+    
+    .swiper {
+    width: 430px;
+    padding-bottom: 65px;
+    margin-right: 0;
+    margin-bottom: 0px;
+    
     }
-
-
-    .hotel-lux-text {
-        font-weight: 600;
-        font-size: 16px;
-        max-width: 400px;
+       
+    .swiper-button-next {
+    position: absolute;
+    top: auto;
+    left: 400px;
+   
     }
-
-
+    
+    .swiper-button-prev {
+    position: absolute;
+    top: auto;
+    left: 336px;
+    bottom: 0px;
+    }
+    .hotel-lux-swiper-wrapper {
+    gap: 40px;
+    }
 }
 
-.test {
-    height: 50px;
-    background-color: #C79002;
-}
 
 
 /*------------------DESK-------------------*/
@@ -194,10 +238,6 @@
 
     .container {
         max-width: 1280px;
-
-    }
-
-    .hotel-section-lux {
         padding: 72px 85px 40px 85px;
     }
 
@@ -226,7 +266,7 @@
     .hotel-lux-text {
         font-weight: bold;
         font-size: 16px;
-        max-width: 450px;
+        width: 400px;
     }
 
     .hotel-lux-title {
@@ -235,14 +275,40 @@
     }
 
     .hotel-lux-title-block {
-        max-width: 800px;
+        width: 510px;
     }
 
     .hotel-lux-text {
         font-weight: 700;
         font-size: 16px;
         line-height: 1.25;
-        max-width: 400px;
+    }
+    .hotel-lux-btn-list {
+        padding-top: 73px;
+    }
+
+    .lux-slider-img {
+        width: 254px;
+        height: 254px;
+    }
+
+    .swiper {
+        width: 548px;
+        padding-bottom: 75px;
+    }
+
+    .swiper-button-next {
+        position: absolute;
+        top: auto;
+        left: 520px;
+        bottom: 0px;
+    }
+    
+    .swiper-button-prev {
+        position: absolute;
+        top: auto;
+        left: 460px;
+        bottom: 0px;
     }
 
 }
