@@ -1,0 +1,270 @@
+.hero-section {
+  width: 100%;
+  padding-top: 64px;
+  padding-bottom: 20px;
+  /* text-align: center; */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url(../../img/hotel/hero/room-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../../img/hotel/hero/room-mobile-2x.jpg);
+  }
+}
+
+.hero-address {
+  border: 1px solid rgba(243, 198, 83, 0.7);
+  border-radius: 2px;
+  width: 200px;
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  margin-bottom: 70px;
+}
+address {
+  font-style: normal;
+}
+.hero-address-link {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: calc(15 / 12);
+  letter-spacing: 0.01em;
+  color: var(--light-grey-text-color);
+  text-align: start;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.address-icon {
+  margin-left: 6px;
+  margin-right: 8px;
+}
+.hero-title {
+  font-family: 'Film P3';
+  font-weight: 700;
+  font-size: 96px;
+  line-height: calc(103 / 96);
+  letter-spacing: 0.3em;
+  color: var(--hero-text-color);
+  margin-bottom: 24px;
+  text-align: center;
+  margin-right: -0.3em;
+}
+.hero-aftertitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  letter-spacing: 0.1em;
+  color: var(--hero-text-color);
+  margin-bottom: 40px;
+  text-align: center;
+}
+.hero-descr {
+  font-family: 'Times New Roman';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: calc(37 / 32);
+  letter-spacing: 0.05em;
+  color: var(--hero-text-color);
+  margin-bottom: 113px;
+  text-align: center;
+}
+.btn-wrap {
+  margin-bottom: 58px;
+}
+
+.order-table-btn,
+.order-room-btn,
+.price-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  letter-spacing: 0.02em;
+  color: var(--akzent-yellow);
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+  display: block;
+  cursor: pointer;
+  padding: 14px 24px;
+  margin: 0 auto;
+  transition-property: background-color, border-color;
+  transition-duration: var(--time-animation);
+  transition-timing-function: var(--cubic-bezier);
+}
+.price-btn {
+  display: none;
+}
+.order-table-btn:hover,
+.order-room-btn:hover,
+.price-btn:hover {
+  background-color: var(--hero-text-color);
+  border-color: var(--akzent-yellow);
+}
+.order-table-btn:active,
+.order-room-btn:active,
+.price-btn:active {
+  background-color: var(--hero-text-color);
+  border-color: var(--akzent-yellow);
+}
+.order-table-btn {
+  margin-bottom: 24px;
+}
+.order-room-btn {
+}
+.hero-soc-list {
+  display: flex;
+  gap: 20px;
+}
+
+.hero-soc-item {
+}
+.hero-soc-link {
+}
+.hero-soc-icon {
+}
+@media screen and (min-width: 414px) {
+  .container {
+    max-width: 414px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+  .hero-section {
+    padding-top: 188px;
+    padding-bottom: 15px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../../img/hotel/hero/room-tablet.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-section {
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)
+        ),
+        url(../../img/hotel/hero/room-tablet-2x.jpg);
+    }
+  }
+  .price-btn {
+    display: flex;
+    margin: 0 0 0 40px;
+    padding: 14px 35px;
+  }
+  .order-table-btn {
+    display: none;
+  }
+  .btn-wrap {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 25px;
+  }
+
+  .order-table-btn,
+  .order-room-btn {
+    margin: 0;
+  }
+  .order-table-btn {
+    margin-right: 40px;
+  }
+  .hero-address {
+    position: absolute;
+    top: 600px;
+    left: 47px;
+    width: 278px;
+    margin-bottom: 0;
+  }
+  .hero-address-link {
+    font-size: 16px;
+    line-height: calc(20 / 16);
+    letter-spacing: 0.06em;
+    margin-right: 8px;
+  }
+  .address-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .hero-title {
+    font-size: 128px;
+    line-height: calc(138 / 128);
+    margin-bottom: 16px;
+  }
+  .hero-aftertitle {
+    font-size: 20px;
+    line-height: calc(24 / 20);
+    margin-bottom: 56px;
+  }
+  .hero-descr {
+    font-size: 36px;
+    line-height: calc(41 / 36);
+    margin-bottom: 137px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+  .hero-soc-list {
+    display: none;
+  }
+  .hero-section {
+    padding-top: 164px;
+    padding-bottom: 65px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../../img/hotel/hero/room-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-section {
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)
+        ),
+        url(../../img/hotel/hero/room-desktop-2x.jpg);
+    }
+  }
+  .hero-title {
+    margin-bottom: 32px;
+  }
+  .hero-aftertitle {
+    margin-bottom: 64px;
+  }
+  .hero-descr {
+    margin-bottom: 144px;
+  }
+  .btn-wrap {
+    margin-bottom: 0;
+  }
+  .price-btn {
+    margin: 0 0 0 60px;
+  }
+  .order-table-btn {
+    margin-right: 60px;
+  }
+  .order-table-btn,
+  .order-room-btn {
+    padding: 14px 35px;
+  }
+}
