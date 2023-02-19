@@ -96,8 +96,7 @@
     background-color: #000000;
     border-radius: 25px;
     border: 2px Solid #ffffff;
-    font-family: 'Montserrat';
-    font-style: bold;
+ 
     font-weight: 600;
     font-size: 16px;
     line-height: 1.25;
@@ -168,8 +167,9 @@
 
 
     .hotel-lux-title {
-        font-size: 32px;
+        font-size: 30px;
         line-height: 1.13;
+        width: 423px;
     }
 
 
