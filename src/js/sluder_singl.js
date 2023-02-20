@@ -4,7 +4,7 @@ let swiper = new Swiper('.swiper-singl', {
   direction: 'horizontal',
 
   slidesPerView: 1.3,
-  spaceBetween: 20,
+  
 
   inverse: true,
   loop: true,

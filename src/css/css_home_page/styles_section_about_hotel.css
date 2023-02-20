@@ -1,4 +1,4 @@
-.container {
+.container-about-hotel {
   position: relative;
 }
 
@@ -88,9 +88,11 @@
   width: 200px;
 }
 
-.swiper {
+
+
+ .swiper-about-hotel {
   max-width: 330px;
-  /* height: 300px; */
+  
 
   margin-left: -15px;
   margin-right: auto;
@@ -106,11 +108,15 @@
   border-radius: 2px;
 }
 
-.swiper-wrapper {
-  padding-left: 85px;
+.swiper-slide-about-hotel {
+
 }
 
-.swiper-button-prev {
+.swiper-wrapper-about-hotel {
+  padding-left: 85px;
+} 
+
+.swiper-button-prev-about-hotel {
   left: 7px;
   right: auto;
   top: 1043px;
@@ -119,7 +125,7 @@
   margin-top: 0;
 }
 
-.swiper-button-next {
+.swiper-button-next-about-hotel {
   left: 79px;
   top: 1043px;
   width: 46px;
@@ -131,17 +137,7 @@
   content: '';
 }
 
-@media screen and (min-width: 414px) {
-  .container {
-    max-width: 414px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-  }
 
-
-}
 
 @media screen and (min-width: 1024px) {
   
@@ -211,17 +207,36 @@ margin-bottom: 4px;
 }
 
 
-.swiper {
+ .swiper-about-hotel {
     max-width: 428px;
     
      margin-left: 0; 
-    
-}
 
-.swiper-wrapper {
+     margin-top: -56px;
+    
+} 
+
+ .swiper-wrapper-about-hotel {
     padding-left: 0;
 
 
+} 
+
+
+.swiper-slide-about-hotel {
+    width: 230px;
+}
+
+.swiper-button-prev-about-hotel {
+    
+    top: 1130px;
+    
+}
+
+.swiper-button-next-about-hotel {
+    
+    top: 1130px;
+    
 }
 
 
