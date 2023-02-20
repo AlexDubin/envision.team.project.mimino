@@ -64,7 +64,7 @@
   transform: translate(-50%, -50%) scale(1);
   transition: transform (var(--time-animation) var(--cubic-bezier));
 }
-/* 
+
 .backdrop.is-hidden {
   opacity: 0;
   visibility: hidden;
@@ -73,7 +73,7 @@
 
 .backdrop.is-hidden .modal-container {
   transform: translate(-50%, -50%) scale(0);
-} */
+}
 
 .close-btn-modal {
   position: absolute;
