@@ -134,11 +134,11 @@ address {
 }
 @media screen and (min-width: 414px) {
   .container {
-    max-width: 414px;
+    /* max-width: 414px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
   }
   .hero-title {
     width: 305px;
@@ -146,8 +146,8 @@ address {
   }
 }
 @media screen and (min-width: 1024px) {
-  .hero-section > .container {
-    max-width: 970px;
+  .hero-wrap.container {
+    /* max-width: 970px; */
     position: relative;
   }
   .hero-section {
@@ -228,9 +228,9 @@ address {
   }
 }
 @media screen and (min-width: 1280px) {
-  div.container {
+  /* div.container {
     max-width: 1140px;
-  }
+  } */
   .hero-soc-list {
     display: none;
   }
