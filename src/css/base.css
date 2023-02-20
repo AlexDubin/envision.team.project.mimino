@@ -142,3 +142,20 @@ body {
   padding-right: 15px;
   max-width: 414px;
 }
+
+
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 970px;
+  }
+}
+
+
+
+@media screen and (min-width: 1280px) {
+  div.container {
+    width: 1140px;
+  }
+
+}
