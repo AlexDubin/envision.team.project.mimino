@@ -154,6 +154,11 @@
     color: var(--akzent-yellow);
     width: 236px;
     height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
     transition: background-color var(--time-animation) var(--cubic-bezier);
 }
 
