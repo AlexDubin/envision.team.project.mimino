@@ -47,15 +47,17 @@ address {
   margin-right: 8px;
 }
 .hero-title {
+  width: 255px;
   font-family: 'Film P3';
   font-weight: 700;
   font-size: 96px;
   line-height: calc(103 / 96);
-  letter-spacing: 0.3em;
+  letter-spacing: 0.2em;
   color: var(--hero-text-color);
   margin-bottom: 24px;
-  text-align: center;
-  margin-right: -0.3em;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 .hero-aftertitle {
   font-weight: 600;
@@ -137,6 +139,10 @@ address {
     margin-left: auto;
     margin-right: auto;
   }
+  .hero-title {
+    width: 305px;
+    letter-spacing: 0.3em;
+  }
 }
 @media screen and (min-width: 1024px) {
   div.container {
@@ -203,6 +209,7 @@ address {
     margin-left: 10px;
   }
   .hero-title {
+    width: 405px;
     font-size: 128px;
     line-height: calc(138 / 128);
     margin-bottom: 16px;
@@ -226,6 +233,9 @@ address {
     display: none;
   }
   .hero-section {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 164px;
     padding-bottom: 65px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
