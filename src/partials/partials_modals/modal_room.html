@@ -1,3 +1,196 @@
+<!-- <div class="modal" data-modal="2">
+  <div class="backdrop-order-room is-hidden overlay js-overlay-modal">
+    <div class="modal-order-room-container">
+      <button type="button" class="close-btn-modal" data-modal-close>
+        <svg class="close-btn-modal-svg" width="24" height="24">
+          <use href="../../img/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <form class="modal-order-room-form">
+        <p class="modal-order-room-mission">ЗАБРОНЮВАТИ НОМЕР</p>
+        <div class="modal-wapper-top-part">
+          <label class="modal-order-room-label label-top-part">
+            <input
+              type="text"
+              class="modal-order-room-input modal-border"
+              name="user_name"
+              required
+              pattern="^[a-zA-Zа-яА-Я]+$"
+              minlength="2"
+              placeholder="Ваше ім’я"
+            />
+            <span class="modal-order-room-text order-room-span"
+              >На кого забронювати номер?</span
+            >
+          </label>
+
+          <label class="modal-order-room-label modal-order-room-text">
+            <input
+              type="tel"
+              class="modal-order-room-input modal-border"
+              name="user_phone"
+              required
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+              placeholder="+38 (___) ___-__-__"
+            />
+            <span class="modal-order-room-text order-room-span"
+              >Номер телефону</span
+            >
+          </label>
+        </div>
+        <div class="modal-middle-part">
+          <select
+            class="modal-order-room-select modal-border"
+            id="size"
+            name="size"
+          >
+            <option value="xs" selected>Двомісний люкс</option>
+            <option value="s">Двомісний</option>
+            <option value="m">Трьохмісний</option>
+          </select>
+          <label
+            class="modal-order-room-label modal-order-room-text order-room-label"
+            for="size"
+            >Категорія номеру</label
+          >
+        </div>
+        <div class="modal-wpapper-bottom-part">
+          <select
+            class="modal-order-room-select modal-border"
+            id="size"
+            name="size"
+          >
+            <option value="xs" selected>Сьогодні</option>
+            <option value="s">4</option>
+            <option value="m">6</option>
+            <option value="l">12</option>
+          </select>
+          <label
+            class="modal-order-room-label modal-order-room-text order-room-label"
+            for="size"
+            >Дата заїзду</label
+          >
+
+          <select
+            class="modal-order-room-select modal-border"
+            id="size"
+            name="size"
+          >
+            <option value="xs" selected>Сьогодні</option>
+            <option value="s">4</option>
+            <option value="m">6</option>
+            <option value="l">12</option>
+          </select>
+          <label
+            class="modal-order-room-label modal-order-room-text order-room-label"
+            for="size"
+            >Дата виїзду</label
+          >
+        </div>
+        <button type="submit" class="modal-order-room-btn button">
+          ОФОРМИТИ БРОНЮВАННЯ
+        </button>
+      </form>
+    </div>
+  </div>
+
+     <div class="backdrop-order-room is-hidden" data-modal>
+    <div class="modal-order-room-container">
+      <button type="button" class="close-btn-modal" data-modal-close>
+        <svg class="close-btn-modal-svg" width="24" height="24">
+          <use href="../../img/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <form class="modal-order-room-form">
+        <p class="modal-order-room-mission">ЗАБРОНЮВАТИ НОМЕР</p>
+        <div class="modal-wapper-top-part">
+          <label class="modal-order-room-label label-top-part">
+            <input
+              type="text"
+              class="modal-order-room-input modal-border"
+              name="user_name"
+              required
+              pattern="^[a-zA-Zа-яА-Я]+$"
+              minlength="2"
+              placeholder="Ваше ім’я"
+            />
+            <span class="modal-order-room-text order-room-span"
+              >На кого забронювати номер?</span
+            >
+          </label>
+
+          <label class="modal-order-room-label modal-order-room-text">
+            <input
+              type="tel"
+              class="modal-order-room-input modal-border"
+              name="user_phone"
+              required
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+              placeholder="+38 (___) ___-__-__"
+            />
+            <span class="modal-order-room-text order-room-span"
+              >Номер телефону</span
+            >
+          </label>
+        </div>
+        <div class="modal-middle-part">
+          <select
+            class="modal-order-room-select modal-border"
+            id="size"
+            name="size"
+          >
+            <option value="xs" selected>Двомісний люкс</option>
+            <option value="s">Двомісний</option>
+            <option value="m">Трьохмісний</option>
+          </select>
+          <label
+            class="modal-order-room-label modal-order-room-text order-room-label"
+            for="size"
+            >Категорія номеру</label
+          >
+        </div>
+        <div class="modal-wpapper-bottom-part">
+          <select
+            class="modal-order-room-select modal-border"
+            id="size"
+            name="size"
+          >
+            <option value="xs" selected>Сьогодні</option>
+            <option value="s">4</option>
+            <option value="m">6</option>
+            <option value="l">12</option>
+          </select>
+          <label
+            class="modal-order-room-label modal-order-room-text order-room-label"
+            for="size"
+            >Дата заїзду</label
+          >
+
+          <select
+            class="modal-order-room-select modal-border"
+            id="size"
+            name="size"
+          >
+            <option value="xs" selected>Сьогодні</option>
+            <option value="s">4</option>
+            <option value="m">6</option>
+            <option value="l">12</option>
+          </select>
+          <label
+            class="modal-order-room-label modal-order-room-text order-room-label"
+            for="size"
+            >Дата виїзду</label
+          >
+        </div>
+        <button type="submit" class="modal-order-room-btn button">
+          ОФОРМИТИ БРОНЮВАННЯ
+        </button>
+      </form>
+    </div>
+  </div> 
+</div> -->
+
+<!-----Modal----->
 <div class="backdrop-order-room is-hidden" data-modal>
   <div class="modal-order-room-container">
     <button type="button" class="close-btn-modal" data-modal-close>
