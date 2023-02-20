@@ -70,11 +70,8 @@ width: 350px;
     border-radius: 2px;
 }
 
-
-
 .hotel-lux-swiper-wrapper {
  display: flex;
- gap: 16px;
 }
 
 .hotel-lux-slider-btn {
@@ -83,7 +80,7 @@ width: 350px;
 
 
 .hotel-lux-slider {
-    width: 100%;
+    width: 194px;
     display: block;
 }
 
@@ -93,14 +90,12 @@ width: 350px;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 16px;
-
     align-items: center;
 }
 
 .lux-slider-img {
     width: 194px;
     height: 194px;
-    
 }
 
 .hotel-lux-btn {
@@ -124,31 +119,34 @@ width: 350px;
 }
 
 
-.swiper {
+.hotel-lux-swiper {
+   width: 300px;
    padding-bottom: 52px;
    margin-left: 0;
    margin-bottom: 20px;
-
 }
-.swiper-button-prev::after, .swiper-button-next::after {
+
+.swiper-button-prev::after, 
+.swiper-button-next::after {
     display: none;
 }
-.swiper-button-next {
+
+/*.swiper-button-next */
+.h-lux-next {
     position: absolute;
     top: auto;
     left: 60px;
     bottom: 0px;
 }
-.swiper-button-prev {
+/*.swiper-button-prev */
+.h-lux-prev{
+
     position: absolute;
     top: auto;
     left: 0;
     bottom: 0px;
 }
 
-.hotel-lux-slider-btn {
-
-}
 
 
 /*-//////////////-----TABLET---//////////------*/
@@ -157,11 +155,10 @@ width: 350px;
 
 
 @media screen and (min-width: 1024px) {
-    .container {
-        max-width: 1024px;
-    }
+   
     .lux {
-        padding: 72px 32px 40px 32px;
+        padding-top: 62px;
+        padding-bottom: 40px;
      }
 
     .hotel-lux-title-block {
@@ -204,12 +201,15 @@ width: 350px;
         display: flex;
         justify-content: space-between;
     }
+    .hotel-lux-slider {
+        width: 194px;
+    }
 
     .hotel-lux-btn-list {
     padding-top: 50px;
     }
     
-    .swiper {
+    .hotel-lux-swiper {
     width: 430px;
     padding-bottom: 65px;
     margin-right: 0;
@@ -217,22 +217,22 @@ width: 350px;
     
     }
        
-    .swiper-button-next {
+   /*.swiper-button-next */
+   .h-lux-next {
     position: absolute;
     top: auto;
     left: 400px;
    
     }
     
-    .swiper-button-prev {
+   /*.swiper-button-prev */
+   .h-lux-prev {
     position: absolute;
     top: auto;
     left: 336px;
     bottom: 0px;
     }
-    .hotel-lux-swiper-wrapper {
-    gap: 40px;
-    }
+
 }
 
 
@@ -241,15 +241,13 @@ width: 350px;
 
 @media screen and (min-width: 1280px) {
 
-    .container {
-        max-width: 1280px;
-    }
     .lux {
-        padding: 72px 70px 40px 70px;
+    padding-top: 72px;
+    padding-bottom: 40px;
     }
 
     .lux-img {
-        margin-left: 48px;
+        margin-left: 42px;
         position: relative;
         margin-top: -105px;
         z-index: 2;
@@ -261,7 +259,7 @@ width: 350px;
         font-size: 32px;
         line-height: 1.15;
     }
-
+    
     .hotel-lux-mimino {
         font-family: 'Film P3';
         font-weight: bold;
@@ -282,7 +280,7 @@ width: 350px;
     }
 
     .hotel-lux-title-block {
-        width: 510px;
+        width: 515px;
     }
 
     .hotel-lux-text {
@@ -294,24 +292,35 @@ width: 350px;
         padding-top: 73px;
     }
 
+    .hotel-lux-swiper {
+    width: 550px;
+    padding-bottom: 75px;
+    }
+
     .lux-slider-img {
         width: 254px;
         height: 254px;
     }
 
-    .swiper {
-        width: 548px;
-        padding-bottom: 75px;
+    .hotel-lux-slider {
+        width: 254px;
     }
 
-    .swiper-button-next {
+    /* .swiper {
+        width: 548px;
+        padding-bottom: 75px;
+    } */
+
+        /*.swiper-button-next */
+    .h-lux-next {
         position: absolute;
         top: auto;
         left: 520px;
         bottom: 0px;
     }
     
-    .swiper-button-prev {
+   /*.swiper-button-prev */
+   .h-lux-prev {
         position: absolute;
         top: auto;
         left: 460px;

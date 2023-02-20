@@ -50,10 +50,10 @@
 
     <!--------слайдер---------->
     <div class="hotel-double-slider-btn">
-      <div class="swiper" >
-        <ul class="hotel-double-swiper-wrapper">
-          <!--
-          <li class="hotel-double-slider">
+      <div class="swiper hotel-double-swiper">
+        <ul class="swiper-wrapper hotel-double-swiper-wrapper">
+         
+          <li class="swiper-slide hotel-double-slider">
             <picture>
               <source
                 srcset="
@@ -72,7 +72,7 @@
               <source
                 srcset="
                   ./img/hotel/double/mob-double-c-room-1x-min.jpg 1x,
-                  ./img/double/mob-double-c-room-2x-min.jpg            2x
+                  ./img/hotel/double/mob-double-c-room-2x-min.jpg  2x
                 "
                 media="(max-width: 1023px)"
               />
@@ -88,8 +88,8 @@
                 class="double-slider-img"
               />
             </picture>
-          </li> -->
-          <li class="hotel-double-slider">
+          </li>
+          <li class="swiper-slide hotel-double-slider">
             <picture>
               <source
                 srcset="
@@ -125,7 +125,7 @@
               />
             </picture>
           </li>
-          <li class="hotel-double-slider">
+          <li class="swiper-slide hotel-double-slider">
             <picture>
               <source
                 srcset="
@@ -164,12 +164,12 @@
         </ul>
 
         <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev">
+        <div class="swiper-button-prev h-double-prev">
           <svg>
            <use href="./img/icons.svg#icon-arrow-left"></use>
           </svg>
         </div>
-        <div class="swiper-button-next">
+        <div class="swiper-button-next h-double-next">
           <svg>
            <use href="./img/icons.svg#icon-arrow-right"></use>
           </svg>

@@ -76,7 +76,7 @@
 
 .hotel-double-swiper-wrapper {
     display: flex;
-    gap: 16px;
+    
 }
 
 .hotel-double-slider-btn {
@@ -85,8 +85,7 @@
 
 
 .hotel-double-slider {
-    width: 100%;
-    display: block;
+  width: 300px;
 }
 
 
@@ -126,11 +125,18 @@
 }
 
 
-.swiper {
+/* .swiper {
     padding-bottom: 52px;
     margin-left: 0;
     margin-bottom: 20px;
 
+} */
+
+.hotel-double-swiper {
+    width: 300px;
+    padding-bottom: 52px;
+    margin-left: 0;
+    margin-bottom: 20px;
 }
 
 .swiper-button-prev::after,
@@ -138,14 +144,16 @@
     display: none;
 }
 
-.swiper-button-next {
+/*.swiper-button-next */ 
+.h-double-next  {
     position: absolute;
     top: auto;
     left: 60px;
     bottom: 0px;
 }
 
-.swiper-button-prev {
+/*.swiper-button-prev */
+.h-double-prev  {
     position: absolute;
     top: auto;
     left: 0;
@@ -161,12 +169,10 @@
 
 
 @media screen and (min-width: 1024px) {
-    .container {
-        max-width: 1024px;
-    }
 
     .double {
-        padding: 72px 32px 40px 32px;
+        padding-top: 62px;
+        padding-bottom: 40px;
     }
 
     .hotel-double-title-block {
@@ -214,31 +220,30 @@
         padding-top: 50px;
     }
 
-    .swiper {
-        width: 430px;
+    .hotel-double-swiper {
+        width: 428px;
         padding-bottom: 65px;
         margin-right: 0;
         margin-bottom: 0px;
 
     }
 
-    .swiper-button-next {
+        /*.swiper-button-next */
+        .h-double-next {
         position: absolute;
         top: auto;
         left: 400px;
 
     }
 
-    .swiper-button-prev {
+        /*.swiper-button-prev */
+        .h-double-prev {
         position: absolute;
         top: auto;
         left: 336px;
         bottom: 0px;
     }
 
-    .hotel-double-swiper-wrapper {
-        gap: 40px;
-    }
 }
 
 
@@ -247,16 +252,14 @@
 
 @media screen and (min-width: 1280px) {
 
-    .container {
-        max-width: 1280px;
-    }
 
     .double {
-        padding: 72px 70px 40px 70px;
+    padding-top: 72px;
+    padding-bottom: 40px;
     }
 
     .double-img {
-        margin-left: 48px;
+        margin-left: 42px;
         position: relative;
         margin-top: -105px;
         z-index: 2;
@@ -290,7 +293,7 @@
     }
 
     .hotel-double-title-block {
-        width: 510px;
+        width: 515px;
     }
 
     .hotel-double-text {
@@ -302,25 +305,27 @@
     .hotel-double-btn-list {
         padding-top: 73px;
     }
+    .hotel-double-swiper {
+        width: 550px;
+        padding-bottom: 75px;}
+     
 
     .double-slider-img {
         width: 254px;
         height: 254px;
     }
 
-    .swiper {
-        width: 548px;
-        padding-bottom: 75px;
-    }
 
-    .swiper-button-next {
+        /*.swiper-button-next */
+        .h-double-next {
         position: absolute;
         top: auto;
         left: 520px;
         bottom: 0px;
     }
 
-    .swiper-button-prev {
+        /*.swiper-button-prev */
+        .h-double-prev {
         position: absolute;
         top: auto;
         left: 460px;
