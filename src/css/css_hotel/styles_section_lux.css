@@ -71,7 +71,8 @@ width: 350px;
 }
 
 .hotel-lux-swiper-wrapper {
- display: flex;
+
+ padding-left: 85px;
 }
 
 .hotel-lux-slider-btn {
@@ -204,6 +205,9 @@ width: 350px;
     .hotel-lux-slider {
         width: 194px;
     }
+        .hotel-lux-swiper-wrapper {
+            padding-left: 0px;
+        }
 
     .hotel-lux-btn-list {
     padding-top: 50px;
@@ -292,6 +296,10 @@ width: 350px;
         padding-top: 73px;
     }
 
+    .hotel-lux-swiper-wrapper {
+            padding-left: 0px;
+        }
+
     .hotel-lux-swiper {
     width: 550px;
     padding-bottom: 75px;
@@ -300,10 +308,13 @@ width: 350px;
     .lux-slider-img {
         width: 254px;
         height: 254px;
+        margin-right: 0px;
+        margin-left: 0px;
     }
 
     .hotel-lux-slider {
         width: 254px;
+
     }
 
     /* .swiper {
