@@ -25,7 +25,7 @@
     <!-- Styles -->
 
     
-    <script type="module" crossorigin src="/envision.team.project.mimino/assets/modal-5d264f51.js"></script>
+    <script type="module" crossorigin src="/envision.team.project.mimino/assets/modal-09ef8c8f.js"></script>
     <link rel="stylesheet" href="/envision.team.project.mimino/assets/index-78142213.css">
   </head>
   <body>
@@ -167,13 +167,32 @@
       Velit officia consequat duis enim velit mollit. Exercitation veniam
       consequat sunt nostrud amet.
     </p>
-    <img
-      class="about-hotel-img"
-      srcset="/envision.team.project.mimino/assets/modern-studio-1x-8437c337.jpg 1x, /envision.team.project.mimino/assets/modern-studio-2x-823b7d15.jpg 2x"
-      src="/envision.team.project.mimino/assets/modern-studio-1x-8437c337.jpg"
-      alt="Ліжко"
-      width="200px"
-    />
+
+
+    <picture>
+        <source
+          srcset="/envision.team.project.mimino/assets/modern-studio-desctop1x-e52df7a0.jpg 1x, /envision.team.project.mimino/assets/modern-studio-desctop2x-7640260d.jpg 2x"
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="/envision.team.project.mimino/assets/modern-studio-tablet1x-7f4087fa.jpg 1x, /envision.team.project.mimino/assets/modern-studio-tablet2x-00f0f129.jpg 2x"
+          media="(min-width: 1024px)"
+        />
+        <source
+          srcset="/envision.team.project.mimino/assets/modern-studio-1x-8437c337.jpg 1x, /envision.team.project.mimino/assets/modern-studio-2x-823b7d15.jpg 2x"
+          media="(max-width: 1023px)"
+        />
+        <img
+          src="/envision.team.project.mimino/assets/modern-studio-1x-8437c337.jpg"
+          alt="Ліжко"
+          width="200"
+          
+          class="about-hotel-img"
+        />
+      </picture>
+
+
+    
     <div class="about-hotel-img-container">
       <p class="about-hotel-text-brown">
         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
