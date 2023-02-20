@@ -15,8 +15,8 @@
 
 .modal {
   /* Скрываем окна  */
-  /* opacity: 0;
-  visibility: hidden;  Установаем ширину окна  */
+  opacity: 0;
+  visibility: hidden;
   width: 100%;
   max-width: 500px; /*  Центрируем и задаем z-index */
   position: fixed;
