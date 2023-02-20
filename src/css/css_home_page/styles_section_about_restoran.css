@@ -1,4 +1,4 @@
-/* ===========Restaurant Page============ */
+/* ===========Restaurant Page Home============ */
 
 /* ===Mobile=== */
 .restaurant-page-home {
@@ -32,7 +32,7 @@
   margin-bottom: 12px;
 }
 
-.img-text-container {
+.image-text-container {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
@@ -152,7 +152,7 @@
     top: -152px;
   }
 
-  .img-text-container {
+  .image-text-container {
     position: relative;
     margin-left: 47px;
     align-items: flex-start;
@@ -226,7 +226,7 @@
     top: -250px;
   }
 
-  .img-text-container {
+  .image-text-container {
     margin-left: 85px;
   }
 
@@ -254,4 +254,4 @@
 
 /* ===/Desktop=== */
 
-/* ===========/Restaurant Page============ */
+/* ===========/Restaurant Page Home============ */
