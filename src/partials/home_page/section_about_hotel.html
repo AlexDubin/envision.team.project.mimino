@@ -8,16 +8,41 @@
       Velit officia consequat duis enim velit mollit. Exercitation veniam
       consequat sunt nostrud amet.
     </p>
-    <img
-      class="about-hotel-img"
-      srcset="
-        ./img/home_page/about_our_hotel/mobile/modern-studio-1x.jpg 1x,
-        ./img/home_page/about_our_hotel/mobile/modern-studio-2x.jpg 2x
-      "
-      src="./img/home_page/about_our_hotel/mobile/modern-studio-1x.jpg"
-      alt="Ліжко"
-      width="200px"
-    />
+
+
+    <picture>
+        <source
+          srcset="
+            ./img/home_page/about_our_hotel/desctop/modern-studio-desctop1x.jpg 1x,
+            ./img/home_page/about_our_hotel/desctop/modern-studio-desctop2x.jpg 2x
+          "
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="
+            ./img/home_page/about_our_hotel/tablet/modern-studio-tablet1x.jpg 1x,
+            ./img/home_page/about_our_hotel/tablet/modern-studio-tablet2x.jpg 2x
+          "
+          media="(min-width: 1024px)"
+        />
+        <source
+          srcset="
+            ./img/home_page/about_our_hotel/mobile/modern-studio-1x.jpg 1x,
+            ./img/home_page/about_our_hotel/mobile/modern-studio-2x.jpg 2x
+          "
+          media="(max-width: 1023px)"
+        />
+        <img
+          src="./img/home_page/about_our_hotel/mobile/modern-studio-1x.jpg"
+          alt="Ліжко"
+          width="200"
+          
+          class="about-hotel-img"
+        />
+      </picture>
+
+
+    
     <div class="about-hotel-img-container">
       <p class="about-hotel-text-brown">
         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
