@@ -147,6 +147,7 @@
 }
 
 .hotel-lux-btn {
+    
     background-color: #000000;
     border-radius: 25px;
     border: 2px Solid #ffffff;
@@ -157,6 +158,11 @@
     color: var(--akzent-yellow);
     width: 236px;
     height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
     transition: background-color var(--time-animation) var(--cubic-bezier);
 }
 
@@ -346,7 +352,7 @@
 
     /*.swiper-button-prev */
     .h-lux-prev {
- position: absolute;
+       position: absolute;
         top: auto;
         left: 460px;
         bottom: 0px;
