@@ -143,8 +143,6 @@ body {
   max-width: 414px;
 }
 
-
-
 @media screen and (min-width: 1024px) {
   .container {
     width: 970px;
