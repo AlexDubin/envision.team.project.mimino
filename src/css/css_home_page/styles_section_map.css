@@ -83,7 +83,7 @@
 }
 .rest-tels-cont {
     background-color: var(--hero-text-color);
-    margin-left: 32px;
+    margin-left: 22px;
     padding: 12px 8px 11px 14px;
     border: 0.5px solid var(--akzent-yellow);
 border-radius: 2px;
@@ -93,7 +93,7 @@ align-items: center;
 }
 .hotel-tels-cont {
     background-color: var(--hero-text-color);
-    margin-left: 58px;
+    margin-left: 54px;
     margin-bottom: 16px;
     padding: 12px 8px 11px 14px;
     border: 0.5px solid var(--akzent-yellow);
@@ -162,9 +162,7 @@ border-radius: 2px;
     display: flex;
     align-items: center;
 }
-.adress {
-    
-}
+
 .adress-text {
     font-family:'Montserrat';
     font-weight: 400;
@@ -194,7 +192,7 @@ border-radius: 2px;
 
 
 
-@media (min-width: 414px) and (max-width: 1023px) {
+@media (min-width: 414px) and (max-width: 1024px) {
 .map-container {
     width: 414px;
     display: flex;
@@ -282,7 +280,7 @@ margin-top: 32px;
 }
 .rest-tels-cont {
 background-color: var(--hero-text-color);
-margin-left: 32px;
+margin-left: 22px;
 padding: 12px 8px 11px 14px;
 border: 0.5px solid var(--akzent-yellow);
 border-radius: 2px;
@@ -294,11 +292,14 @@ align-items: center;
 background-color: var(--hero-text-color);
 margin-left: 54px;
 margin-bottom: 16px;
-padding: 12px 8px 11px 14px;
+padding: 12px 8px 11px 10px;
 border: 0.5px solid var(--akzent-yellow);
 border-radius: 2px;
 display: flex;
 align-items: center;
+}
+.tels-in-div {
+    display: flex;
 }
 
 .adress-cont {
@@ -399,7 +400,7 @@ iframe {
 }
 
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
 .map-container {
     width: 1024px;
     display: flex;
@@ -443,7 +444,10 @@ margin-bottom: 52px;
 .tel-container {
 width: 285px;
 }
-
+.adress {
+    width: 24px;
+    height: 24px;
+}
 .facilities {
 position: relative;
 font-family: 'Montserrat', sans-serif;
@@ -533,7 +537,7 @@ padding: 9px 8px 7px 16px;
 border: 0.5px solid var(--akzent-yellow);
 border-radius: 2px;
 display: flex;
-gap: 16px;
+gap: 10px;
 align-items: center; 
 margin-left: 0;
 }
@@ -750,7 +754,7 @@ line-height: 1.25;
 letter-spacing: 0.01em;
 color: var(--title-text-color);
 background-color: var(--hero-text-color);
-padding: 9px 8px 7px 16px;
+padding: 9px 8px 7px 12px;
 border: 0.5px solid var(--akzent-yellow);
 border-radius: 2px;
 display: flex;
