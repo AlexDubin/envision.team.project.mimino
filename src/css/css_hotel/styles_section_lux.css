@@ -2,6 +2,10 @@
     background-color: #FFFDEE;
  
 }
+ .lux {
+     padding-top: 32px;
+     padding-bottom: 32px;
+ }
 
 .hotel-lux-title-block {
 width: 350px;
@@ -39,7 +43,6 @@ width: 350px;
     letter-spacing: 0.05em;
     color: var(--black-text-color);
     margin-bottom: 12px;
-
 }
 
 .hotel-lux-text {
@@ -156,8 +159,10 @@ width: 350px;
 @media screen and (min-width: 1024px) {
     .container {
         max-width: 1024px;
-        padding: 62px 47px 40px 47px;
     }
+    .lux {
+        padding: 72px 32px 40px 32px;
+     }
 
     .hotel-lux-title-block {
         width: 440px;
@@ -238,7 +243,9 @@ width: 350px;
 
     .container {
         max-width: 1280px;
-        padding: 72px 85px 40px 85px;
+    }
+    .lux {
+        padding: 72px 70px 40px 70px;
     }
 
     .lux-img {
