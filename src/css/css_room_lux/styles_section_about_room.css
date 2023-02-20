@@ -70,6 +70,7 @@
   justify-content: center;
   gap: 12px;
   font-weight: 500;
+  font-size: 16px;
   line-height: 125%; /* 20/16 */
   letter-spacing: 0.02em;
   color: var(--brown-text-color);
@@ -85,6 +86,7 @@
 
 @media screen and (min-width: 1024px) {
   .amenities.section {
+    padding-top: 50px;
     padding-bottom: 40px;
   }
   .amenities .container {
@@ -104,25 +106,28 @@
   .amenities-text {
     max-width: 400px;
   }
+  .amenities-buttons {
+    align-items: end;
+  }
   .amenities-btn {
     width: auto;
     min-width: 434px;
     padding: 18px 38px;
     font-size: 24px;
     line-height: 120.833333%; /* 29/24 */
-    margin-left: auto;
+    margin-bottom: 32px;
   }
   .amenities-link {
-    margin-left: auto;
     align-items: end;
     font-size: 20px;
     line-height: 120%; /* 24/20 */
+    gap: 16px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .amenities.section {
-    padding-bottom: 48px;
+    padding: 48px 0;
   }
   .amenities .container {
     max-width: 1280px;

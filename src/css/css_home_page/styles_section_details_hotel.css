@@ -156,21 +156,6 @@
   border: 2px solid var(--yellow-hover);
 }
 
-.details-hotel-bottom {
-  outline: 1px solid green;
-}
-
-.details-hotel-slides {
-  outline: 1px solid goldenrod;
-}
-.details-hotel-btn-wrap {
-  outline: 1px solid goldenrod;
-}
-
-.container {
-  outline: 1px solid white;
-}
-
 /* -----Mobile----- */
 @media screen and (min-width: 414px) {
   .container {
