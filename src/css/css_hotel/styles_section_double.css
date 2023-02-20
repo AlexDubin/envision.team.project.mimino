@@ -1,18 +1,18 @@
-.hotel-section-lux {
+.hotel-section-double {
     background-color: #FFFDEE;
 
 }
 
-.lux {
+.double {
     padding-top: 32px;
     padding-bottom: 32px;
 }
 
-.hotel-lux-title-block {
+.hotel-double-title-block {
     width: 350px;
 }
 
-.hotel-lux-min-text {
+.hotel-double-min-text {
     font-family: 'Times New Roman';
     font-style: normal;
     font-weight: 400;
@@ -23,7 +23,7 @@
 }
 
 
-.hotel-lux-mimino {
+.hotel-double-mimino {
     font-family: 'Film P3';
     font-weight: bold;
     font-size: 40px;
@@ -35,7 +35,7 @@
     margin-bottom: 32px;
 }
 
-.hotel-lux-title {
+.hotel-double-title {
     font-family: 'Times New Roman';
     font-style: normal;
     font-weight: 700;
@@ -47,7 +47,7 @@
 
 }
 
-.hotel-lux-text {
+.hotel-double-text {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -60,13 +60,13 @@
     margin-bottom: 32px;
 }
 
-.lux-img-block {
+.double-img-block {
     width: 244px;
     height: 320px;
 
 }
 
-.lux-img {
+.double-img {
     margin-left: auto;
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
@@ -74,23 +74,23 @@
 
 
 
-.hotel-lux-swiper-wrapper {
+.hotel-double-swiper-wrapper {
     display: flex;
     gap: 16px;
 }
 
-.hotel-lux-slider-btn {
+.hotel-double-slider-btn {
     margin-top: 48px;
 }
 
 
-.hotel-lux-slider {
+.hotel-double-slider {
     width: 100%;
     display: block;
 }
 
 
-.hotel-lux-btn-list {
+.hotel-double-btn-list {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -99,13 +99,13 @@
     align-items: center;
 }
 
-.lux-slider-img {
+.double-slider-img {
     width: 194px;
     height: 194px;
 
 }
 
-.hotel-lux-btn {
+.hotel-double-btn {
     background-color: #000000;
     border-radius: 25px;
     border: 2px Solid #ffffff;
@@ -119,8 +119,8 @@
     transition: background-color var(--time-animation) var(--cubic-bezier);
 }
 
-.hotel-lux-btn:hover,
-.hotel-lux-btn:focus {
+.hotel-double-btn:hover,
+.hotel-double-btn:focus {
     background-color: #fff;
     border: 2px Solid var(--akzent-yellow);
 }
@@ -152,7 +152,7 @@
     bottom: 0px;
 }
 
-.hotel-lux-slider-btn {}
+.hotel-double-slider-btn {}
 
 
 /*-//////////////-----TABLET---//////////------*/
@@ -165,15 +165,15 @@
         max-width: 1024px;
     }
 
-    .lux {
+    .double {
         padding: 72px 32px 40px 32px;
     }
 
-    .hotel-lux-title-block {
+    .hotel-double-title-block {
         width: 440px;
     }
 
-    .hotel-lux-mimino {
+    .hotel-double-mimino {
         font-family: 'Film P3';
         font-weight: bold;
         font-size: 64px;
@@ -181,22 +181,22 @@
         margin-bottom: 62px;
     }
 
-    .hotel-lux-title {
+    .hotel-double-title {
         font-size: 30px;
         line-height: 1.13;
     }
 
-    .hotel-lux-text {
+    .hotel-double-text {
         font-weight: 600;
         font-size: 16px;
         max-width: 440px;
     }
 
-    .hotel-lux-title-img {
+    .hotel-double-title-img {
         display: flex;
     }
 
-    .lux-img {
+    .double-img {
         margin-left: 40px;
         position: relative;
         margin-top: -95px;
@@ -205,12 +205,12 @@
         height: 524px;
     }
 
-    .hotel-lux-slider-btn {
+    .hotel-double-slider-btn {
         display: flex;
         justify-content: space-between;
     }
 
-    .hotel-lux-btn-list {
+    .hotel-double-btn-list {
         padding-top: 50px;
     }
 
@@ -236,7 +236,7 @@
         bottom: 0px;
     }
 
-    .hotel-lux-swiper-wrapper {
+    .hotel-double-swiper-wrapper {
         gap: 40px;
     }
 }
@@ -251,11 +251,11 @@
         max-width: 1280px;
     }
 
-    .lux {
+    .double {
         padding: 72px 70px 40px 70px;
     }
 
-    .lux-img {
+    .double-img {
         margin-left: 48px;
         position: relative;
         margin-top: -105px;
@@ -265,12 +265,12 @@
     }
     
 
-    .hotel-lux-min-text {
+    .hotel-double-min-text {
         font-size: 32px;
         line-height: 1.15;
     }
 
-    .hotel-lux-mimino {
+    .hotel-double-mimino {
         font-family: 'Film P3';
         font-weight: bold;
         font-size: 64px;
@@ -278,32 +278,32 @@
         margin-bottom: 62px;
     }
 
-    .hotel-lux-text {
+    .hotel-double-text {
         font-weight: bold;
         font-size: 16px;
         width: 400px;
     }
 
-    .hotel-lux-title {
+    .hotel-double-title {
         font-size: 36px;
         line-height: 1.13;
     }
 
-    .hotel-lux-title-block {
+    .hotel-double-title-block {
         width: 510px;
     }
 
-    .hotel-lux-text {
+    .hotel-double-text {
         font-weight: 700;
         font-size: 16px;
         line-height: 1.25;
     }
 
-    .hotel-lux-btn-list {
+    .hotel-double-btn-list {
         padding-top: 73px;
     }
 
-    .lux-slider-img {
+    .double-slider-img {
         width: 254px;
         height: 254px;
     }
