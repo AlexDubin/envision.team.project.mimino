@@ -1,5 +1,3 @@
-
-@media (min-width: 320px) and (max-width: 414px) {
     .container {
         width: 100%;
         display: flex;
@@ -82,7 +80,7 @@
 .social {
     display: none;
 }
-}
+
 @media (min-width: 414px) and (max-width: 1023px) {
     .footer-container {
         width: 314px;
@@ -341,4 +339,3 @@
     padding: 5px 8px 5px 8px;
 }
 }
-
