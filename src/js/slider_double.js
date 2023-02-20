@@ -3,8 +3,9 @@ let swiper = new Swiper('.swiper', {
 
   direction: 'horizontal',
 
-  slidesPerView: 1.3,
-  spaceBetween: 20,
+  slidesPerView: 1.2,
+  
+  
 
   inverse: true,
   loop: true,
@@ -20,7 +21,8 @@ let swiper = new Swiper('.swiper', {
     // when window width is <= 1024px
     1024: {
       slidesPerView: 2,
-      spaceBetweenSlides: 40,
+      
+      
     },
     
   },
