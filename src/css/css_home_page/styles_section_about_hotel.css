@@ -1,12 +1,8 @@
 .container {
   position: relative;
-  position: relative;
 }
 
 .about-hotel-section {
-  padding-top: 18px;
-  padding-bottom: 72px;
-  background-color: var(--light-background-color);
   padding-top: 18px;
   padding-bottom: 72px;
   background-color: var(--light-background-color);
@@ -18,17 +14,9 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 1.15;
-  font-family: 'Times New Roman';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.15;
 
   color: var(--grey-text-color);
-  color: var(--grey-text-color);
 
-  margin-bottom: 6px;
-  text-align: right;
   margin-bottom: 6px;
   text-align: right;
 }
@@ -39,20 +27,11 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 1.075;
-  font-family: 'Film P3';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 1.075;
 
-  letter-spacing: 0.3em;
   letter-spacing: 0.3em;
 
   color: var(--title-text-color);
-  color: var(--title-text-color);
 
-  margin-bottom: 16px;
-  text-align: right;
   margin-bottom: 16px;
   text-align: right;
 }
@@ -64,19 +43,9 @@
   font-size: 12px;
   line-height: 1.25;
   letter-spacing: 0.02em;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 1.25;
-  letter-spacing: 0.02em;
 
   color: var(--dark-grey-text-color);
-  color: var(--dark-grey-text-color);
 
-  margin-bottom: 28px;
-  width: 242px;
-  margin-left: auto;
   margin-bottom: 28px;
   width: 242px;
   margin-left: auto;
@@ -89,24 +58,12 @@
   font-size: 12px;
   line-height: 1.25;
   letter-spacing: 0.02em;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 1.25;
-  letter-spacing: 0.02em;
 
-  color: var(--brown-text-color);
-  width: 163px;
   color: var(--brown-text-color);
   width: 163px;
 }
 
 .about-hotel-img-container {
-  display: flex;
-  margin-top: 32px;
-  margin-bottom: 32px;
-  align-items: center;
   display: flex;
   margin-top: 32px;
   margin-bottom: 32px;
@@ -117,14 +74,12 @@
   margin-left: auto;
 
   background: var(--shadow-background-color);
-  background: var(--shadow-background-color);
 
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
 }
 
 .about-hotel-img {
-  background: var(--shadow-background-color);
   background: var(--shadow-background-color);
 
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
@@ -134,17 +89,12 @@
 .swiper {
   max-width: 330px;
   /* height: 300px; */
-  /* height: 300px; */
 
   margin-left: -15px;
   margin-right: auto;
-  margin-left: -15px;
-  margin-right: auto;
 
-  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
-  background: rgba(0, 0, 0, 0.14);
   background: rgba(0, 0, 0, 0.14);
 
   position: initial;
@@ -156,14 +106,6 @@
 
 .swiper-wrapper {
   padding-left: 85px;
-  padding-left: 85px;
-}
-
-.swiper-button-prev {
-  left: 7px;
-  right: auto;
-  top: 1043px;
-  width: 46px;
 }
 
 .swiper-button-prev {
@@ -176,10 +118,6 @@
 }
 
 .swiper-button-next {
-  left: 79px;
-  top: 1043px;
-  width: 46px;
-  margin-top: 0;
   left: 79px;
   top: 1043px;
   width: 46px;
