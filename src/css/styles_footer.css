@@ -78,7 +78,7 @@
     margin-top: 32px;
     margin-left: 40px;
 }
-.telegram-title {
+.social {
     display: none;
 }
 }
@@ -146,6 +146,9 @@
     justify-content: center;
 }
 .telegram-title {
+    display: none;
+}
+.social {
     display: none;
 }
 }
@@ -323,6 +326,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 19.5px;
+    color: var(--akzent-yellow);
 }
 .soc {
     width: 144px;

@@ -218,8 +218,8 @@
 }
 .contacts-text {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
+    font-weight: 600;
+    font-size: 16px;
     line-height: 1.21;
     letter-spacing: 0.02em;
     margin-top: 12px;
@@ -638,8 +638,8 @@ border-radius: 2px;
 .contacts-text {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 16px;
-    line-height: 1.02;
+    font-size: 20px;
+    line-height: 1.21;
     letter-spacing: 0.02em;
     margin-top: 8px;
     margin-bottom: 52px;
