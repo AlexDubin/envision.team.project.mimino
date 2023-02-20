@@ -80,6 +80,20 @@
   border-radius: 2px;
 }
 
+.restaurant-button-left {
+  position: absolute;
+  bottom: -10px;
+  right: 81px;
+  line-height: 0;
+}
+
+.restaurant-button-right {
+  position: absolute;
+  bottom: -10px;
+  right: 18px;
+  line-height: 0;
+}
+
 @media screen and (max-width: 1023px) {
   .img-slider-tablet {
     display: none;
@@ -87,6 +101,10 @@
 
   .img-slider-mobile {
     max-width: 245px;
+  }
+
+  .slider-img-container {
+    margin-right: -5%;
   }
 }
 
@@ -163,6 +181,16 @@
   .img-slider-mobile {
     max-width: 194px;
   }
+
+  .restaurant-button-left {
+    bottom: -35px;
+    right: 124px;
+  }
+
+  .restaurant-button-right {
+    bottom: -35px;
+    right: 62px;
+  }
 }
 
 /* ===/Tablet=== */
@@ -187,7 +215,7 @@
   }
 
   .brown {
-   margin-top: -45px;
+    margin-top: -45px;
   }
 
   .photo-restaurant-right {
@@ -211,6 +239,16 @@
 
   .img-slider-mobile {
     max-width: 254px;
+  }
+
+  .restaurant-button-left {
+    bottom: 60px;
+    right: 157px;
+  }
+
+  .restaurant-button-right {
+    bottom: 60px;
+    right: 93px;
   }
 }
 
