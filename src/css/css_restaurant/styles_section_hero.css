@@ -145,8 +145,8 @@ address {
   }
 }
 @media screen and (min-width: 1024px) {
-  div.container {
-    max-width: 960px;
+  .hero-section > .container {
+    max-width: 970px;
     position: relative;
   }
   .hero-section {
