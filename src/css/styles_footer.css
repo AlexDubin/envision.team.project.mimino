@@ -187,11 +187,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 137px;
 }
 .footer-nav {
     column-gap: 16px;
     margin-top: 40px;
-    margin-right: 141px;
 }
 .nav-item:not(:last-child) {
     margin-bottom: 16px;
@@ -249,7 +249,7 @@
 
 @media (min-width: 1280px) {
     .footer-container {
-        width: 848px;
+        width: 878px;
         display: flex;
     justify-content: center;
     flex-direction: column;
@@ -280,11 +280,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 199px;
 }
 .footer-nav {
     column-gap: 16px;
     margin-top: 40px;
-    margin-right: 200px;
     margin-bottom: 79px;
 }
 .nav-item:not(:last-child) {
