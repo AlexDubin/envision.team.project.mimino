@@ -1,6 +1,10 @@
-.hotel-section-double {
-    background-color: #FFFDEE;
+/*  общая секция текста и картинки   */
 
+
+/* -------- текст и заголовок ------  */
+
+.hotel-section-double {
+    background-color: var(--light-background-color);
 }
 
 .double {
@@ -44,7 +48,6 @@
     letter-spacing: 0.05em;
     color: var(--black-text-color);
     margin-bottom: 12px;
-
 }
 
 .hotel-double-text {
@@ -54,16 +57,15 @@
     font-size: 12px;
     line-height: 1.25;
     letter-spacing: 0.02em;
-
     color: var(--dark-grey-text-color);
     max-width: 258px;
     margin-bottom: 32px;
 }
+/* --------титульная  картинка номера ------  */
 
 .double-img-block {
     width: 244px;
     height: 320px;
-
 }
 
 .double-img {
@@ -72,38 +74,73 @@
     border-radius: 2px;
 }
 
-
-
-.hotel-double-swiper-wrapper {
- 
-    padding-left: 85px;
-    
-}
+/* -------- блок слайдера + кнопки навигации ------  */
 
 .hotel-double-slider-btn {
     margin-top: 48px;
 }
 
+/* -------- swiper------  */
 
-.hotel-double-slider {
-  width: 300px;
-  margin: 0px;
+/* swiper*/
+
+/* .swiper {
+    padding-bottom: 52px;
+    margin-left: 0;
+    margin-bottom: 20px;
+
+} */
+
+
+.hotel-double-swiper {
+    width: 300px;
+    padding-bottom: 52px;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+/* swiper-wrapper*/
+
+.hotel-double-swiper-wrapper {
+    padding-left: 85px;
+}
+/*swiper-slide*/
+
+.double-slider-img {
+    width: 194px;
+    height: 194px;
 }
 
+
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    display: none;
+}
+
+/*.swiper-button-next */ 
+.h-double-next  {
+    position: absolute;
+    top: auto;
+    left: 60px;
+    bottom: 0px;
+}
+
+/*.swiper-button-prev */
+.h-double-prev  {
+    position: absolute;
+    top: auto;
+    left: 0;
+    bottom: 0px;
+}
+
+/*-------buttons----*/
 
 .hotel-double-btn-list {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 16px;
-
     align-items: center;
-}
-
-.double-slider-img {
-    width: 194px;
-    height: 194px;
-
 }
 
 .hotel-double-btn {
@@ -127,46 +164,7 @@
 }
 
 
-/* .swiper {
-    padding-bottom: 52px;
-    margin-left: 0;
-    margin-bottom: 20px;
-
-} */
-
-.hotel-double-swiper {
-    width: 300px;
-    padding-bottom: 52px;
-    margin-left: 0;
-    margin-bottom: 20px;
-}
-
-.swiper-button-prev::after,
-.swiper-button-next::after {
-    display: none;
-}
-
-/*.swiper-button-next */ 
-.h-double-next  {
-    position: absolute;
-    top: auto;
-    left: 60px;
-    bottom: 0px;
-}
-
-/*.swiper-button-prev */
-.h-double-prev  {
-    position: absolute;
-    top: auto;
-    left: 0;
-    bottom: 0px;
-}
-
-.hotel-double-slider-btn {}
-
-
 /*-//////////////-----TABLET---//////////------*/
-
 
 
 
@@ -229,9 +227,9 @@
         margin-left: 0px;
 
     }
-          .hotel-double-swiper-wrapper {
-              padding-left: 0px;
-          }
+    .hotel-double-swiper-wrapper {
+        padding-left: 0px;
+     }
 
         /*.swiper-button-next */
         .h-double-next {
@@ -248,9 +246,7 @@
         left: 336px;
         bottom: 0px;
     }
-
 }
-
 
 
 /*------------------DESK-------------------*/
@@ -328,7 +324,6 @@
 
     .hotel-double-slider {
         width: 254px;
-
     }
 
     /* .swiper {
@@ -337,6 +332,7 @@
     } */
 
     /*.swiper-button-next */
+
     .h-double-next {
         position: absolute;
         top: auto;
