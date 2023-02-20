@@ -294,7 +294,7 @@ align-items: center;
 background-color: var(--hero-text-color);
 margin-left: 54px;
 margin-bottom: 16px;
-padding: 12px 8px 11px 14px;
+padding: 12px 8px 11px 11px;
 border: 0.5px solid var(--akzent-yellow);
 border-radius: 2px;
 display: flex;
