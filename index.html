@@ -25,8 +25,8 @@
     <!-- Styles -->
 
     
-    <script type="module" crossorigin src="/envision.team.project.mimino/assets/modal-09ef8c8f.js"></script>
-    <link rel="stylesheet" href="/envision.team.project.mimino/assets/index-a8d5101a.css">
+    <script type="module" crossorigin src="/envision.team.project.mimino/assets/modal-6da9bf84.js"></script>
+    <link rel="stylesheet" href="/envision.team.project.mimino/assets/index-dea2f1c4.css">
   </head>
   <body>
     
@@ -174,7 +174,9 @@
       <!-- Dubin  about hotel -->
       <section class="about-hotel-section">
   <div class="container">
-    <h2 class="about-hotel-title visually-hidden">About our hotel</h2>
+    <div class="img-text-container">
+    <div class="text-container">
+      <h2 class="about-hotel-title visually-hidden">About our hotel</h2>
     <p class="about-hotel-uptitle">Amet minim mollit non</p>
     <p class="about-hotel-text-title">MIMIHO</p>
     <p class="about-hotel-text">
@@ -182,29 +184,35 @@
       Velit officia consequat duis enim velit mollit. Exercitation veniam
       consequat sunt nostrud amet.
     </p>
+    </div>
 
 
     <picture>
         <source
           srcset="/envision.team.project.mimino/assets/modern-studio-desctop1x-e52df7a0.jpg 1x, /envision.team.project.mimino/assets/modern-studio-desctop2x-7640260d.jpg 2x"
           media="(min-width: 1280px)"
+          width="460px"
         />
         <source
           srcset="/envision.team.project.mimino/assets/modern-studio-tablet1x-7f4087fa.jpg 1x, /envision.team.project.mimino/assets/modern-studio-tablet2x-00f0f129.jpg 2x"
-          media="(min-width: 1024px)"
+          media="(max-width: 1279px)"
+          width="400px"
         />
         <source
           srcset="/envision.team.project.mimino/assets/modern-studio-1x-8437c337.jpg 1x, /envision.team.project.mimino/assets/modern-studio-2x-823b7d15.jpg 2x"
           media="(max-width: 1023px)"
+          
         />
         <img
           src="/envision.team.project.mimino/assets/modern-studio-1x-8437c337.jpg"
           alt="Ліжко"
-          width="200"
+          width="200px"
           
           class="about-hotel-img"
         />
       </picture>
+      
+      </div>
 
 
     
@@ -214,13 +222,33 @@
         sint. Velit officia consequat duis enim velit mollit. Exercitation
         veniam consequat sunt nostrud amet.
       </p>
-      <img
-        class="about-hotel-img-incontainer"
-        srcset="/envision.team.project.mimino/assets/hotel1x-fc58b36f.jpg 1x, /envision.team.project.mimino/assets/hotel2x-3cfd2953.jpg 2x"
-        src="/envision.team.project.mimino/assets/hotel1x-fc58b36f.jpg"
-        alt="Хол"
-        width="200px"
-      />
+
+          <picture>
+        <source
+          srcset="/envision.team.project.mimino/assets/hotel-desctop1x-73ed3510.jpg 1x, /envision.team.project.mimino/assets/hotel-desctop2x-585075f0.jpg 2x"
+          media="(min-width: 1280px)"
+          width="460px"
+        />
+        <source
+          srcset="/envision.team.project.mimino/assets/hotel-tablet1x-5047ca8a.jpg 1x, /envision.team.project.mimino/assets/hotel-tablet2x-d0f376cf.jpg 2x"
+          media="(max-width: 1279px)"
+          width="400px"
+        />
+        <source
+          srcset="/envision.team.project.mimino/assets/hotel1x-fc58b36f.jpg 1x, /envision.team.project.mimino/assets/hotel2x-3cfd2953.jpg 2x"
+          media="(max-width: 1023px)"
+          
+        />
+        <img
+          src="/envision.team.project.mimino/assets/hotel1x-fc58b36f.jpg"
+          alt="Ліжко"
+          width="200px"
+          
+          class="about-hotel-img-incontainer"
+        />
+      </picture>
+
+  
     </div>
 
     <div class="swiper">
@@ -287,7 +315,7 @@
     <div class="details-hotel-bottom">
       <div class="details-hotel-slides slides">
         <!-- Slider main container -->
-        <div class="details-hotel-swiper swiper">
+        <div class="details-hotel-swiper swiper-triple swiper">
           <ul class="swiper-wrapper">
             <!-- Slides -->
             <li class="details-hotel-swiper-slide swiper-slide">
@@ -381,12 +409,12 @@
           </ul>
 
           <!-- If we need navigation buttons -->
-          <div class="datails-hotel-swiper-btn-prev swiper-button-prev">
+          <div class="datails-hotel-swiper-btn-prev swiper-triple-button-next swiper-button-next">
             <svg class="arrow-icon" width="32" height="32">
           <use href="/envision.team.project.mimino/assets/icons-7827713b.svg#icon-arrow-left"></use>
         </svg>
           </div>
-          <div class="datails-hotel-swiper-btn-next swiper-button-next"></div>
+          <div class="datails-hotel-swiper-btn-next swiper-triple-button-prev swiper-button-prev"></div>
         </div>
       </div>
 
