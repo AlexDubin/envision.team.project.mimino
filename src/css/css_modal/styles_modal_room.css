@@ -194,9 +194,7 @@
 }
 /* -----Mobile----- */
 @media screen and (min-width: 414px) {
-  .container {
-    max-width: 1024px;
-  }
+  
   .modal-order-room-container {
     width: 414px;
     height: 780px;
@@ -205,9 +203,8 @@
 
 /* -----Tablet----- */
 @media screen and (min-width: 1024px) {
-  .container {
-    width: 1024px;
-  }
+  
+  
   .modal-order-room-container {
     min-width: 712px;
     height: 638px;
