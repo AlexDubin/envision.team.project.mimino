@@ -128,11 +128,7 @@
   border: 2px solid #f3c653;
 }
 @media screen and (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-    padding-left: 47px;
-    padding-right: 47px;
-  }
+ 
   .room-page-hero {
     padding-top: 468px;
     padding-bottom: 22px;
@@ -185,11 +181,7 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding-left: 85px;
-    padding-right: 85px;
-  }
+  
   .room-page-hero {
     padding-top: 524px;
     padding-bottom: 48px;

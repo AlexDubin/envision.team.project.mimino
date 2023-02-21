@@ -1,10 +1,19 @@
+/*  общая секция текста и картинки   */
+
+
+/* -------- текст и заголовок ------  */
+
 .hotel-section-lux {
-    background-color: #FFFDEE;
- 
+    background-color: var(--light-background-color);
+}
+
+.lux {
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .hotel-lux-title-block {
-width: 350px;
+    width: 350px;
 }
 
 .hotel-lux-min-text {
@@ -39,7 +48,6 @@ width: 350px;
     letter-spacing: 0.05em;
     color: var(--black-text-color);
     margin-bottom: 12px;
-
 }
 
 .hotel-lux-text {
@@ -49,16 +57,16 @@ width: 350px;
     font-size: 12px;
     line-height: 1.25;
     letter-spacing: 0.02em;
-
     color: var(--dark-grey-text-color);
     max-width: 258px;
     margin-bottom: 32px;
 }
 
+/* --------титульная  картинка номера ------  */
+
 .lux-img-block {
     width: 244px;
     height: 320px;
-
 }
 
 .lux-img {
@@ -67,40 +75,79 @@ width: 350px;
     border-radius: 2px;
 }
 
-
-
-.hotel-lux-swiper-wrapper {
- display: flex;
- gap: 16px;
-}
+/* -------- блок слайдера + кнопки навигации ------  */
 
 .hotel-lux-slider-btn {
     margin-top: 48px;
 }
 
+/* -------- swiper------  */
 
-.hotel-lux-slider {
-    width: 100%;
-    display: block;
+/* swiper*/
+
+/* .swiper {
+    padding-bottom: 52px;
+    margin-left: 0;
+    margin-bottom: 20px;
+
+} */
+
+
+.hotel-lux-swiper {
+    width: 300px;
+    padding-bottom: 52px;
+    margin-left: 0;
+    margin-bottom: 20px;
 }
 
+/* swiper-wrapper*/
+
+.hotel-lux-swiper-wrapper {
+    padding-left: 85px;
+}
+
+/*swiper-slide*/
+
+.lux-slider-img {
+    width: 194px;
+    height: 194px;
+}
+
+
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    display: none;
+}
+
+/*.swiper-button-next */
+.h-lux-next {
+    position: absolute;
+    top: auto;
+    left: 60px;
+    bottom: 0px;
+}
+
+/*.swiper-button-prev */
+.h-lux-prev {
+    position: absolute;
+    top: auto;
+    left: 0;
+    bottom: 0px;
+}
+
+/*-------buttons----*/
 
 .hotel-lux-btn-list {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 16px;
-
     align-items: center;
 }
 
-.lux-slider-img {
-    width: 194px;
-    height: 194px;
-    
-}
-
 .hotel-lux-btn {
+    
     background-color: #000000;
     border-radius: 25px;
     border: 2px Solid #ffffff;
@@ -111,6 +158,11 @@ width: 350px;
     color: var(--akzent-yellow);
     width: 236px;
     height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
     transition: background-color var(--time-animation) var(--cubic-bezier);
 }
 
@@ -121,42 +173,15 @@ width: 350px;
 }
 
 
-.swiper {
-   padding-bottom: 52px;
-   margin-left: 0;
-   margin-bottom: 20px;
-
-}
-.swiper-button-prev::after, .swiper-button-next::after {
-    display: none;
-}
-.swiper-button-next {
-    position: absolute;
-    top: auto;
-    left: 60px;
-    bottom: 0px;
-}
-.swiper-button-prev {
-    position: absolute;
-    top: auto;
-    left: 0;
-    bottom: 0px;
-}
-
-.hotel-lux-slider-btn {
-
-}
-
-
 /*-//////////////-----TABLET---//////////------*/
 
 
 
-
 @media screen and (min-width: 1024px) {
-    .container {
-        max-width: 1024px;
-        padding: 62px 47px 40px 47px;
+
+    .lux {
+        padding-top: 62px;
+        padding-bottom: 40px;
     }
 
     .hotel-lux-title-block {
@@ -181,13 +206,13 @@ width: 350px;
         font-size: 16px;
         max-width: 440px;
     }
-    
+
     .hotel-lux-title-img {
         display: flex;
     }
 
     .lux-img {
-        margin-left: 42px;
+        margin-left: 40px;
         position: relative;
         margin-top: -95px;
         z-index: 2;
@@ -201,48 +226,51 @@ width: 350px;
     }
 
     .hotel-lux-btn-list {
-    padding-top: 50px;
+        padding-top: 50px;
     }
-    
-    .swiper {
-    width: 430px;
-    padding-bottom: 65px;
-    margin-right: 0;
-    margin-bottom: 0px;
-    
+
+    .hotel-lux-swiper {
+        width: 428px;
+        padding-bottom: 65px;
+        margin-right: 0px;
+        margin-left: 0px;
+
     }
-       
-    .swiper-button-next {
-    position: absolute;
-    top: auto;
-    left: 400px;
-   
-    }
-    
-    .swiper-button-prev {
-    position: absolute;
-    top: auto;
-    left: 336px;
-    bottom: 0px;
-    }
+
     .hotel-lux-swiper-wrapper {
-    gap: 40px;
+        padding-left: 0px;
+    }
+
+    /*.swiper-button-next */
+    .h-lux-next {
+        position: absolute;
+        top: auto;
+        left: 400px;
+
+    }
+
+    /*.swiper-button-prev */
+    .h-lux-prev {
+        position: absolute;
+        top: auto;
+        left: 336px;
+        bottom: 0px;
     }
 }
 
 
-
 /*------------------DESK-------------------*/
+
 
 @media screen and (min-width: 1280px) {
 
-    .container {
-        max-width: 1280px;
-        padding: 72px 85px 40px 85px;
+    .lux {
+        padding-top: 72px;
+        padding-bottom: 40px;
     }
 
     .lux-img {
-        margin-left: 48px;
+        margin-left: 42px;
         position: relative;
         margin-top: -105px;
         z-index: 2;
@@ -275,7 +303,7 @@ width: 350px;
     }
 
     .hotel-lux-title-block {
-        width: 510px;
+        width: 515px;
     }
 
     .hotel-lux-text {
@@ -283,29 +311,48 @@ width: 350px;
         font-size: 16px;
         line-height: 1.25;
     }
+
     .hotel-lux-btn-list {
         padding-top: 73px;
+    }
+
+    .hotel-lux-swiper-wrapper {
+        padding-left: 0px;
+    }
+
+    .hotel-lux-swiper {
+        width: 550px;
+        padding-bottom: 75px;
     }
 
     .lux-slider-img {
         width: 254px;
         height: 254px;
+        margin-right: 0px;
+        margin-left: 0px;
     }
 
-    .swiper {
+    .hotel-lux-slider {
+        width: 254px;
+    }
+
+    /* .swiper {
         width: 548px;
         padding-bottom: 75px;
-    }
+    } */
 
-    .swiper-button-next {
+    /*.swiper-button-next */
+
+    .h-lux-next {
         position: absolute;
         top: auto;
         left: 520px;
         bottom: 0px;
     }
-    
-    .swiper-button-prev {
-        position: absolute;
+
+    /*.swiper-button-prev */
+    .h-lux-prev {
+       position: absolute;
         top: auto;
         left: 460px;
         bottom: 0px;

@@ -143,11 +143,9 @@ body {
   max-width: 414px;
 }
 
-
-
 @media screen and (min-width: 1024px) {
   .container {
-    width: 970px;
+    max-width: 970px;
   }
 }
 
@@ -155,7 +153,7 @@ body {
 
 @media screen and (min-width: 1280px) {
   div.container {
-    width: 1140px;
+    max-width: 1140px;
   }
 
 }
