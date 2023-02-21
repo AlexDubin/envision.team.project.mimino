@@ -133,13 +133,7 @@ address {
 .hero-soc-icon {
 }
 @media screen and (min-width: 414px) {
-  .container {
-    /* max-width: 414px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto; */
-  }
+  
   .hero-title {
     width: 305px;
     letter-spacing: 0.3em;
@@ -228,9 +222,7 @@ address {
   }
 }
 @media screen and (min-width: 1280px) {
-  /* div.container {
-    max-width: 1140px;
-  } */
+  
   .hero-soc-list {
     display: none;
   }
