@@ -188,7 +188,7 @@ address {
     margin-left: 10px;
   }
   .hero-title {
-    width: 405px;
+    width: 445px;
     font-size: 128px;
     line-height: calc(138 / 128);
     margin-bottom: 16px;
@@ -202,6 +202,9 @@ address {
     font-size: 36px;
     line-height: calc(41 / 36);
     margin-bottom: 137px;
+  }
+  .hero-section .title-wrapper {
+    margin-right: -40px;
   }
 }
 @media screen and (min-width: 1280px) {

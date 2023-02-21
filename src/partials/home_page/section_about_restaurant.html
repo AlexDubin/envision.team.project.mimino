@@ -5,7 +5,7 @@
     <div class="logo-img-container">
       <div class="text-container-logo">
         <p class="over-text">Amet minim mollit non</p>
-        <h3 class="logo-text">MIMIHO</h3>
+        <h3 class="logo-text text--turning" data-splitting="chars" data-animation="innerAnimated">MIMIHO</h3>
         <p class="text-page-home">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat duis enim velit mollit. Exercitation
@@ -14,7 +14,7 @@
       </div>
 
       <picture>
-        <source
+        <source 
           srcset="
             ./img/home_page/about_our_restaurant/desktop/desktoprestaurantinterior2x.jpg 2x,
             ./img/home_page/about_our_restaurant/desktop/desktoprestaurantinterior1x.jpg
@@ -30,13 +30,12 @@
           media="(min-width: 1024px)"
         />
 
-        <img
+        <img class="fadeInLeft photo-restaurant-right" data-animation="innerAnimated"
           srcset="
             ./img/home_page/about_our_restaurant/mobile/mobilerestaurantinterior2x.jpg 2x
           "
           src="./img/home_page/about_our_restaurant/mobile/mobilerestaurantinterior1x.jpg"
           alt="Столи та стільці в ресторані"
-          class="photo-restaurant-right"
         />
       </picture>
     </div>
@@ -65,7 +64,7 @@
           "
           src="./img/home_page/about_our_restaurant/mobile/mobileorurijacome1x.jpg"
           alt="Столи і стільці"
-          class="photo-restaurant-left"
+          class="photo-restaurant-left fadeInRight" data-animation="innerAnimated"
         />
       </picture>
 
