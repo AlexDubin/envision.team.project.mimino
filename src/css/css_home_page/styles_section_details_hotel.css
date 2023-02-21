@@ -1,11 +1,7 @@
 .details-hotel {
   padding-top: 24px;
   padding-bottom: 40px;
-}
-
-.details-hotel-overlay {
   width: 100%;
-  height: 100%;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(
@@ -22,7 +18,7 @@
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  .hero-overlay {
+  .details-hotel {
     background-image: linear-gradient(
         to right,
         rgba(0, 0, 0, 0.7),
@@ -31,59 +27,51 @@
       url(../../img/home_page/details_of_our_hotel/bg-datailes-hotel-mob-2x.jpg);
   }
 }
-
+.title-wrap {
+  width: 127px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
 .details-hotel-top {
   max-width: 243px;
-
   margin-left: 17px;
   margin-bottom: 48px;
-
-  outline: 1px solid green;
-}
-
-.details-hotel-title-wrap {
-  text-align: right;
-  margin-bottom: 20px;
-
-  outline: 1px solid goldenrod;
 }
 
 .details-hotel-mimino {
+  width: 127px;
   font-family: 'Film P3';
-
   font-weight: 700;
   font-size: 40px;
   line-height: 1.07;
   letter-spacing: 0.3em;
-  margin-right: -0.3em;
-
   color: var(--hero-text-color);
-
   margin-bottom: 12px;
+  text-align: end;
 }
 
 .details-hotel-titel {
   font-family: 'Montserrat';
-
   font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-
   color: var(--hero-text-color);
+  text-align: end;
 }
 
 .details-hotel-content {
+  width: 243px;
   font-family: 'Montserrat';
-
   font-weight: 600;
   font-size: 12px;
   line-height: 1.25;
   letter-spacing: 0.02em;
-
+  margin-right: 125px;
+  margin-left: 17px;
+  margin-bottom: 48px;
   color: var(--grey-second-color);
-
-  outline: 1px solid goldenrod;
 }
 
 .details-hotel-swiper {
@@ -92,18 +80,17 @@
 }
 
 .datails-hotel-swiper-btn-prev {
-  left: 150px;
+  /* left: 150px;
   right: auto;
-  top: 458px;
+  top: 458px; */
 
   fill: var(--hero-text-color);
 }
 
 .details-hotel-swiper-btn-next {
-  left: 250px;
+  /* left: 250px;
   right: auto;
-  top: 40px;
-
+  top: 40px; */
   fill: var(--hero-text-color);
 }
 
@@ -111,6 +98,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 80px;
 }
 
 .details-hotel-link-btn {
@@ -119,7 +107,6 @@
 }
 .details-hotel-btn {
   margin-bottom: 16px;
-
   padding-top: 14px;
   padding-bottom: 14px;
 }
@@ -127,23 +114,17 @@
 .details-hotel-link-btn,
 .details-hotel-btn {
   font-family: 'Montserrat';
-
   width: 236px;
   height: 48px;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding: 14px 24px;
   text-align: center;
-
   font-size: 16px;
   line-height: 1.25;
-
   letter-spacing: 0.02em;
-
   background: rgba(0, 0, 0, 0.4);
   border: 2px solid var(--hero-text-color);
   border-radius: 25px;
   color: var(--yellow-hover);
-
   transition: background-color var(--time-animation) var(--cubic-bezier),
     border-color var(--time-animation) var(--cubic-bezier);
 }
@@ -155,52 +136,50 @@
   background: var(--hero-text-color);
   border: 2px solid var(--yellow-hover);
 }
-.container-box-all {
-  outline: 1px solid red;
-}
 
 /* -----Mobile----- */
 @media screen and (min-width: 414px) {
-  .container-box-all {
+  /* .container-box-all {
     max-width: 414px;
     height: 735px;
-  }
+  } */
 
   .details-hotel-content {
-    max-width: 243px;
+    width: 243px;
+  }
+  .details-hotel-titel {
   }
 }
 
 .details-hotel-bottom {
-  outline: 1px solid green;
+  /* outline: 1px solid green; */
 }
 .details-hotel-slides {
-  outline: 1px solid goldenrod;
+  /* outline: 1px solid goldenrod; */
 }
 
 .details-hotel-btn-wrap {
-  outline: 1px solid goldenrod;
+  /* outline: 1px solid goldenrod; */
 }
 
 /* -----Tablet----- */
 @media screen and (min-width: 1024px) {
-  .container-box-all {
-    max-width: 1024px;
-    height: 620px;
+  .title-wrap {
+    width: 549px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
   }
-
-  .details-hotel-container {
-    padding-left: 47px;
-    padding-right: 47px;
+  .details-hotel-mimino {
+    text-align: end;
+    width: 202px;
+    font-size: 64px;
+    margin-bottom: 16px;
+    margin-left: auto;
   }
-
   .details-hotel {
     padding-top: 48px;
-    padding-bottom: 40px;
-  }
-
-  .details-hotel-overlay {
-    height: 620px;
+    padding-bottom: 100px;
     background-image: linear-gradient(
         to right,
         rgba(0, 0, 0, 0.7),
@@ -212,7 +191,7 @@
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .hero-overlay {
+    .details-hotel {
       background-image: linear-gradient(
           to right,
           rgba(0, 0, 0, 0.7),
@@ -220,16 +199,6 @@
         ),
         url(../../img/home_page/details_of_our_hotel/bg-datailes-hotel-tab-2x.jpg);
     }
-  }
-
-  .details-hotel-top {
-    max-width: 549px;
-    margin-left: 150px;
-    margin-bottom: 40px;
-  }
-  .details-hotel-mimino {
-    font-size: 64px;
-    margin-bottom: 16px;
   }
 
   .details-hotel-titel {
@@ -241,8 +210,10 @@
   }
 
   .details-hotel-content {
+    width: 549px;
     font-size: 16px;
-    max-width: 549px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .details-hotel-bottom {
@@ -258,38 +229,40 @@
   }
 
   .datails-hotel-swiper-btn-prev {
-    left: 500px;
+    /* left: 500px;
     right: auto;
-    top: 311px;
+    top: 311px; */
   }
 
   .datails-hotel-swiper-btn-next {
-    left: 600px;
+    /* left: 600px;
     right: auto;
-    top: 311px;
+    top: 311px; */
   }
 
   .details-hotel-btn-wrap {
-    padding-bottom: 48px;
+    padding-bottom: 0;
+    margin-top: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .details-hotel-slides {
+    display: flex;
+    gap: 32px;
+    height: 270px;
   }
 }
 
 /* -----Desktop----- */
 @media screen and (min-width: 1280px) {
-  .container-box-all {
-    max-width: 1280px;
+  .title-wrap {
+    width: 595px;
   }
-
-  .details-hotel-container {
-    padding-left: 52px;
-    padding-right: 85px;
-  }
-
   .details-hotel-content {
-    max-width: 595px;
+    width: 595px;
   }
 
-  .details-hotel-overlay {
+  .details-hotel {
     background-image: linear-gradient(
         to right,
         rgba(0, 0, 0, 0.7),
@@ -301,7 +274,7 @@
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .hero-overlay {
+    .details-hotel {
       background-image: linear-gradient(
           to right,
           rgba(0, 0, 0, 0.7),
@@ -317,14 +290,14 @@
   }
 
   .datails-hotel-swiper-btn-prev {
-    left: 750px;
+    /* left: 750px;
     right: auto;
-    top: 311px;
+    top: 311px; */
   }
 
   .datails-hotel-swiper-btn-next {
-    left: 850px;
+    /* left: 850px;
     right: auto;
-    top: 311px;
+    top: 311px; */
   }
 }
