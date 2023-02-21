@@ -1,5 +1,5 @@
     .footer-container {
-        width: 290px;
+        
         margin-left: auto;
         margin-right: auto;
     }
@@ -80,7 +80,7 @@
 
 @media (min-width: 414px) and (max-width: 1024px) {
     .footer-container {
-        width: 344px;
+        
         display: flex;
     justify-content: center;
     flex-direction: column;
@@ -153,7 +153,6 @@
 
 @media (min-width: 1024px) and (max-width: 1280px) {
     .footer-container {
-        width: 778px;
         display: flex;
     justify-content: center;
     flex-direction: column;
@@ -249,7 +248,7 @@
 
 @media (min-width: 1280px) {
     .footer-container {
-        width: 878px;
+        
         display: flex;
     justify-content: center;
     flex-direction: column;
