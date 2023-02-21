@@ -1,5 +1,5 @@
 <section class="details-hotel details-hotel-overlay">
-  <div class="details-hotel-container container">
+  <div class="details-hotel-container container-box-all container">
     <div class="details-hotel-top">
       <div class="details-hotel-title-wrap">
         <p class="details-hotel-mimino">MIMIHO</p>
@@ -145,24 +145,31 @@
           </ul>
 
           <!-- If we need navigation buttons -->
-          <div class="datails-hotel-swiper-btn-prev swiper-triple-button-next swiper-button-next">
+          <div class="datails-hotel-swiper-btn-prev swiper-button-prev swiper-triple-button-prev">
             <svg class="arrow-icon" width="32" height="32">
-          <use href="./img/icons.svg#icon-arrow-left"></use>
-        </svg>
+              <use href="./img/icons.svg#icon-arrow-left"></use>
+            </svg>
+            <div class="datails-hotel-swiper-btn-next swiper-button-next swiper-triple-button-next">
+            <svg class="arrow-icon" width="32" height="32">
+              <use href="./img/icons.svg#icon-arrow-left"></use>
+            </svg>
           </div>
-          <div class="datails-hotel-swiper-btn-next swiper-triple-button-prev swiper-button-prev"></div>
         </div>
       </div>
 
       <div class="details-hotel-btn-wrap">
         <button
-          class="details-hotel-btn button"
+          class="details-hotel-btn button js-open-modal"
+          data-modal="2"
           type="button"
-          data-modal-room-open
+          .js-open-modal
         >
           Забронювати номер
         </button>
-        <a href="" class="details-hotel-link-btn link button">
+        <a
+          href="./section_about_hotel.html"
+          class="details-hotel-link-btn link button"
+        >
           Переглянути ціни
         </a>
       </div>

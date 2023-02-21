@@ -1,0 +1,261 @@
+.triple-section {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: var(--dark-background-color);
+}
+  
+.triple-text {
+  margin-bottom: 8px;
+  
+  font-family: 'Times New Roman', serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.15;
+  color: var(--grey-text-color);
+  text-align: right;
+}
+
+.triple-logo {
+  margin-bottom: 32px;
+  margin-right: -12px;
+  font-family: 'Film P3';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.08;
+  letter-spacing: 0.3em;
+  color: var(--title-text-color);
+  text-align: right;
+}
+  
+
+  
+.triple-about {
+  margin-left: 81px;
+  margin-bottom: 32px;
+}
+  
+.triple-title {
+  margin-bottom: 12px;
+  
+  font-family: 'Times New Roman', serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+  color: var(--black-text-color);
+}
+
+.triple-description {
+  max-width: 242px;
+    
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: var(--dark-grey-text-color);
+  text-align: left;
+}
+  
+
+.triple-img {
+  width: 100%;
+  max-width: 244px;
+  background-color: var(--hero-text-color);
+  margin-bottom: 32px;
+  box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+}
+
+
+
+  
+  /*-------------- Slider ------------*/
+
+    
+  .triple-hotel-swiper {
+    margin-left: 115px;
+    margin-right: -15px;
+    width: 285px;
+    margin-bottom: 72px;
+    position: initial;
+}
+
+.triple-wraper {
+  column-gap: 16px;
+}
+    
+  @media screen and (min-width: 1024px) {
+    .triple-united {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: center;
+    
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+    
+    .triple-hotel-swiper {
+      width: 428px;
+      height: 194px;
+      margin-bottom: 0;
+      margin-left: 0;
+    }
+    
+    .triple-wraper {
+      column-gap: 40px;
+    }
+    }
+    
+    @media screen and (min-width: 1280px) {
+      .triple-hotel-swiper {
+          width: 548px;
+          height: 254px;
+      }
+    }
+    
+  .triple-slide {
+    max-width: 194px;
+    /* box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25); */
+    border-radius: 2px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none;
+}
+
+.triple-pbtn {
+
+}
+
+.triple-nbtn {
+
+}
+
+
+  /*--------------END Slider ------------*/
+  
+.triple-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  
+.triple-btn {
+  min-width: 236px;
+  height: 48px;
+  background-color: var(--background-button-color);
+  border: 2px solid var(--dark-background-color);
+  border-radius: 25px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  text-align: center;
+    
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color:var(--akzent-yellow);
+  transition: background-color var(--time-animation) var(--cubic-bezier), boder var(--time-animation) var(--cubic-bezier);
+}
+    
+.btn-details {
+  display: inline-block;
+}
+  
+.triple-item:nth-child(1) {
+  margin-bottom: 16px;
+}
+    
+  .triple-btn:hover,
+  .triple-btn:focus {
+    background-color: var(--hero-text-color);
+    border: 2px solid var(--akzent-yellow);
+}
+
+/* -------------TAB---------- */
+@media screen and (min-width: 1024px) {
+  .triple-section {
+    padding-top: 66px;
+    padding-bottom: 104px;
+  }
+
+  .triple-about {
+    margin-left: 515px;
+    margin-bottom: 0;
+  }
+  
+  .triple-title {
+    margin-bottom: 16px;
+    font-size: 30px;
+    line-height: 1.13;
+  }
+  
+  .triple-description {
+    max-width: 400px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .triple-text {
+    margin-bottom: 4px;
+    font-size: 32px;
+    line-height: 1.16;
+  }
+  
+  .triple-logo {
+    margin-bottom: 62px;
+    margin-right: -21px;
+    font-size: 64px;
+    line-height: 1.08;
+  }
+
+  .triple-img {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 10;
+        
+    max-width: 400px;
+    margin-top: -418px;
+    margin-left: 70px;
+    margin-bottom: 48px;
+  }
+}
+
+/* -----------Desk----------- */
+@media screen and (min-width: 1280px) {
+  .triple-section {
+    padding-top: 72px;
+    padding-bottom: 112px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .triple-logo {
+    margin-bottom: 72px;
+  }
+  
+  .triple-text,
+  .triple-logo {
+    margin-right: 57px;
+  }
+
+  .triple-about {
+    margin-left: 593px;
+  }
+  
+  .triple-title {
+    margin-bottom: 24px;
+    font-size: 36px;
+    line-height: 1.14;
+  }
+
+  .triple-img {
+    max-width: 460px;
+    margin-top: -450px;
+    margin-left: 95px;
+  }
+}

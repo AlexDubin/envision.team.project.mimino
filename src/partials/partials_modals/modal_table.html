@@ -1,49 +1,111 @@
-<div class="backdrop " data-resto>
-	<div class="resto-modal ">
-		<button type="button" class="resto-closed" .js-modal-close>
-			<svg class="resto-closed-icon" Width="24" Height="24">
-      <use href="../img/icons.svg#icon-close"></use>
-			</svg>
-		</button>
-		<h2 class="resto-modal-title">ЗАБРОНЮВАТИ СТОЛИК</h2>
-		<form class="form-wrap">
-				<input
-				type="text"
-				name="username"
-				placeholder="Ваше ім’я"
-				class="resto-input"
-				required
-				minlength="5">
-				  <span class="input-resto-info">На кого забронювати столик?</span>
-				<input
-				type="tel"
-				name="phone-number"
-				class="resto-input"
-				placeholder="+38 (___) ___-__-__"
-				required>
-					<span class="input-resto-info">Номер телефону</span>
-				<select name="number" class="resto-input">
-					<option value="2" selected>2</option>
-					<option value="3">3</option>
-					<option value="4">4</option>
-					<option value="5">5</option>
-					<option value="6">6</option>
-				</select>
-					<span class="input-resto-info">Столик на яку кількість осіб?</span>
-				<select name="when" class="resto-input">
-					<option value="today" selected>Сьогодні</option>
-					<option value="mon">Понеділок</option>
-					<option value="tue">Вівторок</option>
-					<option value="wed">Середа</option>
-					<option value="thu">Четвер</option>
-					<option value="fri">Пятниця</option>
-					<option value="sat">Субота</option>
-					<option value="sun">Неділя</option>
-				</select>
-					<span class="input-resto-info">На яку дату бронювати?</span>
-			<div class="send-button-wraper">
-				<button type="submit" class="modal-resto-button"><span class="button-name">ОФОРМИТИ БРОНЮВАННЯ</span></button>
-			</div>
-		</form>
-	</div>
+
+<!-- <button
+            class="hotel-lux-btn js-open-modal"
+            type="button"
+            data-modal="1"
+          >
+            столик
+          </button> -->
+
+<div class="modal" data-modal="1">
+  <div class="modal-order-table-container">
+    <button
+      type="button"
+      class="close-btn-modal js-modal-close"
+      data-modal-close
+    >
+      <svg class="close-btn-modal-svg" width="24" height="24">
+        <use href="./img/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+    <form class="modal-order-table-form">
+      <p class="modal-order-table-mission">ЗАБРОНЮВАТИ СТОЛИК</p>
+
+      <!--- имя и номер----->
+      <div class="modal-order-table-blocks-1-2">
+        <div class="modal-order-table-block-1">
+          <div>
+            <label class="modal-order-table-label label-top-part">
+              <input
+                type="text"
+                class="modal-order-table-input modal-border"
+                name="user_name"
+                required
+                pattern="^[a-zA-Zа-яА-Я]+$"
+                minlength="2"
+                placeholder="Ваше ім’я"
+              />
+              <span class="modal-order-table-text"
+                >На кого забронювати столик?</span
+              >
+            </label>
+
+            <label class="modal-order-table-label">
+              <input
+                type="tel"
+                class="modal-order-table-input modal-border"
+                name="user_phone"
+                required
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                placeholder="+38 (___) ___-__-__"
+              />
+              <span class="modal-order-table-text">Номер телефону</span>
+            </label>
+          </div>
+        </div>
+        <!--- кол-во и дата ---->
+        <div class="modal-order-table-block-2">
+          <div>
+            <select
+              class="modal-order-table-select modal-border"
+              id="size"
+              name="size"
+            >
+              <option value="xs" selected>2</option>
+              <option value="s">2-4</option>
+              <option value="m">6-10</option>
+            </select>
+            <label class="modal-order-table-label" for="size">
+              <span class="modal-order-table-text"
+                >Столик на яку кількість осіб?</span
+              >
+            </label>
+          </div>
+
+          <div>
+            <!-- <select
+              class="modal-order-table-select modal-border"
+              id="size"
+              name="size"
+            >
+              <option value="xs" selected>Сьогодні</option>
+              <option value="s">П'ятниця</option>
+              <option value="m">Субота</option>
+              <option value="l">Неділя</option>
+            </select> -->
+            <input
+              class="modal-order-table-select modal-border"
+              type="date"
+              id="start"
+              name="trip-start"
+              placeholder="Сьогодні"
+              value="С"
+              min="2023-20-02"
+              max="2023-12-31"
+            />
+
+            <label class="modal-order-table-label" for="start">
+              <span class="modal-order-table-text"
+                >На яку дату бронювати?</span
+              ></label
+            >
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="modal-order-table-btn button">
+        ОФОРМИТИ БРОНЮВАННЯ
+      </button>
+    </form>
+  </div>
 </div>
+

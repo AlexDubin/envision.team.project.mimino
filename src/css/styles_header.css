@@ -70,13 +70,13 @@
 }
 
 @media screen and (min-width: 414px) {
-  .container {
+  /* .container {
     max-width: 414px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-  }
+  } */
   .header-logo {
     width: 115px;
     font-size: 36px;
@@ -91,9 +91,9 @@
   }
 }
 @media screen and (min-width: 1024px) {
-  div.container {
-    max-width: 960px;
-  }
+  /* .container {
+    max-width: 970px;
+  } */
   .site-navigation {
     justify-content: space-between;
     padding-top: 24px;
@@ -133,9 +133,9 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  div.container {
+  /* .container {
     max-width: 1140px;
-  }
+  } */
 
   .wrap-header {
     display: flex;

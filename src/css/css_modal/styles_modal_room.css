@@ -1,0 +1,252 @@
+/* Стили для подложки */
+.overlay {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  transition: 0.3s all;
+}
+
+.modal {
+  /* Скрываем окна  */
+  opacity: 0;
+  visibility: hidden; /*  Установаем ширину окна  */
+  width: 100%;
+  max-width: 500px; /*  Центрируем и задаем z-index */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 30; /* Должен быть выше чем у подложки*/ /*  Побочные стили   */
+  box-shadow: 0 3px 10px -0.5px rgba(0, 0, 0, 0.2);
+  /* text-align: center; */
+  padding: 30px;
+  border-radius: 3px;
+  background-color: #fff;
+  transition: 0.3s all;
+}
+/* Стили для активных классов подложки и окна */
+.modal.active,
+.overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal__cross {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  fill: #444;
+  cursor: pointer;
+}
+
+.background-order-room {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  transition: opacity var(--time-animation) var(--cubic-bezier),
+    visibility var(--time-animation) var(--cubic-bezier);
+}
+
+.modal-order-room-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* max-width: 414px;
+  min-height: 780px; */
+  padding: 60px 15px;
+
+  background: var(--light-background-color);
+  border-radius: 2px;
+
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform (var(--time-animation) var(--cubic-bezier));
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.backdrop.is-hidden .modal-container {
+  transform: translate(-50%, -50%) scale(0);
+}
+
+.close-btn-modal {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 18px;
+  height: 18px;
+  padding: 0;
+
+  stroke: var(--black-text-color);
+
+  background: transparent;
+  border: none;
+}
+
+.modal-order-room-mission {
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: var(--black-text-color);
+  margin-bottom: 40px;
+}
+
+.modal-order-room-select,
+.modal-order-room-input {
+  width: 100%;
+  height: 54px;
+  background-color: var(--light-background-color);
+  padding-left: 12px;
+  margin-bottom: 8px;
+}
+
+.modal-order-room-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: 0.02em;
+  color: var(--brown-text-color);
+}
+
+.order-room-span {
+  margin-left: 12px;
+}
+
+.order-room-label {
+  margin-left: 12px;
+}
+
+.modal-order-room-label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.modal-border {
+  border: 1px solid var(--brown-text-color);
+}
+
+.modal-order-room-select,
+.modal-order-room-input::placeholder {
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.05em;
+
+  color: #808080;
+}
+
+.modal-order-room-btn {
+  width: 100%;
+  height: 64px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--hero-text-color);
+  background: var(--background-button-color);
+  border: 1px solid var(--akzent-yellow);
+  border-radius: 2px;
+
+  transition: background-color var(--time-animation) var(--cubic-bezier),
+    color var(--time-animation) var(--cubic-bezier);
+}
+
+.modal-order-room-btn:hover {
+  color: var(--black-text-color);
+  background: var(--yellow-hover);
+}
+
+@media screen and (min-width: 320px) and (max-width: 414px) {
+  .modal-order-room-container {
+    width: 100%;
+  }
+}
+
+/* -----Mobile----- */
+@media screen and (min-width: 414px) {
+  .container-box-all {
+    max-width: 414px;
+  }
+  .modal-box {
+    width: 414px;
+    height: 780px;
+  }
+}
+
+/* -----Tablet----- */
+@media screen and (min-width: 1024px) {
+ 
+  .modal-order-room-container {
+    min-width: 712px;
+    height: 638px;
+    padding: 60px 60px;
+  }
+  .modal-order-room-mission {
+    font-size: 40px;
+    line-height: 1.15;
+  }
+
+  .modal-wrapper-top-part {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .modal-middle-part {
+    display: block;
+    margin-left: 304px;
+  }
+
+  .modal-middle-part > .order-room-label {
+    margin-left: 12px;
+  }
+
+  .modal-wrapper-bottom-part {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .modal-order-room-label {
+    width: 288px;
+  }
+
+  .modal-order-room-select,
+  .modal-order-room-input {
+    width: 288px;
+    height: 64px;
+  }
+
+  .modal-order-room-select,
+  .modal-order-room-input::placeholder {
+    font-size: 24px;
+    line-height: 1.16;
+  }
+  .modal-order-room-btn {
+    font-style: 24px;
+  }
+}

@@ -1,0 +1,253 @@
+/* ===========Restaurant Page Home============ */
+
+/* ===Mobile=== */
+.restaurant-page-home {
+  padding-top: 16px;
+  padding-bottom: 72px;
+  background-color: var(--light-background-color);
+}
+
+.restaurant-container {
+  position: relative;
+}
+
+.logo-img-container {
+  margin-bottom: 32px;
+}
+
+.over-text {
+  font-family: 'Times New Roman';
+  font-size: 20px;
+  line-height: 1.15;
+  color: var(--grey-text-color);
+  margin-bottom: 12px;
+}
+
+.logo-text {
+  font-family: 'Film P3';
+  font-size: 40px;
+  line-height: 1.07;
+  letter-spacing: 0.3em;
+  color: var(--title-text-color);
+  margin-bottom: 12px;
+}
+
+.image-text-container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.photo-restaurant-left {
+  background: var(--shadow-background-color);
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
+.text-page-home {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.25;
+  max-width: 258px;
+  margin-bottom: 28px;
+}
+
+.brown {
+  margin-left: 20px;
+  width: 163px;
+  color: var(--brown-text-color);
+}
+
+.photo-restaurant-right {
+  margin-left: auto;
+  background: var(--shadow-background-color);
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
+.slider-img-container {
+  display: flex;
+  gap: 25px;
+  margin-left: 69px;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.14);
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
+.restaurant-button-left {
+  position: absolute;
+  bottom: -60px;
+  right: 82px;
+  line-height: 0;
+}
+
+.restaurant-button-right {
+  position: absolute;
+  bottom: -60px;
+  right: 14px;
+  line-height: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .img-slider-tablet {
+    display: none;
+  }
+
+  .img-slider-mobile {
+    max-width: 245px;
+  }
+
+  .slider-img-container {
+    margin-right: -4%;
+  }
+}
+
+/* ===/Mobile=== */
+
+/* ===Tablet=== */
+@media screen and (min-width: 1024px) {
+  .restaurant-page-home {
+    padding-top: 120px;
+    padding-bottom: 82px;
+  }
+
+  .restaurant-container {
+    max-width: 1024px;
+  }
+
+  .logo-img-container {
+    position: relative;
+    display: flex;
+  }
+
+  .text-container {
+    flex-wrap: wrap;
+    margin-left: 32px;
+  }
+
+  .over-text {
+    font-size: 32px;
+    margin-bottom: 4px;
+  }
+
+  .logo-text {
+    font-size: 64px;
+    margin-bottom: 24px;
+  }
+
+  .text-page-home {
+    font-size: 16px;
+    max-width: 439px;
+    margin-right: 26px;
+  }
+
+  .photo-restaurant-right {
+    position: relative;
+    top: -152px;
+  }
+
+  .image-text-container {
+    position: relative;
+    margin-left: 32px;
+    align-items: flex-start;
+    margin-bottom: 0;
+  }
+
+  .brown {
+    width: 312px;
+    margin-left: 48px;
+  }
+
+  .photo-restaurant-left {
+    position: relative;
+    top: -196px;
+  }
+
+  .slider-img-container {
+    position: absolute;
+    max-width: 428px;
+    gap: 40px;
+    bottom: 30px;
+    right: 60px;
+    margin-left: 0;
+  }
+
+  .img-slider-mobile {
+    max-width: 194px;
+  }
+
+  .restaurant-button-left {
+    bottom: -35px;
+    right: 124px;
+  }
+
+  .restaurant-button-right {
+    bottom: -35px;
+    right: 62px;
+  }
+}
+
+/* ===/Tablet=== */
+
+/* ===Desktop=== */
+@media screen and (min-width: 1280px) {
+  .restaurant-page-home {
+    padding-bottom: 0px;
+  }
+
+  .restaurant-container {
+    max-width: 1280px;
+  }
+
+  .text-container {
+    margin-left: 70px;
+  }
+
+  .text-page-home {
+    max-width: 518px;
+    margin-right: 37px;
+  }
+
+  .brown {
+    margin-top: -45px;
+  }
+
+  .photo-restaurant-right {
+    top: -153px;
+  }
+
+  .photo-restaurant-left {
+    top: -250px;
+  }
+
+  .image-text-container {
+    margin-left: 70px;
+  }
+
+  .slider-img-container {
+    max-width: 548px;
+    bottom: 128px;
+    right: 70px;
+    margin-left: 0;
+  }
+
+  .img-slider-mobile {
+    max-width: 254px;
+  }
+
+  .restaurant-button-left {
+    bottom: 60px;
+    right: 142px;
+  }
+
+  .restaurant-button-right {
+    bottom: 60px;
+    right: 78px;
+  }
+}
+
+/* ===/Desktop=== */
+
+/* ===========/Restaurant Page Home============ */
