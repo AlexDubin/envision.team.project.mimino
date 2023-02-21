@@ -1,3 +1,4 @@
+
 /* Стили для подложки */
 .overlay {
     opacity: 1;
@@ -244,4 +245,5 @@
     .modal-order-table-btn {
         font-style: 24px;
     }
+
 }
