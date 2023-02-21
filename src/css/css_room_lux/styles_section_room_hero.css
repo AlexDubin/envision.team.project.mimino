@@ -140,10 +140,11 @@
   }
 }
 @media screen and (min-width: 1024px) {
+
   .room-page-hero > .container {
     max-width: 960px;
     position: relative;
-  }
+
   .room-page-hero {
     padding-top: 468px;
     padding-bottom: 22px;
@@ -195,10 +196,12 @@
   }
 }
 @media screen and (min-width: 1280px) {
+
   .room-page-hero > .container {
     max-width: 1140px;
     position: relative;
   }
+
   .room-page-hero {
     padding-top: 524px;
     padding-bottom: 48px;

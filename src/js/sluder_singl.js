@@ -3,8 +3,9 @@ let swiper = new Swiper('.swiper-singl', {
 
   direction: 'horizontal',
 
-  // slidesPerView: 1,
-  // spaceBetween: ,
+   slidesPerView: 1,
+
+
 
    inverse: true,
    loop: true,
