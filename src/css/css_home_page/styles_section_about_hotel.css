@@ -231,4 +231,27 @@
     border-radius: 2px;
     width: 460px;
   }
+
+
+
+  .about-hotel-text {
+    
+    width: 488px;
+}
+
+
+.text-container {
+    margin-left: 67px;
+}
+
+.about-hotel-section {
+    
+    padding-bottom: 122px;
+}
+
+.swiper-about-hotel {
+    max-width: 548px;
+    
+}
+
 }
