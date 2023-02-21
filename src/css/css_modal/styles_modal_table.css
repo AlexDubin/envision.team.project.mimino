@@ -1,0 +1,126 @@
+.backdrop{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(46, 47, 66, 0.4);
+	transition: opacity 250ms, visibility 250ms;
+	z-index: 1;
+	overflow: auto;
+}
+
+.resto-modal{
+	position: relative;
+	width: 100%;
+	padding: 60px 15px;
+	background: #FFFDEE;
+	border-radius: 2px;
+	z-index: 10;
+}
+
+.backdrop.is-hidden{
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+}
+
+.resto-closed{
+	border: none;
+	background-color: transparent;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+}
+
+.resto-closed-icon{
+	stroke: #000000;
+}
+
+.resto-modal-title{
+	text-align: center;
+	font-family: 'Times New Roman';
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 1.66;
+	letter-spacing: 0.05em;
+	color: #000000;
+	margin-bottom: 40px;
+}
+
+.resto-input{
+	width: 100%;
+	height: 54px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid #C79002;
+	margin-bottom: 8px;
+}
+
+.input-resto-item:not(:first-child){
+	margin-top: 20px;
+}
+
+.input-resto-info{
+	font-family: 'Montserrat';
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.21;
+	letter-spacing: 0.02em;
+	color: #C79002;
+	margin-left: 12px;
+}
+
+.modal-resto-button{
+	width: 100%;
+	height: 64px;
+	background: #000000;
+	border: 1px solid #F3C653;
+	border-radius: 2px;
+	margin-top: 40px;
+	cursor: pointer;
+	transition-property: background-color;
+	transition-duration: var(--time-animation);
+	transition-timing-function: var(--cubic-bezier);
+}
+
+.modal-resto-button:hover,.modal-resto-button:focus{
+	background: #F3C653;
+	color: #000000;
+}
+
+.modal-resto-button:hover .button-name,
+.modal-resto-button:focus .button-name{
+	color: #000000
+}
+
+.button-name{
+font-family: 'Montserrat';
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+color: #FFFFFF;
+transition-property: color;
+transition-duration: var(--time-animation);
+transition-timing-function: var(--cubic-bezier);
+}
+
+@media screen and (min-width: 1024px){
+	.resto-modal{
+		width: 712px;
+	}
+
+	.resto-input{
+		width: 288px;
+	}
+
+	.input-resto-info{
+		display: block;
+	}
+
+	.modal-resto-button{
+		width: 592px;
+	}
+
+
+}

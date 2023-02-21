@@ -1,0 +1,49 @@
+<div class="backdrop " data-resto>
+	<div class="resto-modal ">
+		<button type="button" class="resto-closed" .js-modal-close>
+			<svg class="resto-closed-icon" Width="24" Height="24">
+      <use href="../img/icons.svg#icon-close"></use>
+			</svg>
+		</button>
+		<h2 class="resto-modal-title">ЗАБРОНЮВАТИ СТОЛИК</h2>
+		<form class="form-wrap">
+				<input
+				type="text"
+				name="username"
+				placeholder="Ваше ім’я"
+				class="resto-input"
+				required
+				minlength="5">
+				  <span class="input-resto-info">На кого забронювати столик?</span>
+				<input
+				type="tel"
+				name="phone-number"
+				class="resto-input"
+				placeholder="+38 (___) ___-__-__"
+				required>
+					<span class="input-resto-info">Номер телефону</span>
+				<select name="number" class="resto-input">
+					<option value="2" selected>2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+				</select>
+					<span class="input-resto-info">Столик на яку кількість осіб?</span>
+				<select name="when" class="resto-input">
+					<option value="today" selected>Сьогодні</option>
+					<option value="mon">Понеділок</option>
+					<option value="tue">Вівторок</option>
+					<option value="wed">Середа</option>
+					<option value="thu">Четвер</option>
+					<option value="fri">Пятниця</option>
+					<option value="sat">Субота</option>
+					<option value="sun">Неділя</option>
+				</select>
+					<span class="input-resto-info">На яку дату бронювати?</span>
+			<div class="send-button-wraper">
+				<button type="submit" class="modal-resto-button"><span class="button-name">ОФОРМИТИ БРОНЮВАННЯ</span></button>
+			</div>
+		</form>
+	</div>
+</div>
