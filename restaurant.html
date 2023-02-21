@@ -25,7 +25,7 @@
 
     
     <script type="module" crossorigin src="/envision.team.project.mimino/assets/modal-9e13fea7.js"></script>
-    <link rel="stylesheet" href="/envision.team.project.mimino/assets/restaurant-9373bfd1.css">
+    <link rel="stylesheet" href="/envision.team.project.mimino/assets/restaurant-8393ffc8.css">
   </head>
   <body>
     
@@ -101,7 +101,7 @@
 
       <!-- Alina hero -->
       <section class="hero-section">
-  <div class="container">
+  <div class="container hero-wrap">
     <address class="hero-address">
       <svg class="address-icon" width="20" height="20">
         <use href="/envision.team.project.mimino/assets/icons-eb2bfacc.svg#icon-location"></use>
@@ -118,10 +118,16 @@
     <h2 class="hero-aftertitle">Ресторан</h2>
     <p class="hero-descr">СМАК ЖИТТЯ 24/7</p>
     <div class="btn-wrap">
-      <button type="button" class="order-table-btn" data-modal-open>
+      <button
+        type="button"
+        class="order-table-btn js-open-modal"
+        data-modal="1"
+      >
         Забронювати столик
       </button>
-      <button type="button" class="order-room-btn">Забронювати номер</button>
+      <button type="button" class="order-room-btn js-open-modal" data-modal="1">
+        Забронювати номер
+      </button>
       <a class="menu-btn" href="#menu">Переглянути меню</a>
     </div>
     <ul class="hero-soc-list list">
