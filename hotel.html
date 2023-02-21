@@ -24,8 +24,8 @@
     <!-- Styles -->
 
     
-    <script type="module" crossorigin src="/envision.team.project.mimino/assets/modal-8ee8e5de.js"></script>
-    <link rel="stylesheet" href="/envision.team.project.mimino/assets/hotel-1f62e703.css">
+    <script type="module" crossorigin src="/envision.team.project.mimino/assets/modal-8e07fc32.js"></script>
+    <link rel="stylesheet" href="/envision.team.project.mimino/assets/hotel-12b0de79.css">
   </head>
   <body>
     
@@ -114,7 +114,7 @@
         вул. Маршала Бірюзова, 15</a
       >
     </address>
-    <h1 class="hero-title">MIMIHO</h1>
+    <h1 id="first-text" class="hero-title text--turning" data-splitting="chars" data-animation="innerAnimated">MIMIHO</h1>
     <h2 class="hero-aftertitle">Готель</h2>
     <p class="hero-descr">СМАК ЖИТТЯ 24/7</p>
     <div class="btn-wrap">
@@ -182,7 +182,7 @@
     <div class="hotel-lux-title-img">
       <div class="hotel-lux-title-block">
         <p class="hotel-lux-min-text">Amet minim mollit non</p>
-        <p class="hotel-lux-mimino">mimiho</p>
+        <p class="hotel-lux-mimino text--turning" data-splitting="chars" data-animation="innerAnimated">mimiho</p>
         <h2 class="hotel-lux-title">ДВОМІСНИЙ НОМЕР Люкс</h2>
         <p class="hotel-lux-text">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
@@ -209,7 +209,7 @@
           alt="lux room"
           width="244"
           height="320"
-          class="lux-img"
+          class="lux-img fadeInLeft" data-animation="innerAnimated"
         />
       </picture>
     </div>
@@ -333,7 +333,7 @@
       <section class="triple-section">
         <div class="container triple-container">
             <p class="triple-text">Amet minim mollit non</p>
-            <h2 class="triple-logo">MIMIHO</h2>
+            <h2 class="triple-logo text--turning" data-splitting="chars" data-animation="innerAnimated">MIMIHO</h2>
             <div class="triple-about">
                 <h3 class="triple-title">ТРЬОХМІСНИЙ НОМЕР</h3>
                 <p class="triple-description">
@@ -357,7 +357,7 @@
                 media="(min-width: 1280px)"
             />
     
-            <img class="triple-img"
+            <img class="triple-img fadeInRight" data-animation="innerAnimated"
                 src="/envision.team.project.mimino/assets/triple-main1x-desk-9d102962.jpg"
                 alt="Фото просторого номера зі зручним ліжком та великим вікном"
                 width="460"
@@ -462,7 +462,7 @@
     <div class="hotel-double-title-img">
       <div class="hotel-double-title-block">
         <p class="hotel-double-min-text">Amet minim mollit non</p>
-        <p class="hotel-double-mimino">mimiho</p>
+        <p class="hotel-double-mimino text--turning" data-splitting="chars" data-animation="innerAnimated">mimiho</p>
         <h2 class="hotel-double-title">ДВОМІСНИЙ НОМЕР</h2>
         <p class="hotel-double-text">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
@@ -489,7 +489,7 @@
           alt="double-room"
           width="244"
           height="320"
-          class="double-img"
+          class="double-img fadeInLeft" data-animation="innerAnimated"
         />
       </picture>
     </div>
@@ -948,8 +948,9 @@
 
     <div class="overlay js-overlay-modal"></div>
 
-
+    <script src="https://unpkg.com/splitting/dist/splitting.js"></script>
     
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    
   </body>
 </html>

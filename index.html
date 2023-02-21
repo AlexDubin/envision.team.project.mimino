@@ -25,8 +25,8 @@
     <!-- Styles -->
 
     
-    <script type="module" crossorigin src="/envision.team.project.mimino/assets/modal-8ee8e5de.js"></script>
-    <link rel="stylesheet" href="/envision.team.project.mimino/assets/index-3554c08a.css">
+    <script type="module" crossorigin src="/envision.team.project.mimino/assets/modal-8e07fc32.js"></script>
+    <link rel="stylesheet" href="/envision.team.project.mimino/assets/index-ee119cb5.css">
   </head>
   <body>
     
@@ -115,7 +115,9 @@
         вул. Маршала Бірюзова, 15</a
       >
     </address>
-    <h1 class="hero-title">MIMIHO</h1>
+    <div class="title-wrapper">
+      <h1 id="first-text" class="hero-title text--turning" data-splitting="chars" data-animation="innerAnimated">MIMIHO</h1>
+    </div>
     <h2 class="hero-aftertitle">Ресторанно-готельний комплекс</h2>
     <p class="hero-descr">СМАК ЖИТТЯ 24/7</p>
     <div class="btn-wrap">
@@ -382,7 +384,7 @@
       <!-- Orest details restaurant -->
       <section class="resto-det">
 	<div class="container resto-det-cont">
-		<p class="resto-det-title">MIMIHO</p>
+		<p class="resto-det-title text--turning" data-splitting="chars" data-animation="innerAnimated">MIMIHO</p>
 		<p class="resto-det-name">Ресторан</p>
 		<p class="resto-det-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
 		<div class="resto-wrap">
@@ -500,7 +502,7 @@
       <div class="text-container">
         <h2 class="about-hotel-title visually-hidden">About our hotel</h2>
         <p class="about-hotel-uptitle">Amet minim mollit non</p>
-        <p class="about-hotel-text-title">MIMIHO</p>
+        <p class="about-hotel-text-title text--turning" data-splitting="chars" data-animation="innerAnimated">MIMIHO</p>
         <p class="about-hotel-text">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat duis enim velit mollit. Exercitation
@@ -523,7 +525,7 @@
           src="/envision.team.project.mimino/assets/modern-studio-1x-8437c337.jpg"
           alt="Ліжко"
           width="244"
-          class="about-hotel-img"
+          class="about-hotel-img fadeInRight" data-animation="innerAnimated"
         />
       </picture>
     </div>
@@ -550,7 +552,7 @@
           src="/envision.team.project.mimino/assets/hotel1x-fc58b36f.jpg"
           alt="Ліжко"
           width="200"
-          class="about-hotel-img-incontainer"
+          class="about-hotel-img-incontainer fadeInLeft" data-animation="innerAnimated"
         />
       </picture>
     </div>
@@ -663,7 +665,7 @@
       <section class="details-hotel">
   <div class="container">
     <div class="title-wrap">
-      <p class="details-hotel-mimino">MIMIHO</p>
+      <p class="details-hotel-mimino text--turning" data-splitting="chars" data-animation="innerAnimated">MIMIHO</p>
 
       <h2 class="details-hotel-titel">Готель</h2>
     </div>
@@ -808,10 +810,10 @@
       <section class="contacts">
     <div class="map-container container">
         <div class="adress-map">
-            <div class="cont-and-map">
-                <h3 class="visually-hidden">MIMIHO</h3>
+            <div class="cont-and-map fadeInRight" data-animation="innerAnimated">
+                <h3 class="visually-hidden text--turning" data-splitting="chars" data-animation="innerAnimated">MIMIHO</h3>
                 <div class="mim-rest-hot">
-                <p class="mimino-logo-map">MIMIHO</p>
+                <p class="mimino-logo-map text--turning" data-splitting="chars" data-animation="innerAnimated">MIMIHO</p>
                     <p class="contacts-text">Ресторанно-готельний комплекс</p>
                 </div>
                 <div class="tel-container">
@@ -864,7 +866,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="map">
+            <div class="map fadeInLeft" data-animation="innerAnimated">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2585.9233981195052!2d34.524357615509345!3d49.59919397936693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d82601f3347a5f%3A0x36f3f9aeec44a6a!2sMarshala%20Biryuzova%20St%2C%2015%2C%20Poltava%2C%20Poltavs'ka%20oblast%2C%20Ukraine%2C%2036000!5e0!3m2!1sde!2sde!4v1676552574963!5m2!1sde!2sde" width="320%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
@@ -1211,8 +1213,9 @@
     <div class="overlay js-overlay-modal"></div>
 
     
-
+    <script src="https://unpkg.com/splitting/dist/splitting.js"></script>
     
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    
   </body>
 </html>
