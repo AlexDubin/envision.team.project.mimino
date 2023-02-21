@@ -227,6 +227,9 @@ address {
     line-height: calc(41 / 36);
     margin-bottom: 137px;
   }
+    .hero-section .title-wrapper {
+    margin-right: -40px;
+  }
 }
 @media screen and (min-width: 1280px) {
   /* div.container {
