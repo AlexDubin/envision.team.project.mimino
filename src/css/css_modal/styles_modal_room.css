@@ -1,73 +1,43 @@
+
 /* Стили для подложки */
+
 .overlay {
-  opacity: 0;
+  opacity: 1;
   visibility: hidden;
   position: fixed;
   top: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
   z-index: 20;
-  transition: 0.3s all;
+  transition: var(--cubic-bezier) var(--time-animation);
+  background: rgba(46, 47, 66, 0.4);
 }
 
 .modal {
-  /* Скрываем окна  */
   opacity: 0;
-  visibility: hidden; /*  Установаем ширину окна  */
+  visibility: hidden;
   width: 100%;
-  max-width: 500px; /*  Центрируем и задаем z-index */
+  height: 100%;
   position: fixed;
-  top: 50%;
+  top: 500px;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 30; /* Должен быть выше чем у подложки*/ /*  Побочные стили   */
-  box-shadow: 0 3px 10px -0.5px rgba(0, 0, 0, 0.2);
-  /* text-align: center; */
+  z-index: 30;
   padding: 30px;
   border-radius: 3px;
-  background-color: #fff;
-  transition: 0.3s all;
-}
+  transition: var(--cubic-bezier) var(--time-animation);;
+  
+} 
+
 /* Стили для активных классов подложки и окна */
+
 .modal.active,
 .overlay.active {
   opacity: 1;
-  visibility: visible;
-}
+  visibility: visible; 
+} 
 
-.modal__cross {
-  width: 15px;
-  height: 15px;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  fill: #444;
-  cursor: pointer;
-}
-
-.background-order-room {
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-
-  transition: opacity var(--time-animation) var(--cubic-bezier),
-    visibility var(--time-animation) var(--cubic-bezier);
-}
-
-.modal-order-room-container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  /* max-width: 414px;
-  min-height: 780px; */
-  padding: 60px 15px;
-
-  background: var(--light-background-color);
-  border-radius: 2px;
-
-  transform: translate(-50%, -50%) scale(1);
-  transition: transform (var(--time-animation) var(--cubic-bezier));
-}
 
 .backdrop.is-hidden {
   opacity: 0;
@@ -79,23 +49,55 @@
   transform: translate(-50%, -50%) scale(0);
 }
 
+
 .close-btn-modal {
   position: absolute;
   top: 16px;
   right: 16px;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
   width: 18px;
   height: 18px;
   padding: 0;
-
   stroke: var(--black-text-color);
-
   background: transparent;
   border: none;
+}
+
+::-webkit-calendar-picker-indicator {
+  color: transparent;
+  opacity: 1;
+  background:url();
+
+  background-size: contain;
+}
+
+
+.test {
+  position: relative;
+  appearance: none;
+  overflow: hidden;
+  background: url('../../img/arrow-yellow.png') no-repeat right;
+}
+
+
+
+
+
+
+.modal-order-room-container {
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 414px;
+    padding: 60px 30px;
+    height: 780px;
+    background: var(--light-background-color);
+    border-radius: 2px;
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform (var(--time-animation) var(--cubic-bezier));
+
 }
 
 .modal-order-room-mission {
@@ -127,15 +129,10 @@
   line-height: 1.21;
   letter-spacing: 0.02em;
   color: var(--brown-text-color);
+  padding-left: 12px;
 }
 
-.order-room-span {
-  margin-left: 12px;
-}
 
-.order-room-label {
-  margin-left: 12px;
-}
 
 .modal-order-room-label {
   display: block;
@@ -157,7 +154,9 @@
 
   color: #808080;
 }
-
+.non {
+  display: none;
+}
 .modal-order-room-btn {
   width: 100%;
   height: 64px;
@@ -170,6 +169,7 @@
   background: var(--background-button-color);
   border: 1px solid var(--akzent-yellow);
   border-radius: 2px;
+  margin-top: 20px;
 
   transition: background-color var(--time-animation) var(--cubic-bezier),
     color var(--time-animation) var(--cubic-bezier);
@@ -179,32 +179,45 @@
   color: var(--black-text-color);
   background: var(--yellow-hover);
 }
-
-@media screen and (min-width: 320px) and (max-width: 414px) {
-  .modal-order-room-container {
-    width: 100%;
-  }
+.modal-order-room-block {
+  
 }
 
-/* -----Mobile----- */
+
+
+
 @media screen and (min-width: 414px) {
-  .container-box-all {
-    max-width: 414px;
-  }
-  .modal-box {
-    width: 414px;
-    height: 780px;
-  }
+  .modal-order-room-container {
+      width: 414px;
+      top: 400px;
+    }
 }
+
+
 
 /* -----Tablet----- */
 @media screen and (min-width: 1024px) {
+
+  .modal-order-room-blocks-1-2 {
  
+  }
+ .modal-order-room-block {
+  display: flex;
+  column-gap: 16px;
+ }
+  
   .modal-order-room-container {
     min-width: 712px;
     height: 638px;
     padding: 60px 60px;
   }
+    .modal-order-room-blocks-1-2 {
+      display: flex;
+      column-gap: 16px;
+      flex-direction: column;
+    }
+    
+
   .modal-order-room-mission {
     font-size: 40px;
     line-height: 1.15;
@@ -233,6 +246,7 @@
 
   .modal-order-room-label {
     width: 288px;
+    display: block;
   }
 
   .modal-order-room-select,
@@ -249,4 +263,81 @@
   .modal-order-room-btn {
     font-style: 24px;
   }
+}
+
+
+
+@media screen and (min-width: 1280px) {
+  .modal-order-room-container {
+      min-width: 712px;
+      height: 638px;
+      padding: 60px 60px;
+    }
+  
+        .modal-order-room-blocks-1-2 {}
+    
+        .modal-order-room-block {
+          display: flex;
+          column-gap: 16px;
+        }
+    
+        .modal-order-room-container {
+          min-width: 712px;
+          height: 638px;
+          padding: 60px 60px;
+        }
+    
+        .modal-order-room-blocks-1-2 {
+          display: flex;
+          column-gap: 16px;
+          flex-direction: column;
+        }
+  
+  
+    .modal-order-room-mission {
+      font-size: 40px;
+      line-height: 1.15;
+    }
+  
+    .modal-wrapper-top-part {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+  
+    .modal-middle-part {
+      display: block;
+      margin-left: 304px;
+    }
+  
+    .modal-middle-part>.order-room-label {
+      margin-left: 12px;
+    }
+  
+    .modal-wrapper-bottom-part {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+  
+    .modal-order-room-label {
+      width: 288px;
+    }
+  
+    .modal-order-room-select,
+    .modal-order-room-input {
+      width: 288px;
+      height: 64px;
+    }
+  
+    .modal-order-room-select,
+    .modal-order-room-input::placeholder {
+      font-size: 24px;
+      line-height: 1.16;
+    }
+  
+    .modal-order-room-btn {
+      font-style: 24px;
+    }
+  
 }
