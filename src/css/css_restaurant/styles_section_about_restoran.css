@@ -3,7 +3,7 @@
 /* ===Mobile=== */
 .restaurant-page-home {
   padding-top: 16px;
-  padding-bottom: 22px;
+  padding-bottom: 72px;
   background-color: var(--light-background-color);
 }
 
@@ -36,7 +36,7 @@
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
-  margin-bottom: 17px;
+  margin-bottom: 32px;
 }
 
 .photo-restaurant-left {
@@ -69,28 +69,24 @@
 .slider-img-container {
   display: flex;
   gap: 25px;
-  margin-left: 54px;
+  margin-left: 69px;
   overflow: hidden;
-  padding: 15px 0 50px 15px;
-}
-
-.img-slider-mobile {
-  background: var(--shadow-background-color);
-  box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.25);
+  background: rgba(0, 0, 0, 0.14);
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
 }
 
 .restaurant-button-left {
   position: absolute;
-  bottom: -10px;
-  right: 81px;
+  bottom: -60px;
+  right: 82px;
   line-height: 0;
 }
 
 .restaurant-button-right {
   position: absolute;
-  bottom: -10px;
-  right: 18px;
+  bottom: -60px;
+  right: 14px;
   line-height: 0;
 }
 
@@ -104,7 +100,7 @@
   }
 
   .slider-img-container {
-    margin-right: -5%;
+    margin-right: -4%;
   }
 }
 
@@ -114,10 +110,10 @@
 @media screen and (min-width: 1024px) {
   .restaurant-page-home {
     padding-top: 120px;
-    padding-bottom: 46px;
+    padding-bottom: 82px;
   }
 
-  .container {
+  .restaurant-container {
     max-width: 1024px;
   }
 
@@ -128,7 +124,7 @@
 
   .text-container {
     flex-wrap: wrap;
-    margin-left: 47px;
+    margin-left: 32px;
   }
 
   .over-text {
@@ -154,7 +150,7 @@
 
   .image-text-container {
     position: relative;
-    margin-left: 47px;
+    margin-left: 32px;
     align-items: flex-start;
     margin-bottom: 0;
   }
@@ -171,10 +167,10 @@
 
   .slider-img-container {
     position: absolute;
-    max-width: 458px;
+    max-width: 428px;
     gap: 40px;
-    bottom: -20px;
-    right: 45px;
+    bottom: 30px;
+    right: 60px;
     margin-left: 0;
   }
 
@@ -201,12 +197,12 @@
     padding-bottom: 0px;
   }
 
-  .container {
+  .restaurant-container {
     max-width: 1280px;
   }
 
   .text-container {
-    margin-left: 85px;
+    margin-left: 70px;
   }
 
   .text-page-home {
@@ -227,13 +223,13 @@
   }
 
   .image-text-container {
-    margin-left: 85px;
+    margin-left: 70px;
   }
 
   .slider-img-container {
-    max-width: 578px;
-    bottom: 90px;
-    right: 65px;
+    max-width: 548px;
+    bottom: 128px;
+    right: 70px;
     margin-left: 0;
   }
 
@@ -243,12 +239,12 @@
 
   .restaurant-button-left {
     bottom: 60px;
-    right: 157px;
+    right: 142px;
   }
 
   .restaurant-button-right {
     bottom: 60px;
-    right: 93px;
+    right: 78px;
   }
 }
 
