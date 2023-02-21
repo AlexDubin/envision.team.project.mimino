@@ -5,7 +5,7 @@
     <div class="logo-img-container">
       <div class="text-container-logo">
         <p class="over-text">Amet minim mollit non</p>
-        <h3 class="logo-text">MIMIHO</h3>
+        <h3 class="logo-text text--turning" data-splitting="chars" data-animation="innerAnimated">MIMIHO</h3>
         <p class="text-page-home">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat duis enim velit mollit. Exercitation
@@ -30,13 +30,12 @@
           media="(min-width: 1024px)"
         />
 
-        <img
+        <img class="fadeInLeft photo-restaurant-right" data-animation="innerAnimated"
           srcset="
             ./img/restaurant/about_restaurant/mobile/mobilekitcheninterior2x.jpg 2x
           "
           src="./img/restaurant/about_restaurant/mobile/mobilekitcheninterior1x.jpg"
           alt="Кухонна плита і сковорідка"
-          class="photo-restaurant-right"
         />
       </picture>
     </div>
@@ -65,7 +64,7 @@
           "
           src="./img/restaurant/about_restaurant/mobile/mobilekitchenjacome1x.jpg"
           alt="Стейк"
-          class="photo-restaurant-left"
+          class="photo-restaurant-left fadeInRight" data-animation="innerAnimated"
         />
       </picture>
 
@@ -76,44 +75,38 @@
       </p>
     </div>
 
-    <!-- =========Slider========== -->
+    <div class="slider-img-container">
+      <picture class="slider-img">
+        <source
+          srcset="
+            ./img/restaurant/about_restaurant/desktop/desktopkitchenlopes2x.jpg 2x,
+            ./img/restaurant/about_restaurant/desktop/desktopkitchenlopes1x.jpg
+          "
+          media="(min-width: 1280px)"
+          class="img-slider-tablet"
+        />
 
-    <div class="slider-img-container swiper">
-      <ul class="list-slider-wrapper swiper-wrapper">
-        <li class="swiper-slide">
-          <picture class="slider-img">
-            <source
-              srcset="
-                ./img/restaurant/about_restaurant/desktop/desktopkitchenlopes2x.jpg 2x,
-                ./img/restaurant/about_restaurant/desktop/desktopkitchenlopes1x.jpg
-              "
-              media="(min-width: 1280px)"
-              class="img-slider-tablet"
-            />
+        <source
+          srcset="
+            ./img/restaurant/about_restaurant/tablet/tabletkitchenlopes2x.jpg 2x,
+            ./img/restaurant/about_restaurant/tablet/tabletkitchenlopes1x.jpg
+          "
+          media="(min-width: 1024px)"
+          class="img-slider-tablet"
+        />
 
-            <source
-              srcset="
-                ./img/restaurant/about_restaurant/tablet/tabletkitchenlopes2x.jpg 2x,
-                ./img/restaurant/about_restaurant/tablet/tabletkitchenlopes1x.jpg
-              "
-              media="(min-width: 1024px)"
-              class="img-slider-tablet"
-            />
+        <img
+          srcset="
+            ./img/restaurant/about_restaurant/mobile/mobilekitchenlopes2x.jpg 2x
+          "
+          src="./img/restaurant/about_restaurant/mobile/mobilekitchenlopes1x.jpg"
+          alt="Борошно на столі"
+          width="254"
+          class="img-slider-mobile"
+        />
+      </picture>
 
-            <img
-              srcset="
-                ./img/restaurant/about_restaurant/mobile/mobilekitchenlopes2x.jpg 2x
-              "
-              src="./img/restaurant/about_restaurant/mobile/mobilekitchenlopes1x.jpg"
-              alt="Борошно на столі"
-              width="254"
-              class="img-slider-mobile"
-            />
-          </picture>
-        </li>
-
-        <li class="swiper-slide">
-          <picture class="slider-img">
+      <picture class="slider-img">
         <source
           srcset="
             ./img/restaurant/about_restaurant/desktop/desktopkichenbrown2x.jpg 2x,
@@ -142,10 +135,8 @@
           class="img-slider-mobile"
         />
       </picture>
-        </li>
-      
-        <li class="swiper-slide">
-            <picture class="slider-img">
+
+      <picture class="slider-img">
         <source
           srcset="
             ./img/restaurant/about_restaurant/desktop/desktopkitcunsplash2x.jpg 2x,
@@ -174,84 +165,78 @@
           class="img-slider-mobile"
         />
       </picture>
-        </li>
-      
-        <li class="swiper-slide">
-          <picture class="slider-img">
-          <source
-            srcset="
-              ./img/restaurant/about_restaurant/desktop/desktopkitcunsplas2x.jpg 2x,
-              ./img/restaurant/about_restaurant/desktop/desktopkitcunsplas1x.jpg
-            "
-            media="(min-width: 1280px)"
-            class="img-slider-tablet"
-          />
 
-          <source
-            srcset="
-              ./img/restaurant/about_restaurant/tablet/tabletkitcunsplas2x.jpg 2x,
-              ./img/restaurant/about_restaurant/tablet/tabletkitcunsplas1x.jpg
-            "
-            media="(min-width: 1024px)"
-            class="img-slider-tablet"
-          />
+      <picture class="slider-img">
+        <source
+          srcset="
+            ./img/restaurant/about_restaurant/desktop/desktopkitcunsplas2x.jpg 2x,
+            ./img/restaurant/about_restaurant/desktop/desktopkitcunsplas1x.jpg
+          "
+          media="(min-width: 1280px)"
+          class="img-slider-tablet"
+        />
 
-          <img
-            srcset="
-              ./img/restaurant/about_restaurant/mobile/mobilekitcunsplas2x.jpg 2x
-            "
-            src="/img/restaurant/about_restaurant/mobile/mobilekitcunsplas1x.jpg"
-            alt="Кухонний стіл"
-            width="254"
-            class="img-slider-mobile"
-          />
-        </picture>
-        </li>
-      
-          <li class="swiper-slide">
-            <picture class="slider-img">
-           <source
-            srcset="
-              ./img/home_page/about_our_restaurant/desktop/desktoprestunsplash2x.jpg 2x,
-              ./img/home_page/about_our_restaurant/desktop/desktoprestunsplash1x.jpg
-            "
-            media="(min-width: 1280px)"
-            class="img-slider-tablet"
-           />
+        <source
+          srcset="
+            ./img/restaurant/about_restaurant/tablet/tabletkitcunsplas2x.jpg 2x,
+            ./img/restaurant/about_restaurant/tablet/tabletkitcunsplas1x.jpg
+          "
+          media="(min-width: 1024px)"
+          class="img-slider-tablet"
+        />
 
-           <source
-            srcset="
-              ./img/home_page/about_our_restaurant/tablet/tabletrestunsplash2x.jpg 2x,
-              ./img/home_page/about_our_restaurant/tablet/tabletrestunsplash1x.jpg
-            "
-            media="(min-width: 1024px)"
-            class="img-slider-tablet"
-           />
+        <img
+          srcset="
+            ./img/restaurant/about_restaurant/mobile/mobilekitcunsplas2x.jpg 2x
+          "
+          src="/img/restaurant/about_restaurant/mobile/mobilekitcunsplas1x.jpg"
+          alt="Кухонний стіл"
+          width="254"
+          class="img-slider-mobile"
+        />
+      </picture>
 
-           <img
-            srcset="
-              ./img/home_page/about_our_restaurant/mobile/mobilerestunsplash2x.jpg 2x
-            "
-            src="./img/home_page/about_our_restaurant/mobile/mobilerestunsplash1x.jpg"
-            alt="Чашки і тарілки на столі"
-            width="254"
-            class="img-slider-mobile"
-           />
-          </picture>
-          </li> 
-          
-            <div class="restaurant-button-left">
-              <svg class="restaurant-icon-arrow" width="32" height="32">
-                <use href="./img/icons.svg#icon-arrow-left"></use>
-              </svg>
-            </div>
+      <picture class="slider-img">
+        <source
+          srcset="
+            ./img/home_page/about_our_restaurant/desktop/desktoprestunsplash2x.jpg 2x,
+            ./img/home_page/about_our_restaurant/desktop/desktoprestunsplash1x.jpg
+          "
+          media="(min-width: 1280px)"
+          class="img-slider-tablet"
+        />
 
-            <div class="restaurant-button-right">
-              <svg class="restaurant-icon-arrow" width="32" height="32">
-                <use href="./img/icons.svg#icon-arrow-right"></use>
-              </svg>
-           </div>
+        <source
+          srcset="
+            ./img/home_page/about_our_restaurant/tablet/tabletrestunsplash2x.jpg 2x,
+            ./img/home_page/about_our_restaurant/tablet/tabletrestunsplash1x.jpg
+          "
+          media="(min-width: 1024px)"
+          class="img-slider-tablet"
+        />
 
+        <img
+          srcset="
+            ./img/home_page/about_our_restaurant/mobile/mobilerestunsplash2x.jpg 2x
+          "
+          src="./img/home_page/about_our_restaurant/mobile/mobilerestunsplash1x.jpg"
+          alt="Чашки і тарілки на столі"
+          width="254"
+          class="img-slider-mobile"
+        />
+      </picture>
+    </div>
+
+    <div class="restaurant-button-left">
+      <svg class="restaurant-icon-arrow" width="32" height="32">
+        <use href="./img/icons.svg#icon-arrow-left"></use>
+      </svg>
+    </div>
+
+    <div class="restaurant-button-right">
+      <svg class="restaurant-icon-arrow" width="32" height="32">
+        <use href="./img/icons.svg#icon-arrow-right"></use>
+      </svg>
     </div>
   </div>
 </section>
