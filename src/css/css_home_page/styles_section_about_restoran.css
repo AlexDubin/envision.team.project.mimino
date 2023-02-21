@@ -76,6 +76,10 @@
   border-radius: 2px;
 }
 
+.img-slider-mobile {
+ border-radius: 2px; 
+}
+
 .restaurant-button-left {
   position: absolute;
   bottom: -60px;
@@ -102,6 +106,10 @@
   .slider-img-container {
     margin-right: -4%;
   }
+
+  .list-slider-wrapper {
+margin-left: auto;
+}
 }
 
 /* ===/Mobile=== */
