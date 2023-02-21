@@ -478,7 +478,7 @@ iframe {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 32px;
+  margin-top: 16px;
   }
   .rest-tels-cont {
   background-color: var(--hero-text-color);
@@ -602,7 +602,6 @@ iframe {
 
 @media (min-width: 1024px) and (max-width: 1280px) {
   .map-container {
-    max-width: 1024px;
     display: flex;
     flex-direction: column;
     justify-content: center;
