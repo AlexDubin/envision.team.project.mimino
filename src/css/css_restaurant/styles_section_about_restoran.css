@@ -67,6 +67,7 @@
 }
 
 .slider-img-container {
+  position: initial;
   display: flex;
   gap: 25px;
   overflow: hidden;
@@ -81,15 +82,11 @@
 
 .restaurant-button-left {
   position: absolute;
-  bottom: -60px;
-  right: 82px;
   line-height: 0;
 }
 
 .restaurant-button-right {
   position: absolute;
-  bottom: -60px;
-  right: 14px;
   line-height: 0;
 }
 
@@ -179,15 +176,6 @@
     max-width: 194px;
   }
 
-  .restaurant-button-left {
-    bottom: -35px;
-    right: 124px;
-  }
-
-  .restaurant-button-right {
-    bottom: -35px;
-    right: 62px;
-  }
 }
 
 /* ===/Tablet=== */
@@ -226,15 +214,6 @@
     max-width: 254px;
   }
 
-  .restaurant-button-left {
-    bottom: 60px;
-    right: 142px;
-  }
-
-  .restaurant-button-right {
-    bottom: 60px;
-    right: 78px;
-  }
 }
 
 /* ===/Desktop=== */
