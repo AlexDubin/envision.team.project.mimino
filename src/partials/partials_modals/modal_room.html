@@ -24,11 +24,11 @@
 
       <div class="modal-order-room-blocks-1-2">
         <!--- имя дата заезда----->
-        <div class="modal-order-room-block-1">
+        <div class="modal-order-room-block">
           <label class="modal-order-room-label label-top-part">
             <input
               type="text"
-              class="modal-order-room-select modal-border test"
+              class="modal-order-room-select modal-border"
               name="user_name"
               required
               pattern="^[a-zA-Zа-яА-Я]+$"
@@ -40,7 +40,7 @@
             >
           </label>
 
-          <label class="modal-order-room-label is-hidden">
+          <label class="modal-order-room-label">
             <input
               type="tel"
               class="modal-order-room-input modal-border"
@@ -53,51 +53,48 @@
           </label>
         </div>
 
-        <div class="modal-order-room-kateg">
-          <select
-            class="modal-order-room-select modal-border test"
-            id="select"
-            name="select"
-          >
-            <option value="value1" selected>Двомісний Люкс</option>
-            <option value="value2">Двомісний</option>
-            <option value="value3">Трьохмісний</option>
-          </select>
-          <label class="modal-order-room-label" for="select">
+        <div class="modal-order-room-block-4">
+          <label class="modal-order-room-label" for="select"
+            ><select
+              class="modal-order-room-select modal-border test"
+              id="select"
+              name="select"
+            >
+              <option value="value1" selected>Двомісний Люкс</option>
+              <option value="value2">Двомісний</option>
+              <option value="value3">Трьохмісний</option>
+            </select>
             <span class="modal-order-room-text">Категорія номеру</span>
           </label>
         </div>
 
-        <div class="modal-order-room-block-3">
-          <input
-            class="modal-order-room-select modal-border test"
-            type="date"
-            id="start"
-            name="trip-start"
-            placeholder="Сьогодні"
-            value=""
-            min="2023-20-02"
-            max="2023-12-31"
-          />
+        <div class="modal-order-room-block">
+          <label class="modal-order-room-label" for="start"
+            ><input
+              class="modal-order-room-select modal-border test"
+              type="date"
+              id="start"
+              name="trip-start"
+             
+              min="2023-20-02"
+              max="2023-12-31"
+            />
 
-          <label class="modal-order-room-label" for="start">
             <span class="modal-order-room-text">Дата заїзду</span></label
           >
 
           <!--- кол-во и дата ---->
-
-          <input
-            class="modal-order-room-select modal-border test"
-            type="date"
-            id="start"
-            name="trip-start"
-            placeholder="Сьогодні"
-            value=""
-            min="2023-20-02"
-            max="2023-12-31"
-          />
-
           <label class="modal-order-room-label" for="start">
+            <input
+              class="modal-order-room-select modal-border test"
+              type="date"
+              id="start"
+              name="trip-start"
+              
+              min="2023-20-02"
+              max="2023-12-31"
+            />
+
             <span class="modal-order-room-text">Дата виїзду</span></label
           >
         </div>

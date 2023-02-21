@@ -65,6 +65,22 @@
   border: none;
 }
 
+::-webkit-calendar-picker-indicator {
+  color: transparent;
+  opacity: 1;
+  background:url();
+
+  background-size: contain;
+}
+
+
+.test {
+  position: relative;
+  appearance: none;
+  overflow: hidden;
+  background: url('../../img/arrow-yellow.png') no-repeat right;
+}
+
 
 
 
@@ -138,7 +154,9 @@
 
   color: #808080;
 }
-
+.non {
+  display: none;
+}
 .modal-order-room-btn {
   width: 100%;
   height: 64px;
@@ -161,6 +179,10 @@
   color: var(--black-text-color);
   background: var(--yellow-hover);
 }
+.modal-order-room-block {
+  
+}
+
 
 
 
@@ -175,7 +197,15 @@
 
 /* -----Tablet----- */
 @media screen and (min-width: 1024px) {
+
+  .modal-order-room-blocks-1-2 {
  
+  }
+ .modal-order-room-block {
+  display: flex;
+  column-gap: 16px;
+ }
+  
   .modal-order-room-container {
     min-width: 712px;
     height: 638px;
@@ -184,9 +214,9 @@
     .modal-order-room-blocks-1-2 {
       display: flex;
       column-gap: 16px;
+      flex-direction: column;
     }
-
-
+    
 
   .modal-order-room-mission {
     font-size: 40px;
@@ -216,6 +246,7 @@
 
   .modal-order-room-label {
     width: 288px;
+    display: block;
   }
 
   .modal-order-room-select,
@@ -243,11 +274,24 @@
       padding: 60px 60px;
     }
   
-    .modal-order-room-blocks-1-2 {
-      display: flex;
-      column-gap: 16px;
-    }
-  
+        .modal-order-room-blocks-1-2 {}
+    
+        .modal-order-room-block {
+          display: flex;
+          column-gap: 16px;
+        }
+    
+        .modal-order-room-container {
+          min-width: 712px;
+          height: 638px;
+          padding: 60px 60px;
+        }
+    
+        .modal-order-room-blocks-1-2 {
+          display: flex;
+          column-gap: 16px;
+          flex-direction: column;
+        }
   
   
     .modal-order-room-mission {

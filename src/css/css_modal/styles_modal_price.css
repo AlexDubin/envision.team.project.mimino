@@ -121,6 +121,7 @@
     padding-left: 15px;
     padding-top: 13px;
     padding-bottom: 15px;
+    background-color: var(--light-background-color);
 }
 
 .label-category:nth-child(3) {
@@ -164,8 +165,11 @@
 }
 
 
+
 /* Tab */
 @media screen and (min-width: 1024px) {
+   
+
     .label-category {
         width: calc((100%-16px)/2);
         margin-bottom: 0;
