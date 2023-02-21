@@ -1,7 +1,8 @@
 
-/* Стили для подложки */
+/* Стили для подложки
+
 .overlay {
-    opacity: 1;
+    /* opacity: 1;
     visibility: hidden;
     position: fixed;
     top: 0;
@@ -10,7 +11,7 @@
     height: 100%;
     background: rgba(46, 47, 66, 0.4);
     z-index: 20;
-    transition: 0.3s all;
+    transition: 0.3s all; 
 }
 
 .modal {
@@ -31,36 +32,43 @@
     background: rgba(46, 47, 66, 0.4);
 }
 
+ .modal.active,
+ .overlay.active {
+     opacity: 1;
+     visibility: visible;
+ } 
+ .close-btn-modal {
+     position: absolute;
+     top: 16px;
+     right: 16px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 18px;
+     height: 18px;
+     padding: 0;
+     stroke: var(--black-text-color);
+     background: transparent;
+     border: none;
+ }
+ 
+ */
+
+
 
 .modal-order-table-container {
     position: absolute;
-   
+    top: 50%;
     left: 50%;
     width: 414px;
     padding: 60px 30px;
-    height: 680px;
+    height: 780px;
     background: var(--light-background-color);
     border-radius: 2px;
-    top: 400px;
-
     transform: translate(-50%, -50%) scale(1);
     transition: transform (var(--time-animation) var(--cubic-bezier));
 }
 
-.close-btn-modal {
-    position: absolute;
-    top: 16px;
-    right: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 18px;
-    height: 18px;
-    padding: 0;
-    stroke: var(--black-text-color);
-    background: transparent;
-    border: none;
-}
 
 .modal-order-table-mission {
     font-family: 'Times New Roman';
@@ -144,7 +152,12 @@
 
 
 /* -----Mobile----- */
-
+@media screen and (min-width: 414px) {
+    .modal-order-table-container {
+        width: 414px;
+        top: 400px;
+    }
+}
 
 /* -----Tablet----- */
 @media screen and (min-width: 1024px) {
