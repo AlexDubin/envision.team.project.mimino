@@ -849,9 +849,9 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.21;
 letter-spacing: 0.02em;
+}
 
-
-  .adress-cont {
+.adress-cont {
     font-family: 'Montserrat';
     font-weight: 400;
     font-size: 16px;
@@ -1164,4 +1164,5 @@ letter-spacing: 0.02em;
     width: 100%;
     height: 412px;
   }
+}
 }
