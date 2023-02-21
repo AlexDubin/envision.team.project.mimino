@@ -15,7 +15,7 @@ let swiper = new Swiper('.swiper', {
   // Optional parameters
 
   direction: 'horizontal',
-  
+   
   slidesPerView: 1.3,
   spaceBetween: 20,
   inverse: true,
