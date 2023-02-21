@@ -199,9 +199,7 @@
 
 /* -----Tablet----- */
 @media screen and (min-width: 1024px) {
-  .container {
-    width: 1024px;
-  }
+ 
   .modal-order-room-container {
     min-width: 712px;
     height: 638px;
