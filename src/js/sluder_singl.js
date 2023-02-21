@@ -3,11 +3,12 @@ let swiper = new Swiper('.swiper-singl', {
 
   direction: 'horizontal',
 
-  slidesPerView: 1.3,
-  
+   slidesPerView: 1,
 
-  inverse: true,
-  loop: true,
+
+
+   inverse: true,
+   loop: true,
 
   // Navigation arrows
 
