@@ -64,74 +64,17 @@
   margin-bottom: 32px;
   box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
 }
-
-
-
   
   /*-------------- Slider ------------*/
 
-    
-  .triple-hotel-swiper {
-    margin-left: 115px;
-    margin-right: -15px;
-    width: 285px;
-    margin-bottom: 72px;
-    position: initial;
-}
-
-.triple-wraper {
-  column-gap: 16px;
-}
-    
   @media screen and (min-width: 1024px) {
-    .triple-united {
-      display: flex;
-      flex-direction: row-reverse;
-      justify-content: space-between;
-      align-items: center;
     
-      margin-right: 5px;
-      margin-left: 5px;
-    }
-    
-    .triple-hotel-swiper {
-      width: 428px;
-      height: 194px;
-      margin-bottom: 0;
-      margin-left: 0;
-    }
-    
-    .triple-wraper {
-      column-gap: 40px;
-    }
-    }
+  }
     
     @media screen and (min-width: 1280px) {
-      .triple-hotel-swiper {
-          width: 548px;
-          height: 254px;
-      }
+      
     }
     
-  .triple-slide {
-    max-width: 194px;
-    /* box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25); */
-    border-radius: 2px;
-}
-
-.swiper-button-prev::after,
-.swiper-button-next::after {
-  display: none;
-}
-
-.triple-pbtn {
-
-}
-
-.triple-nbtn {
-
-}
-
 
   /*--------------END Slider ------------*/
   
