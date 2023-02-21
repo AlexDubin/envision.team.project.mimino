@@ -20,7 +20,7 @@ let swiper = new Swiper('.swiper-triple', {
     // when window width is <= 1024px
     1024: {
       slidesPerView: 3,
-      spaceBetweenSlides: 40,
+      spaceBetweenSlides: 50,
     },
   },
 });

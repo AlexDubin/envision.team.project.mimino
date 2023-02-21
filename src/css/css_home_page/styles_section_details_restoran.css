@@ -97,17 +97,7 @@
 	margin-bottom: 16px;
 }
 
-.swiper-button-prev{
-	top: 274px;
-	left: -3px;
-	fill: #FFFFFF;
-}
 
-.swiper-button-next{
-	right: 161px;
-	top: 274px;
-	fill: #FFFFFF;
-}
 
 
 .swiper-button-prev::after,
