@@ -56,18 +56,7 @@
 
 
 
-.modal-order-table-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 414px;
-    padding: 60px 30px;
-    height: 780px;
-    background: var(--light-background-color);
-    border-radius: 2px;
-    transform: translate(-50%, -50%) scale(1);
-    transition: transform (var(--time-animation) var(--cubic-bezier));
-}
+
 
 
 .modal-order-table-mission {
@@ -149,15 +138,37 @@
     background: var(--yellow-hover);
 }
 
+.modal-order-table-container {
+    padding: 60px 30px;
+    }
+
+
 
 
 /* -----Mobile----- */
-@media screen and (min-width: 414px) {
+
+
+@media screen and (min-width: 320px) and (max-width: 413px) {
     .modal-order-table-container {
-        width: 414px;
-        top: 400px;
+        width: 95%;
+        padding: 60px 30px;
+        height: 780px;
+
+
     }
 }
+
+@media screen and (min-width: 414px) and (max-width: 1023px) {
+    .modal-order-table-container {
+        width: 414px;
+        padding: 60px 30px;
+        height: 780px;
+
+
+    }
+}
+
+
 
 /* -----Tablet----- */
 @media screen and (min-width: 1024px) {
@@ -169,8 +180,9 @@
 
     .modal-order-table-container {
         width: 712px;
-        padding: 60px 60px;
-        height: 522px;
+            padding-left: 60px;
+            padding-right: 60px;
+            top: 50%;
     }
     .modal-order-table-mission {
         font-size: 40px;
@@ -219,7 +231,9 @@
 
     .modal-order-table-container {
         width: 712px;
-        padding: 60px 60px;
+        padding-left: 60px ;
+        padding-right: 60px;
+        top: 50%;
     }
     .modal-order-table-mission {
             font-size: 40px;
