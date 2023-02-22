@@ -321,11 +321,17 @@
     /* left: 750px;
     right: auto;
     top: 311px; */
+
+    top: 554px;
+    left: 829px;
   }
 
   .datails-hotel-swiper-btn-next {
     /* left: 850px;
     right: auto;
     top: 311px; */
+    top: 554px;
+    right: 333px;
+    
   }
 }
