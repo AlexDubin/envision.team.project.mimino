@@ -43,6 +43,8 @@
       border-radius: 2px;
       background-color: var(--light-background-color);
   transition: var(--cubic-bezier) var(--time-animation);
+  overflow-y: auto;
+   max-height: 100vh;
  
   
 } 
