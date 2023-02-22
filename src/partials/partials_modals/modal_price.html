@@ -1,5 +1,5 @@
-<div class="modal" data-modal="3">
-  <div class="modal-price">
+<div class="modal modal-price" data-modal="3">
+  
     <button class="close-btn-modal js-modal-close">
       <svg class="modal-price-svg" width="18" height="18">
         <use href="./img/icons.svg#icon-close"></use>
@@ -22,7 +22,7 @@
       <div class="modal-price-flex">
         <label class="label-category" for="night">
           <select class="input-night test" name="night" id="night">
-            <option disabled selected>1</option>
+            <option selected>1</option>
             <option value="2">2</option>
             <option value="3">3</option>
           </select>
@@ -30,20 +30,19 @@
           Кількість ночей</span>
         </label>
 
-        <label class="label-category">
-          <input
-            class="input-night"
-            type="text"
-            name="night"
-            placeholder="1000"
-          />
+        <label class="label-category" for="cost">
+          <select class="input-night tick" name="cost" id="cost">
+            <option selected>1000</option>
+            <option value="2">2000</option>
+            <option value="3">3000</option>
+          </select>
           <span class="label-category-text-2">
-          Вартість, грн.
-        </span>
+          Вартість, грн.</span>
         </label>
       </div>
 
       <button class="modal-submit-btn" type="submit">ЗАБРОНЮВАТИ НОМЕР</button>
     </form>
-  </div>
+
 </div>
+<div class="overlay" id="js-overlay-modal"></div>
