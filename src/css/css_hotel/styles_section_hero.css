@@ -56,11 +56,9 @@ address {
   color: var(--hero-text-color);
   margin-bottom: 24px;
   display: block;
-   margin-right: -14px;
+  margin-right: -14px;
   margin-left: auto;
 }
-
-
 
 .hero-aftertitle {
   font-weight: 600;
@@ -129,16 +127,24 @@ address {
   gap: 20px;
 }
 
-.hero-soc-item {
-}
-.hero-soc-link {
-}
-.hero-soc-icon {
-}
 @media screen and (min-width: 414px) {
-  
+  .hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../../img/hotel/hero/room-tablet.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-section {
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)
+        ),
+        url(../../img/hotel/hero/room-tablet-2x.jpg);
+    }
+  }
   .hero-title {
-        width: 332px;
+    width: 332px;
     margin-right: -14px;
     letter-spacing: 0.2em;
   }
@@ -152,10 +158,10 @@ address {
     padding-top: 188px;
     padding-bottom: 15px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-      url(../../img/hotel/hero/room-tablet.jpg);
-    background-repeat: no-repeat;
+      url(../../img/hotel/hero/room-desktop.jpg);
+    /* background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -165,7 +171,7 @@ address {
           rgba(0, 0, 0, 0.65),
           rgba(0, 0, 0, 0.65)
         ),
-        url(../../img/hotel/hero/room-tablet-2x.jpg);
+        url(../../img/hotel/hero/room-desktop-2x.jpg);
     }
   }
   .price-btn {
@@ -208,7 +214,7 @@ address {
     margin-right: 10px;
     margin-left: 10px;
   }
- .hero-title {
+  .hero-title {
     width: 445px;
     font-size: 128px;
     line-height: calc(138 / 128);
@@ -229,12 +235,11 @@ address {
     line-height: calc(41 / 36);
     margin-bottom: 137px;
   }
-    .hero-section .title-wrapper {
+  .hero-section .title-wrapper {
     margin-right: -40px;
   }
 }
 @media screen and (min-width: 1280px) {
-  
   .hero-soc-list {
     display: none;
   }
@@ -244,13 +249,13 @@ address {
     margin-right: auto;
     padding-top: 164px;
     padding-bottom: 65px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url(../../img/hotel/hero/room-desktop.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
   }
-  @media (min-device-pixel-ratio: 2),
+  /* @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero-section {
@@ -260,7 +265,7 @@ address {
         ),
         url(../../img/hotel/hero/room-desktop-2x.jpg);
     }
-  }
+  } */
   .hero-title {
     margin-bottom: 32px;
   }
