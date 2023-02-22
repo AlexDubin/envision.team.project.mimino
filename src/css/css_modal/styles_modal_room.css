@@ -12,7 +12,6 @@
   z-index: 20;
   transition: var(--cubic-bezier) var(--time-animation);
   background: rgba(46, 47, 66, 0.4);
-  overflow: scroll;
 }
 
 .modal {
@@ -28,7 +27,7 @@
   padding: 30px;
   border-radius: 3px;
   transition: var(--cubic-bezier) var(--time-animation);;
-  
+  overflow: scroll;
 } 
 
 /* Стили для активных классов подложки и окна */
@@ -83,13 +82,8 @@
   background-position-x: 97%;
 }
 
-
-
-
-
-
 .modal-order-room-container {
-  position: absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
     width: 414px;
@@ -133,8 +127,6 @@
   color: var(--brown-text-color);
   padding-left: 12px;
 }
-
-
 
 .modal-order-room-label {
   display: block;
@@ -181,35 +173,23 @@
   color: var(--black-text-color);
   background: var(--yellow-hover);
 }
-.modal-order-room-block {
-  
-}
 
-
-
-
+/* -----Mobile----- */
 @media screen and (min-width: 414px) {
   .modal-order-room-container {
       width: 414px;
-      top: 400px;
-    }
+  }
 }
-
-
 
 /* -----Tablet----- */
 @media screen and (min-width: 1024px) {
-
-  .modal-order-room-blocks-1-2 {
- 
+  .modal-order-room-block {
+    display: flex;
+    column-gap: 16px;
   }
- .modal-order-room-block {
-  display: flex;
-  column-gap: 16px;
- }
   
   .modal-order-room-container {
-    min-width: 712px;
+    width: 712px;
     height: 638px;
     padding: 60px 60px;
   }
@@ -271,7 +251,7 @@
 
 @media screen and (min-width: 1280px) {
   .modal-order-room-container {
-      min-width: 712px;
+      width: 712px;
       height: 638px;
       padding: 60px 60px;
     }
@@ -284,7 +264,7 @@
         }
     
         .modal-order-room-container {
-          min-width: 712px;
+          width: 712px;
           height: 638px;
           padding: 60px 60px;
         }
