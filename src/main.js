@@ -2,6 +2,8 @@
 
 import './js/animate';
 
+import './js/to_top_btn'
+
 // JS Slider
 
 import './js/slider_double';
