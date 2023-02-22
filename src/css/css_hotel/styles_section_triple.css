@@ -27,8 +27,6 @@
   text-align: right;
 }
   
-
-  
 .triple-about {
   margin-left: 81px;
   margin-bottom: 32px;
@@ -56,10 +54,10 @@
   text-align: left;
 }
   
-.triple-slider-img
-{
+.triple-slider-img {
   width: 194px;
   height: 194px;
+  box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.25);
 }
 
 .triple-img {
@@ -67,10 +65,10 @@
   max-width: 244px;
   background-color: var(--hero-text-color);
   margin-bottom: 32px;
-  box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
 }
 .hotel-triple-swiper {
-   width: 300px;
+    width: 300px;
     padding-bottom: 52px;
     margin-right: 0;
     margin-bottom: 20px;
@@ -92,7 +90,6 @@
   top: auto;
   left: 220px;
   bottom: 0;
- 
 }
 
 
@@ -194,6 +191,7 @@
     margin-left: 70px;
     margin-bottom: 48px;
   }
+  
      .hotel-triple-swiper {
        width: 439px;
        padding-bottom: 62px;
@@ -226,7 +224,6 @@
 @media screen and (min-width: 1280px) {
 
   .triple-united {
-   
       display: flex;
       justify-content: space-between;
       flex-direction: row-reverse;
@@ -236,12 +233,13 @@
       padding-top: 72px;
       padding-bottom: 112px;
     }
+
   .triple-logo {
     margin-bottom: 72px;
+    margin-right: 40px;
   }
   
-  .triple-text,
-  .triple-logo {
+  .triple-text {
     margin-right: 57px;
   }
 
