@@ -181,13 +181,13 @@
     .restaurant-button-left {
       position: absolute;
       top: 1059px;
-      left: 483px;
+      left: 825px;
     }
   
     .restaurant-button-right {
       position: absolute;
         top: 1059px;
-        left: 537px;
+        left: 881px;;
       
     }
   
@@ -232,14 +232,13 @@
     .restaurant-button-left {
       position: absolute;
       top: 1096px;
-      left: 574px;
+        left: 1030px;
     }
   
     .restaurant-button-right {
       position: absolute;
       top: 1096px;
-       
-        left: 633px;
+        left: 1095px;
     }
 
 }
