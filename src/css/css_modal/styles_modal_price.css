@@ -31,25 +31,25 @@
     background: rgba(46, 47, 66, 0.4);
 }
 
- .modal.active,
- .overlay.active {
-     opacity: 1;
-     visibility: visible;
- } 
- .close-btn-modal {
-     position: absolute;
-     top: 16px;
-     right: 16px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     width: 18px;
-     height: 18px;
-     padding: 0;
-     stroke: var(--black-text-color);
-     background: transparent;
-     border: none;
- }
+.modal.active,
+.overlay.active {
+    opacity: 1;
+    visibility: visible;
+} 
+.close-btn-modal {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    padding: 0;
+    stroke: var(--black-text-color);
+    background: transparent;
+    border: none;
+}
  */
 
 .modal-price {
