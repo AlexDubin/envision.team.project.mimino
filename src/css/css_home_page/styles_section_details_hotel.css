@@ -95,7 +95,7 @@
   fill: var(--hero-text-color);
   height: 46px;
     width: 46px;
-    top: 70%;
+    top: 517px;
     left: 60%;
 }
 
@@ -106,7 +106,7 @@
   fill: var(--hero-text-color);
   height: 46px;
     width: 46px;
-    top: 70%;
+    top: 517px;
     right: 5%;
 }
 
@@ -246,16 +246,27 @@
     height: 336px;
   }
 
+  .swiper-wrapper-details-hotel {
+    column-gap: 30px;
+    padding-left: 18px;
+}
+
   .datails-hotel-swiper-btn-prev {
     /* left: 500px;
     right: auto;
     top: 311px; */
+
+        top: 454px;
+    left: 523px;
   }
 
   .datails-hotel-swiper-btn-next {
     /* left: 600px;
     right: auto;
     top: 311px; */
+      top: 454px;
+    
+    right: 338px;
   }
 
   .details-hotel-btn-wrap {
@@ -303,7 +314,7 @@
   }
 
   .details-hotel-swiper {
-    width: 875px;
+    max-width: 875px;
     height: 336px;
   }
 
@@ -311,11 +322,18 @@
     /* left: 750px;
     right: auto;
     top: 311px; */
+
+    top: 512px;
+   
+    left: 748px;
   }
 
   .datails-hotel-swiper-btn-next {
     /* left: 850px;
     right: auto;
     top: 311px; */
+    top: 512px;
+    right: 266px;
+    
   }
 }
