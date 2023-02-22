@@ -1,4 +1,5 @@
 .details-hotel {
+  position: relative;
   padding-top: 24px;
   padding-bottom: 40px;
   width: 100%;
@@ -40,7 +41,7 @@
 }
 
 .details-hotel-mimino {
-  width: 127px;
+  width: 139px;
   font-family: 'Film P3';
   font-weight: 700;
   font-size: 40px;
@@ -75,8 +76,15 @@
 }
 
 .details-hotel-swiper {
-  width: 384px;
+  max-width: 384px;
+  margin-left: -15px;
   /* height: 390px; */
+
+  position: initial;
+}
+
+.swiper-wrapper-details-hotel {
+      padding-left: 96px;
 }
 
 .datails-hotel-swiper-btn-prev {
@@ -85,6 +93,10 @@
   top: 458px; */
 
   fill: var(--hero-text-color);
+  height: 46px;
+    width: 46px;
+    top: 70%;
+    left: 60%;
 }
 
 .datails-hotel-swiper-btn-next {
@@ -92,6 +104,10 @@
   right: auto;
   top: 40px; */
   fill: var(--hero-text-color);
+  height: 46px;
+    width: 46px;
+    top: 70%;
+    right: 5%;
 }
 
 .details-hotel-btn-wrap {
@@ -104,8 +120,10 @@
 .details-hotel-link-btn {
   display: inline-block;
   text-decoration: none;
+  font-weight: 700;
 }
 .details-hotel-btn {
+  font-weight: 700;
   margin-bottom: 16px;
   padding-top: 14px;
   padding-bottom: 14px;
