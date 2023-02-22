@@ -405,12 +405,20 @@
     margin-right: auto;
     margin-bottom: 8px;
   }
+
+  .title-wrap-container-text {
+	width: 549px;
+    margin-left: 278px;
+    margin-right: auto;
+    margin-bottom: 8px;
+  }
   .details-rastaurant-mimino {
-    text-align: end;
+    
     width: 222px;
     font-size: 64px;
     margin-bottom: 16px;
-    margin-left: auto;
+    
+	
   }
   .details-rastaurant {
     padding-top: 48px;
@@ -445,10 +453,11 @@
   }
 
   .details-rastaurant-content {
-    width: 549px;
+    
+	margin-left: 278px;
+    margin-bottom: 40px;
     font-size: 16px;
-    margin-left: auto;
-    margin-right: auto;
+    min-width: 610px;
   }
 
   .details-rastaurant-bottom {
