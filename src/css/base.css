@@ -247,3 +247,7 @@ main {
 .to-top-btn.show-btn {
   opacity: 1;
 }
+
+.to-top-btn.remove-btn {
+  opacity: 0;
+}

@@ -3,9 +3,11 @@ const button = document.getElementById('scrollToTopBtn');
 const displayButton = () => {
   window.addEventListener('scroll', () => {  
     if (window.scrollY > 100) {
-      button.classList.add('show-btn');
-    } else {
-      button.classList.add('remove-btn');
+        button.classList.add('show-btn');
+        button.classList.remove('remove-btn');
+    } else if (window.scrollY === 0) {
+        button.classList.remove('show-btn');
+        button.classList.add('remove-btn');
     }
   });
 };
