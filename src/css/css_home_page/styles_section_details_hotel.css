@@ -246,6 +246,11 @@
     height: 336px;
   }
 
+  .swiper-wrapper-details-hotel {
+    column-gap: 30px;
+    padding-left: 18px;
+}
+
   .datails-hotel-swiper-btn-prev {
     /* left: 500px;
     right: auto;

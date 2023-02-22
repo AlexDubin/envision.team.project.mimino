@@ -412,6 +412,11 @@
     margin-right: auto;
     margin-bottom: 8px;
   }
+
+  .swiper-wrapper-details-rastaurant {
+    column-gap: 30px;
+    padding-left: 18px;
+}
   .details-rastaurant-mimino {
     
     width: 222px;
@@ -494,6 +499,7 @@
     display: flex;
     gap: 32px;
     height: 270px;
+	    flex-direction: row-reverse;
   }
 }
 
