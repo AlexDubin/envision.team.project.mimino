@@ -209,11 +209,13 @@ address {
     margin-right: 10px;
     margin-left: 10px;
   }
-  .hero-title {
+ .hero-title {
     width: 445px;
     font-size: 128px;
     line-height: calc(138 / 128);
     margin-bottom: 16px;
+    text-align: center;
+    margin-right: auto;
   }
   .hero-section .title-wrapper {
     margin-right: -40px;
