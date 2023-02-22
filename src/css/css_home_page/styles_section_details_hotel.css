@@ -255,12 +255,17 @@
     /* left: 500px;
     right: auto;
     top: 311px; */
+
+        top: 491px;
+    left: 579px;
   }
 
   .datails-hotel-swiper-btn-next {
     /* left: 600px;
     right: auto;
     top: 311px; */
+        top: 491px;
+    right: 389px;
   }
 
   .details-hotel-btn-wrap {
