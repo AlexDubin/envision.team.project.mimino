@@ -32,26 +32,26 @@
     background: rgba(46, 47, 66, 0.4);
 }
 
- .modal.active,
- .overlay.active {
-     opacity: 1;
-     visibility: visible;
- } 
- .close-btn-modal {
-     position: absolute;
-     top: 16px;
-     right: 16px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     width: 18px;
-     height: 18px;
-     padding: 0;
-     stroke: var(--black-text-color);
-     background: transparent;
-     border: none;
- }
- 
+.modal.active,
+.overlay.active {
+    opacity: 1;
+    visibility: visible;
+} 
+.close-btn-modal {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    padding: 0;
+    stroke: var(--black-text-color);
+    background: transparent;
+    border: none;
+}
+
  */
 
 
@@ -155,16 +155,15 @@
 @media screen and (min-width: 414px) {
     .modal-order-table-container {
         width: 414px;
-        top: 400px;
     }
 }
 
 /* -----Tablet----- */
 @media screen and (min-width: 1024px) {
-   .modal-order-table-blocks-1-2 {
-    display: flex;
-    justify-content: space-between;
-   }
+    .modal-order-table-blocks-1-2 {
+        display: flex;
+        justify-content: space-between;
+    }
 
 
     .modal-order-table-container {

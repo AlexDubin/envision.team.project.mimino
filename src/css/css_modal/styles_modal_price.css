@@ -31,25 +31,25 @@
     background: rgba(46, 47, 66, 0.4);
 }
 
- .modal.active,
- .overlay.active {
-     opacity: 1;
-     visibility: visible;
- } 
- .close-btn-modal {
-     position: absolute;
-     top: 16px;
-     right: 16px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     width: 18px;
-     height: 18px;
-     padding: 0;
-     stroke: var(--black-text-color);
-     background: transparent;
-     border: none;
- }
+.modal.active,
+.overlay.active {
+    opacity: 1;
+    visibility: visible;
+} 
+.close-btn-modal {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    padding: 0;
+    stroke: var(--black-text-color);
+    background: transparent;
+    border: none;
+}
  */
 
 .modal-price {
@@ -65,8 +65,8 @@
     transition: transform var(--time-animation) var(--cubic-bezier);
 }
 
-.modal-price-category {
-    margin-bottom: 28px;
+.modal-price-category,
+.tick {
     background-color: transparent;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -75,7 +75,12 @@
     margin-bottom: 27px;
 }
 
-.modal-price-category::-ms-expand {
+.modal-price-category {
+    margin-bottom: 28px;
+}
+
+.modal-price-category::-ms-expand,
+.tick {
     display: none;
 }
 
@@ -113,7 +118,6 @@
 }
 
 .input-night {
-    
     margin-bottom: 8px;
     width: 100%;
     height: 54px;
@@ -164,12 +168,8 @@
     margin-top: 8px;
 }
 
-
-
 /* Tab */
 @media screen and (min-width: 1024px) {
-   
-
     .label-category {
         width: calc((100%-16px)/2);
         margin-bottom: 0;
