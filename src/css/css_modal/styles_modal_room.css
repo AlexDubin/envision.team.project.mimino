@@ -97,7 +97,6 @@
 }
 
 
-
 .modal-order-room-mission {
   font-family: 'Times New Roman';
   font-style: normal;
@@ -129,8 +128,6 @@
   color: var(--brown-text-color);
   padding-left: 12px;
 }
-
-
 
 .modal-order-room-label {
   display: block;
@@ -184,9 +181,6 @@
 padding: 60px 30px;
 
 }
-.no-scroll {
-  overflow: hidden;
-}
 
 
 
@@ -209,8 +203,6 @@ top: 50%;
 
   }
 }
-
-
 
 /* -----Tablet----- */
 @media screen and (min-width: 1024px) {
@@ -305,7 +297,6 @@ top: 50%;
           column-gap: 16px;
         }
     
-
     
         .modal-order-room-blocks-1-2 {
           display: flex;
