@@ -2,7 +2,7 @@
 /* new */
 
 .details-rastaurant {
-	
+	position: relative;
   padding-top: 24px;
   padding-bottom: 40px;
   width: 100%;
@@ -17,10 +17,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-
-.container-details-rastaurant {
-  position: relative;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -100,7 +96,7 @@
   top: 458px; */
 
   fill: var(--hero-text-color);
-  top: 500px;
+  top: 70%;
     right: 25%;
 
 	    height: 46px;
@@ -112,7 +108,7 @@
   right: auto;
   top: 40px; */
   fill: var(--hero-text-color);
-  top: 500px;
+  top: 70%;
     left: 25%;
 
 	    height: 46px;
@@ -275,16 +271,16 @@
     /* left: 500px;
     right: auto;
     top: 311px; */
-	top: 444px;
-    left: 277px;
+	top: 486px;
+    left: 336px;
   }
 
   .datails-rastaurant-swiper-btn-next {
     /* left: 600px;
     right: auto;
     top: 311px; */
-	top: 444px;
-        left: 347px;
+	top: 486px;
+        left: 398px;
   }
 
   .details-rastaurant-btn-wrap {
@@ -342,17 +338,16 @@
     right: auto;
     top: 311px; */
 
-	top: 501px;
-    
-    left: 280px;
+	top: 554px;
+    left: 347px;
   }
 
   .datails-rastaurant-swiper-btn-next {
     /* left: 850px;
     right: auto;
     top: 311px; */
-	top: 501px;
-	left: 360px;
+	top: 554px;
+	left: 416px;
     
   }
 }
