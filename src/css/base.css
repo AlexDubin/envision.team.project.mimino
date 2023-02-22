@@ -200,11 +200,52 @@ main { overflow: hidden;}
   visibility: visible;
 }
 
+.to-top-btn {
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  .to-top-btn {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    bottom: 70px;
+    right: -35px;
+    writing-mode: vertical-rl;
+    background-color: transparent;
+    border: none;
+    opacity: 0;
+    color: var(--akzent-yellow);
+    transform: rotate(-90deg);
+    transition: opacity 1s var(--cubic-bezier), transform  1s var(--cubic-bezier);
+    writing-mode: vertical-rl;
+  }
+  
+  .to-top-btn svg {
+    margin-left: 5px;
+    fill: var(--akzent-yellow);
+  }
+  
+  .to-top-btn:hover,
+  .to-top-btn:focus {
+    transform: rotate(-90deg) translateX(10px);
+  }
+  
+  .to-top-btn.show-btn {
+    opacity: 1;
+  }
+  
+  .to-top-btn.remove-btn {
+    opacity: 0;
+  }
+}
 
 @media screen and (min-width: 1024px) {
   .container {
     max-width: 970px;
   }
+
+  
 }
 
 
@@ -213,5 +254,7 @@ main { overflow: hidden;}
   div.container {
     max-width: 1140px;
   }
-
+  .to-top-btn {
+    right: 0;
+  }
 }
