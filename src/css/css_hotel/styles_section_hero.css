@@ -47,18 +47,21 @@ address {
   margin-right: 8px;
 }
 .hero-title {
-  width: 255px;
+  width: 275px;
   font-family: 'Film P3';
   font-weight: 700;
   font-size: 96px;
   line-height: calc(103 / 96);
-  letter-spacing: 0.2em;
+  letter-spacing: 0.15em;
   color: var(--hero-text-color);
   margin-bottom: 24px;
   display: block;
-  margin-right: auto;
+   margin-right: -14px;
   margin-left: auto;
 }
+
+
+
 .hero-aftertitle {
   font-weight: 600;
   font-size: 20px;
@@ -135,8 +138,9 @@ address {
 @media screen and (min-width: 414px) {
   
   .hero-title {
-    width: 305px;
-    letter-spacing: 0.3em;
+        width: 332px;
+    margin-right: -14px;
+    letter-spacing: 0.2em;
   }
 }
 @media screen and (min-width: 1024px) {
