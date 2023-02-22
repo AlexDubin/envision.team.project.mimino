@@ -82,7 +82,7 @@
 .h-triple-next {
   position: absolute;
   top: auto;
-  right: 10px;
+  right: 0px;
   bottom: 0;
 
 }
@@ -90,7 +90,7 @@
 .h-triple-prev {
   position: absolute;
   top: auto;
-  right: 40px;
+  left: 220px;
   bottom: 0;
  
 }
@@ -196,7 +196,7 @@
   }
      .hotel-triple-swiper {
        width: 439px;
-       padding-bottom: 52px;
+       padding-bottom: 62px;
        margin-right: 0;
        margin-bottom: 20px;
        margin-right: -15px;
@@ -206,7 +206,7 @@
         .h-triple-next {
            position: absolute;
            top: auto;
-           right: 10px;
+          left: 60px;
            bottom: 0;
     
          }
@@ -214,7 +214,7 @@
          .h-triple-prev {
            position: absolute;
            top: auto;
-           right: 60px;
+              left: 0px;
            bottom: 0;
     
          }
@@ -266,31 +266,26 @@
     .triple-slider-img {
       width: 254px;
       height: 254px;
-     
-
+  
     }
     
-        
-                 .h-triple-next {
-                   position: absolute;
-                   top: auto;
-                   right: 10px;
-                   bottom: 0;
-        
-                 }
-        
-                 .h-triple-prev {
-                   position: absolute;
-                   top: auto;
-                   right: 60px;
-                   bottom: 0;
-        
-                 }
-      .hotel-triple-swiper {
-          width: 550px;
-          padding-bottom: 52px;
-          margin-right: 0;
-          margin-bottom: 20px;
-          margin-right: -15px;
+  
+    .h-triple-next {
+    position: absolute;
+    top: auto;
+    right: 10px;
+    bottom: 0;
+      }
+  .h-triple-prev {
+    position: absolute;
+    top: auto;
+    right: 60px;
+    bottom: 0;
+  }
+  .hotel-triple-swiper {
+    width: 550px;
+    padding-bottom: 65px;
+    margin-right: 0;
+    margin-bottom: 20px;
           }
 }
