@@ -6,8 +6,8 @@
             номер
           </button> -->
 
-<div class="modal" data-modal="2">
-  <div class="modal-order-room-container">
+<div class="modal modal-order-room-container" data-modal="2">
+  <div class="">
     <button
       type="button"
       class="close-btn-modal js-modal-close"
@@ -75,7 +75,8 @@
               type="date"
               id="start"
               name="trip-start"
-              min="2023-20-02"
+              value="2023-02-22"
+              min="2023-02-22"
               max="2023-12-31"
             />
 
@@ -83,14 +84,14 @@
           >
 
           <!--- кол-во и дата ---->
-          <label class="modal-order-room-label" for="start">
+          <label class="modal-order-room-label" for="start1">
             <input
               class="modal-order-room-select modal-border test"
               type="date"
-              id="start"
+              id="start1"
               name="trip-start"
-              
-              min="2023-20-02"
+              value="2023-02-22"
+              min="2023-02-22"
               max="2023-12-31"
             />
 
@@ -105,3 +106,5 @@
     </form>
   </div>
 </div>
+
+<div class="overlay" id="js-overlay-modal"></div>

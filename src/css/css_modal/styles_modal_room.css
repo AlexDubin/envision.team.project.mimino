@@ -1,53 +1,66 @@
 
 /* Стили для подложки */
 
-.overlay {
-  opacity: 1;
-  visibility: hidden;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 20;
+
+  .overlay {
+  
+      /* Скрываем подложку  */
+      opacity: 0;
+      visibility: hidden;
+      position: fixed;
+      
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, .5);
+      z-index: 20;
   transition: var(--cubic-bezier) var(--time-animation);
-  background: rgba(46, 47, 66, 0.4);
+
 }
 
-.modal {
-  opacity: 0;
-  visibility: hidden;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 30;
-  padding: 30px;
-  border-radius: 3px;
-  transition: var(--cubic-bezier) var(--time-animation);;
-  overflow: scroll;
+
+  .modal {
+  
+      /* Скрываем окна  */
+      opacity: 0;
+      visibility: hidden;
+      overflow: hidden;
+    
+      /*  Центрируем и задаем z-index */
+      position: fixed;
+      top: 50%;
+    
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 30;
+    
+      /* Должен быть выше чем у подложки*/
+  
+      /*  Побочные стили   */
+      box-shadow: 0 3px 10px -.5px rgba(0, 0, 0, .2);
+    
+      border-radius: 2px;
+      background-color: var(--light-background-color);
+  transition: var(--cubic-bezier) var(--time-animation);
+ 
+  
 } 
 
 /* Стили для активных классов подложки и окна */
 
-.modal.active,
+ .modal.active,
 .overlay.active {
   opacity: 1;
   visibility: visible; 
 } 
 
-
-.backdrop.is-hidden {
+/* 
+.overlay.is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-}
-
-.backdrop.is-hidden .modal-container {
-  transform: translate(-50%, -50%) scale(0);
-}
+} */
 
 
 .close-btn-modal {
@@ -69,6 +82,7 @@
   color: transparent;
   opacity: 1;
   background:url();
+  background-position-x: 97%;
 
   background-size: contain;
 }
@@ -82,19 +96,6 @@
   background-position-x: 97%;
 }
 
-.modal-order-room-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 414px;
-    padding: 60px 30px;
-    height: 780px;
-    background: var(--light-background-color);
-    border-radius: 2px;
-    transform: translate(-50%, -50%) scale(1);
-    transition: transform (var(--time-animation) var(--cubic-bezier));
-
-}
 
 .modal-order-room-mission {
   font-family: 'Times New Roman';
@@ -173,26 +174,58 @@
   color: var(--black-text-color);
   background: var(--yellow-hover);
 }
+.modal-order-room-block {
+  
+}
+.modal-order-room-container{
+padding: 60px 30px;
 
-/* -----Mobile----- */
-@media screen and (min-width: 414px) {
+}
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 413px) {
   .modal-order-room-container {
-      width: 414px;
+    width: 95%;
+    padding: 60px 30px;
+    height: 780px;
+top: 50%;
+
+  }
+}
+@media screen and (min-width: 414px) and (max-width: 1023px) {
+  .modal-order-room-container {
+   width: 414px;
+    padding: 60px 30px;
+    height: 780px;
+
+
   }
 }
 
 /* -----Tablet----- */
 @media screen and (min-width: 1024px) {
-  .modal-order-room-block {
-    display: flex;
-    column-gap: 16px;
-  }
-  
+
   .modal-order-room-container {
-    width: 712px;
-    height: 638px;
-    padding: 60px 60px;
+      min-width: 712px;
+      height: 638px;
+      padding: 60px 60px;
+      top: 50%;
+    }
+
+  .modal-order-room-blocks-1-2 {
+ 
   }
+  .modal-order-room-block-4 {
+       margin-left: auto;
+     }
+ .modal-order-room-block {
+  display: flex;
+  column-gap: 16px;
+ }
+  
+  
     .modal-order-room-blocks-1-2 {
       display: flex;
       column-gap: 16px;
@@ -255,19 +288,15 @@
       height: 638px;
       padding: 60px 60px;
     }
-  
-        .modal-order-room-blocks-1-2 {}
+    .modal-order-room-block-4 {
+      margin-left: auto;
+    }
     
         .modal-order-room-block {
           display: flex;
           column-gap: 16px;
         }
     
-        .modal-order-room-container {
-          width: 712px;
-          height: 638px;
-          padding: 60px 60px;
-        }
     
         .modal-order-room-blocks-1-2 {
           display: flex;
