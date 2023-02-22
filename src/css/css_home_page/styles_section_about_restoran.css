@@ -82,12 +82,14 @@
 
 .restaurant-button-left {
   position: absolute;
-  line-height: 0;
+    top: 1134px;
+    left: 83px;
 }
 
 .restaurant-button-right {
   position: absolute;
-  line-height: 0;
+    top: 1134px;
+    left: 134px;
 }
 
 @media screen and (max-width: 1023px) {
@@ -104,6 +106,7 @@
     width: 330px;
     margin-left: auto;
   }
+  
 
 }
 
@@ -175,6 +178,19 @@
   .img-slider-mobile {
     max-width: 194px;
   }
+    .restaurant-button-left {
+      position: absolute;
+      top: 1059px;
+      left: 483px;
+    }
+  
+    .restaurant-button-right {
+      position: absolute;
+        top: 1059px;
+        left: 537px;
+      
+    }
+  
 
 }
 
@@ -213,6 +229,18 @@
   .img-slider-mobile {
     max-width: 254px;
   }
+    .restaurant-button-left {
+      position: absolute;
+      top: 1096px;
+      left: 574px;
+    }
+  
+    .restaurant-button-right {
+      position: absolute;
+      top: 1096px;
+       
+        left: 633px;
+    }
 
 }
 
