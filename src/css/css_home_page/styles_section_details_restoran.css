@@ -1,26 +1,34 @@
 
 .resto-det{
 	padding-top: 24px;
-	padding-right: 40px;
-	padding-bottom: 24px;
-	padding-left: 40px;
-}
-
-
-.resto-det{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../img/home_page/details_of_our_restaurant/bg-resto-phone.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+  padding-bottom: 40px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(../../img/home_page/details_of_our_restaurant/bg-resto-phone.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-	.resto-det {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../img/home_page/details_of_our_restaurant/bg-resto-phone-2x.jpg);
-	}
+  .resto-det {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url(../../img/home_page/details_of_our_restaurant/bg-resto-phone-2x.jpg);
+  }
 }
+
 
 .resto-det-title{
 	font-family: 'Film P3';
@@ -193,4 +201,338 @@
 		gap: 29px;
 	}
 }
+}
+
+
+
+
+
+
+
+/* new */
+
+.details-rastaurant {
+	position: relative;
+  padding-top: 24px;
+  padding-bottom: 40px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(../../img/home_page/details_of_our_restaurant/bg-resto-phone.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .details-rastaurant {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url(../../img/home_page/details_of_our_restaurant/bg-resto-phone-2x.jpg);
+  }
+}
+.title-wrap {
+  width: 127px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.details-rastaurant-top {
+  max-width: 243px;
+  margin-left: 17px;
+  margin-bottom: 48px;
+}
+
+.details-rastaurant-mimino {
+  width: 144px;
+  font-family: 'Film P3';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.07;
+  letter-spacing: 0.3em;
+  color: var(--hero-text-color);
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+.details-rastaurant-titel {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--hero-text-color);
+  text-align: left;
+}
+
+.details-rastaurant-content {
+  width: 243px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 48px;
+  color: var(--grey-second-color);
+}
+
+.details-rastaurant-swiper {
+  max-width: 384px;
+  margin-right: -15px;
+  position: initial;
+  /* height: 390px; */
+}
+
+.swiper-wrapper-details-rastaurant {
+	/* column-gap: 10px;
+	padding-left: 225px; */
+}
+
+.datails-rastaurant-swiper-btn-prev {
+  /* left: 150px;
+  right: auto;
+  top: 458px; */
+
+  fill: var(--hero-text-color);
+  top: 70%;
+    right: 25%;
+
+	    height: 46px;
+    width: 46px;
+}
+
+.datails-rastaurant-swiper-btn-next {
+  /* left: 250px;
+  right: auto;
+  top: 40px; */
+  fill: var(--hero-text-color);
+  top: 70%;
+    left: 25%;
+
+	    height: 46px;
+    width: 46px;
+}
+
+.details-rastaurant-btn-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.details-rastaurant-link-btn {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 700;
+}
+.details-rastaurant-btn {
+  margin-bottom: 16px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-weight: 700;
+}
+
+.details-rastaurant-link-btn,
+.details-rastaurant-btn {
+  font-family: 'Montserrat';
+  width: 236px;
+  height: 48px;
+  padding: 14px 14px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  background: rgba(0, 0, 0, 0.4);
+  border: 2px solid var(--hero-text-color);
+  border-radius: 25px;
+  color: var(--yellow-hover);
+  transition: background-color var(--time-animation) var(--cubic-bezier),
+    border-color var(--time-animation) var(--cubic-bezier);
+}
+
+.details-rastaurant-link-btn:hover,
+.details-rastaurant-btn:hover,
+.details-rastaurant-link-btn:focus,
+.details-rastaurant-btn:focus {
+  background: var(--hero-text-color);
+  border: 2px solid var(--yellow-hover);
+}
+
+/* -----Mobile----- */
+@media screen and (min-width: 414px) {
+  /* .container-box-all {
+    max-width: 414px;
+    height: 735px;
+  } */
+
+  .details-rastaurant-content {
+    width: 243px;
+	margin-left: 140px;
+    text-align: left;
+  }
+  .details-rastaurant-titel {
+  }
+}
+
+.details-rastaurant-bottom {
+  /* outline: 1px solid green; */
+}
+.details-rastaurant-slides {
+  /* outline: 1px solid goldenrod; */
+}
+
+.details-rastaurant-btn-wrap {
+  /* outline: 1px solid goldenrod; */
+}
+
+/* -----Tablet----- */
+@media screen and (min-width: 1024px) {
+  .title-wrap {
+    width: 549px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+  }
+  .details-rastaurant-mimino {
+    text-align: end;
+    width: 222px;
+    font-size: 64px;
+    margin-bottom: 16px;
+    margin-left: auto;
+  }
+  .details-rastaurant {
+    padding-top: 48px;
+    padding-bottom: 100px;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url(../../img/home_page/details_of_our_restaurant/bg-resto-tablet.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .details-rastaurant {
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.7),
+          rgba(0, 0, 0, 0.7)
+        ),
+        url(../../img/home_page/details_of_our_restaurant/bg-resto-tablet-2x.jpg);
+    }
+  }
+
+  .details-rastaurant-titel {
+    font-size: 24px;
+  }
+
+  .details-rastaurant-title-wrap {
+    margin-bottom: 8px;
+  }
+
+  .details-rastaurant-content {
+    width: 549px;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .details-rastaurant-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    align-items: flex-end;
+  }
+
+  .details-rastaurant-swiper {
+    width: 630px;
+    height: 336px;
+  }
+
+  .datails-rastaurant-swiper-btn-prev {
+    /* left: 500px;
+    right: auto;
+    top: 311px; */
+  }
+
+  .datails-rastaurant-swiper-btn-next {
+    /* left: 600px;
+    right: auto;
+    top: 311px; */
+  }
+
+  .details-rastaurant-btn-wrap {
+    padding-bottom: 0;
+    margin-top: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .details-rastaurant-slides {
+    display: flex;
+    gap: 32px;
+    height: 270px;
+  }
+}
+
+/* -----Desktop----- */
+@media screen and (min-width: 1280px) {
+  .title-wrap {
+    width: 595px;
+  }
+  .details-rastaurant-content {
+    width: 595px;
+  }
+
+  .details-rastaurant {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url(../../img/home_page/details_of_our_restaurant/bg-resto-desktop.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .details-rastaurant {
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.7),
+          rgba(0, 0, 0, 0.7)
+        ),
+        url(../../img/home_page/details_of_our_restaurant/bg-resto-desktop-2x.jpg);
+    }
+  }
+
+  .details-rastaurant-swiper {
+    width: 875px;
+    height: 336px;
+  }
+
+  .datails-rastaurant-swiper-btn-prev {
+    /* left: 750px;
+    right: auto;
+    top: 311px; */
+  }
+
+  .datails-rastaurant-swiper-btn-next {
+    /* left: 850px;
+    right: auto;
+    top: 311px; */
+  }
 }
