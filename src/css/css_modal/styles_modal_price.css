@@ -158,6 +158,9 @@
     padding: 60px 30px;
 }
 
+.label-category.label-tab-desk {
+    display: none;
+}
 
 
 
