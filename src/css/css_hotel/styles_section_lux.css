@@ -12,9 +12,7 @@
     padding-bottom: 32px;
 }
 
-.hotel-lux-title-block {
-    width: 350px;
-}
+
 
 .hotel-lux-min-text {
     font-family: 'Times New Roman';
@@ -170,7 +168,12 @@
     border: 2px Solid var(--akzent-yellow);
 }
 
+@media screen and (max-width: 1024px) {
 
+    .hotel-lux-title-block {
+        max-width: 350px;
+    }
+}
 /*-//////////////-----TABLET---//////////------*/
 
 
