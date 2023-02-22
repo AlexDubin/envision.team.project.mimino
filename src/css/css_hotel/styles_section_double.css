@@ -107,6 +107,7 @@
 .double-slider-img {
     width: 194px;
     height: 194px;
+    box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.25);
 }
 
 
