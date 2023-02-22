@@ -459,7 +459,7 @@
   }
 
   .details-rastaurant-swiper {
-    width: 630px;
+    max-width: 630px;
     height: 336px;
   }
 
