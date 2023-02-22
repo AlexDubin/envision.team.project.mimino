@@ -1,6 +1,7 @@
 // JS Animat
 
 import './js/animate';
+import './js/to_top_btn';
 
 // JS Slider
 
