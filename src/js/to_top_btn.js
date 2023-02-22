@@ -1,9 +1,7 @@
 const button = document.getElementById('scrollToTopBtn');
 
 const displayButton = () => {
-  window.addEventListener('scroll', () => {
-    console.log(window.scrollY);
-  
+  window.addEventListener('scroll', () => {  
     if (window.scrollY > 100) {
       button.classList.add('show-btn');
     } else {
