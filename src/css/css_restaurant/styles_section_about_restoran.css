@@ -92,7 +92,7 @@
 .restaurant-button-right1 {
   position: absolute;
   top: 1142px;
-      left: 387px;
+  left: 387px;
   bottom: 0px;
 }
 
@@ -178,14 +178,14 @@
   .restaurant-button-right1 {
     position: absolute;
     top: 1046px;
-    left: 555px;
+    left: 893px;
     bottom: 0px;
   }
 
   .restaurant-button-left1 {
     position: absolute;
     top: 1046px;
-    left: 492px;
+    left: 832px;
   }
 
   .slider-img {
@@ -224,7 +224,7 @@
   .restaurant-button-right1 {
     position: absolute;
     top: 1085px;
-    left: 657px;
+    left: 1107px;
     bottom: 0px;
   }
 
@@ -233,7 +233,7 @@
     top: 1085px;
     right: -22px;
     bottom: 0;
-    left: 593px;
+    left: 1042px;
   }
 
   .rest-slider-img-container {
