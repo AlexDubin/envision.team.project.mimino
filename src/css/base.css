@@ -217,6 +217,10 @@ main {
   fill: #f3c653;
 }
 
+.text--turning.innerAnimated .char:last-child {
+  letter-spacing: 0;
+}
+
 
 
 

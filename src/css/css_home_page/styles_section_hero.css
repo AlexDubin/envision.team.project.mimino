@@ -56,8 +56,9 @@ address {
   color: var(--hero-text-color);
   margin-bottom: 24px;
   display: block;
-  margin-right: -14px;
+  margin-right: auto;
   margin-left: auto;
+  text-align: center;
 }
 .hero-aftertitle {
   font-weight: 600;
@@ -139,7 +140,7 @@ address {
   }
   .hero-title {
     width: 332px;
-    margin-right: -14px;
+    margin-right: auto;
     letter-spacing: 0.2em;
   }
 }
@@ -205,6 +206,7 @@ address {
     margin-bottom: 16px;
     text-align: center;
     margin-right: auto;
+    margin-left: auto;
   }
   .hero-aftertitle {
     font-size: 20px;
@@ -217,7 +219,7 @@ address {
     margin-bottom: 137px;
   }
   .hero-section .title-wrapper {
-    margin-right: -40px;
+    margin-right: 0px;
   }
 }
 @media screen and (min-width: 1280px) {
