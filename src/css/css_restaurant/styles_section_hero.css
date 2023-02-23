@@ -56,8 +56,9 @@ address {
   color: var(--hero-text-color);
   margin-bottom: 24px;
   display: block;
-  margin-right: -14px;
+ margin-right: auto;
   margin-left: auto;
+  text-align: center;
 }
 .hero-aftertitle {
   font-weight: 600;
@@ -150,7 +151,7 @@ address {
   } */
   .hero-title {
     width: 332px;
-    margin-right: -14px;
+    margin-right: auto;
     letter-spacing: 0.2em;
   }
 }
@@ -224,11 +225,12 @@ address {
     font-size: 128px;
     line-height: calc(138 / 128);
     margin-bottom: 16px;
-    text-align: center;
+     text-align: center;
     margin-right: auto;
+    margin-left: auto;
   }
   .hero-section .title-wrapper {
-    margin-right: -40px;
+    margin-right: 0;
   }
   .hero-aftertitle {
     font-size: 20px;
@@ -241,7 +243,7 @@ address {
     margin-bottom: 137px;
   }
   .hero-section .title-wrapper {
-    margin-right: -40px;
+    margin-right: 0;
   }
 }
 @media screen and (min-width: 1280px) {
