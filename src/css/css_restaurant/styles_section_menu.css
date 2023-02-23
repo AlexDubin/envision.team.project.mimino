@@ -58,7 +58,7 @@
 .rest-menu {
     padding: 32px 0;
     color:  var(--black-text-color);
-    background-color: #FFFDEE;
+    background-color: var(--dark-background-color);
 }
 
 .menu-item {
