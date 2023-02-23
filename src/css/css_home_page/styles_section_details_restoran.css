@@ -1,7 +1,6 @@
 /* new */
 
 .details-rastaurant {
-	
   padding-top: 24px;
   padding-bottom: 40px;
   width: 100%;
@@ -89,7 +88,7 @@
 }
 
 .swiper-wrapper-details-rastaurant {
-	/* column-gap: 10px;
+  /* column-gap: 10px;
 	padding-left: 225px; */
 }
 
@@ -100,10 +99,10 @@
 
   fill: var(--hero-text-color);
   top: 500px;
-    right: 25%;
+  right: 25%;
 
-	    height: 46px;
-    width: 46px;
+  height: 46px;
+  width: 46px;
 }
 
 .datails-rastaurant-swiper-btn-next {
@@ -112,10 +111,10 @@
   top: 40px; */
   fill: var(--hero-text-color);
   top: 500px;
-    left: 25%;
+  left: 25%;
 
-	    height: 46px;
-    width: 46px;
+  height: 46px;
+  width: 46px;
 }
 
 .details-rastaurant-btn-wrap {
@@ -165,6 +164,26 @@
 
 /* -----Mobile----- */
 @media screen and (min-width: 414px) {
+  .details-rastaurant {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url(../../img/home_page/details_of_our_restaurant/bg-resto-tablet.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .details-rastaurant {
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.7),
+          rgba(0, 0, 0, 0.7)
+        ),
+        url(../../img/home_page/details_of_our_restaurant/bg-resto-tablet-2x.jpg);
+    }
+  }
   /* .container-box-all {
     max-width: 414px;
     height: 735px;
@@ -172,7 +191,7 @@
 
   .details-rastaurant-content {
     width: 243px;
-	margin-left: 140px;
+    margin-left: 140px;
     text-align: left;
   }
   .details-rastaurant-titel {
@@ -200,7 +219,7 @@
   }
 
   .title-wrap-container-text {
-	width: 549px;
+    width: 549px;
     margin-left: 278px;
     margin-right: auto;
     margin-bottom: 8px;
@@ -209,107 +228,15 @@
   .swiper-wrapper-details-rastaurant {
     column-gap: 30px;
     padding-left: 18px;
-}
+  }
   .details-rastaurant-mimino {
-    
     width: 222px;
     font-size: 64px;
     margin-bottom: 16px;
-    
-	
   }
   .details-rastaurant {
     padding-top: 48px;
     padding-bottom: 100px;
-    background-image: linear-gradient(
-        to right,
-        rgba(0, 0, 0, 0.7),
-        rgba(0, 0, 0, 0.7)
-      ),
-      url(../../img/home_page/details_of_our_restaurant/bg-resto-tablet.jpg);
-  }
-
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .details-rastaurant {
-      background-image: linear-gradient(
-          to right,
-          rgba(0, 0, 0, 0.7),
-          rgba(0, 0, 0, 0.7)
-        ),
-        url(../../img/home_page/details_of_our_restaurant/bg-resto-tablet-2x.jpg);
-    }
-  }
-
-  .details-rastaurant-titel {
-    font-size: 24px;
-  }
-
-  .details-rastaurant-title-wrap {
-    margin-bottom: 8px;
-  }
-
-  .details-rastaurant-content {
-    
-	margin-left: 278px;
-    margin-bottom: 40px;
-    font-size: 16px;
-    min-width: 610px;
-  }
-
-  .details-rastaurant-bottom {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 32px;
-    align-items: flex-end;
-  }
-
-  .details-rastaurant-swiper {
-    max-width: 630px;
-    height: 336px;
-  }
-
-  .datails-rastaurant-swiper-btn-prev {
-    /* left: 500px;
-    right: auto;
-    top: 311px; */
-	top: 444px;
-    left: 277px;
-  }
-
-  .datails-rastaurant-swiper-btn-next {
-    /* left: 600px;
-    right: auto;
-    top: 311px; */
-	top: 444px;
-        left: 347px;
-  }
-
-  .details-rastaurant-btn-wrap {
-    padding-bottom: 0;
-    margin-top: 0;
-    display: flex;
-    justify-content: flex-end;
-  }
-  .details-rastaurant-slides {
-    display: flex;
-    gap: 32px;
-    height: 270px;
-	    flex-direction: row-reverse;
-  }
-}
-
-/* -----Desktop----- */
-@media screen and (min-width: 1280px) {
-  .title-wrap {
-    width: 595px;
-  }
-  .details-rastaurant-content {
-    width: 595px;
-  }
-
-  .details-rastaurant {
     background-image: linear-gradient(
         to right,
         rgba(0, 0, 0, 0.7),
@@ -331,6 +258,95 @@
     }
   }
 
+  .details-rastaurant-titel {
+    font-size: 24px;
+  }
+
+  .details-rastaurant-title-wrap {
+    margin-bottom: 8px;
+  }
+
+  .details-rastaurant-content {
+    margin-left: 278px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    min-width: 610px;
+  }
+
+  .details-rastaurant-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    align-items: flex-end;
+  }
+
+  .details-rastaurant-swiper {
+    max-width: 630px;
+    height: 336px;
+  }
+
+  .datails-rastaurant-swiper-btn-prev {
+    /* left: 500px;
+    right: auto;
+    top: 311px; */
+    top: 444px;
+    left: 277px;
+  }
+
+  .datails-rastaurant-swiper-btn-next {
+    /* left: 600px;
+    right: auto;
+    top: 311px; */
+    top: 444px;
+    left: 347px;
+  }
+
+  .details-rastaurant-btn-wrap {
+    padding-bottom: 0;
+    margin-top: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .details-rastaurant-slides {
+    display: flex;
+    gap: 32px;
+    height: 270px;
+    flex-direction: row-reverse;
+  }
+}
+
+/* -----Desktop----- */
+@media screen and (min-width: 1280px) {
+  .title-wrap {
+    width: 595px;
+  }
+  .details-rastaurant-content {
+    width: 595px;
+  }
+
+  .details-rastaurant {
+    max-width: 1280px;
+    /* background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url(../../img/home_page/details_of_our_restaurant/bg-resto-desktop.jpg);
+  } */
+
+    /* @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .details-rastaurant {
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.7),
+          rgba(0, 0, 0, 0.7)
+        ),
+        url(../../img/home_page/details_of_our_restaurant/bg-resto-desktop-2x.jpg);
+    } */
+  }
+
   .details-rastaurant-swiper {
     max-width: 875px;
     height: 336px;
@@ -341,8 +357,8 @@
     right: auto;
     top: 311px; */
 
-	top: 501px;
-    
+    top: 501px;
+
     left: 280px;
   }
 
@@ -350,8 +366,7 @@
     /* left: 850px;
     right: auto;
     top: 311px; */
-	top: 501px;
-	left: 360px;
-    
+    top: 501px;
+    left: 360px;
   }
 }

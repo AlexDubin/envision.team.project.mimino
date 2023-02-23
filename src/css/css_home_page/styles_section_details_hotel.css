@@ -84,7 +84,7 @@
 }
 
 .swiper-wrapper-details-hotel {
-      padding-left: 96px;
+  padding-left: 96px;
 }
 
 .datails-hotel-swiper-btn-prev {
@@ -94,9 +94,9 @@
 
   fill: var(--hero-text-color);
   height: 46px;
-    width: 46px;
-    top: 517px;
-    left: 60%;
+  width: 46px;
+  top: 517px;
+  left: 60%;
 }
 
 .datails-hotel-swiper-btn-next {
@@ -105,9 +105,9 @@
   top: 40px; */
   fill: var(--hero-text-color);
   height: 46px;
-    width: 46px;
-    top: 517px;
-    right: 5%;
+  width: 46px;
+  top: 517px;
+  right: 10%;
 }
 
 .details-hotel-btn-wrap {
@@ -161,7 +161,26 @@
     max-width: 414px;
     height: 735px;
   } */
-
+  .details-hotel {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url(../../img/home_page/details_of_our_hotel/bg-datailes-hotel-tab-1x.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .details-hotel {
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.7),
+          rgba(0, 0, 0, 0.7)
+        ),
+        url(../../img/home_page/details_of_our_hotel/bg-datailes-hotel-tab-2x.jpg);
+    }
+  }
   .details-hotel-content {
     width: 243px;
   }
@@ -203,7 +222,7 @@
         rgba(0, 0, 0, 0.7),
         rgba(0, 0, 0, 0.7)
       ),
-      url(../../img/home_page/details_of_our_hotel/bg-datailes-hotel-tab-1x.jpg);
+      url(../../img/home_page/details_of_our_hotel/bg-datailes-hotel-desk-1x.jpg);
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -215,7 +234,7 @@
           rgba(0, 0, 0, 0.7),
           rgba(0, 0, 0, 0.7)
         ),
-        url(../../img/home_page/details_of_our_hotel/bg-datailes-hotel-tab-2x.jpg);
+        url(../../img/home_page/details_of_our_hotel/bg-datailes-hotel-desk-2x.jpg);
     }
   }
 
@@ -249,14 +268,14 @@
   .swiper-wrapper-details-hotel {
     column-gap: 30px;
     padding-left: 18px;
-}
+  }
 
   .datails-hotel-swiper-btn-prev {
     /* left: 500px;
     right: auto;
     top: 311px; */
 
-        top: 454px;
+    top: 454px;
     left: 523px;
   }
 
@@ -264,8 +283,8 @@
     /* left: 600px;
     right: auto;
     top: 311px; */
-      top: 454px;
-    
+    top: 454px;
+
     right: 338px;
   }
 
@@ -292,15 +311,16 @@
   }
 
   .details-hotel {
-    background-image: linear-gradient(
+    max-width: 1280px;
+    /* background-image: linear-gradient(
         to right,
         rgba(0, 0, 0, 0.7),
         rgba(0, 0, 0, 0.7)
       ),
       url(../../img/home_page/details_of_our_hotel/bg-datailes-hotel-desk-1x.jpg);
-  }
+  } */
 
-  @media (min-device-pixel-ratio: 2),
+    /* @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .details-hotel {
@@ -310,7 +330,7 @@
           rgba(0, 0, 0, 0.7)
         ),
         url(../../img/home_page/details_of_our_hotel/bg-datailes-hotel-desk-2x.jpg);
-    }
+    } */
   }
 
   .details-hotel-swiper {
@@ -324,7 +344,7 @@
     top: 311px; */
 
     top: 512px;
-   
+
     left: 748px;
   }
 
@@ -334,6 +354,5 @@
     top: 311px; */
     top: 512px;
     right: 266px;
-    
   }
 }
