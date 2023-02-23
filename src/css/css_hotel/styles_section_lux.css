@@ -5,11 +5,12 @@
 
 .hotel-section-lux {
     background-color: var(--light-background-color);
+     padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .lux {
-    padding-top: 32px;
-    padding-bottom: 32px;
+   
 }
 
 
@@ -181,7 +182,7 @@
 
 @media screen and (min-width: 1024px) {
 
-    .lux {
+    .hotel-section-lux {
         padding-top: 62px;
         padding-bottom: 40px;
     }
@@ -266,7 +267,7 @@
 
 @media screen and (min-width: 1280px) {
 
-    .lux {
+    .hotel-section-lux {
         padding-top: 72px;
         padding-bottom: 40px;
     }
