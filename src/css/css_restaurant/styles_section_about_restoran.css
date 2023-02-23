@@ -91,18 +91,17 @@
 
 .restaurant-button-right1 {
   position: absolute;
-  top: 1142px;
-  left: 360px;
+  top: 103%;
+  left: 87%;
   bottom: 0px;
   width: 46px;
 }
 
 .restaurant-button-left1 {
   position: absolute;
-  top: 1142px;
-  right: -30px;
+  top: 103%;
+  left: 72%;
   bottom: 0;
-  left: 295px;
   width: 46px;
 }
 
