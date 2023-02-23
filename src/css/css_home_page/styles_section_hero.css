@@ -112,34 +112,14 @@ address {
 .order-table-btn {
   margin-bottom: 24px;
 }
-.order-room-btn {
-}
+
 .hero-soc-list {
   display: flex;
   gap: 20px;
 }
 
-.hero-soc-item {
-}
-.hero-soc-link {
-}
-.hero-soc-icon {
-}
 @media screen and (min-width: 414px) {
-  
-  .hero-title {
-        width: 332px;
-    margin-right: -14px;
-    letter-spacing: 0.2em;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .hero-wrap.container {
-    position: relative;
-  }
   .hero-section {
-    padding-top: 188px;
-    padding-bottom: 15px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url(../../img/home_page/hero/home-tablet.jpg);
     background-repeat: no-repeat;
@@ -155,6 +135,36 @@ address {
           rgba(0, 0, 0, 0.65)
         ),
         url(../../img/home_page/hero/home-tablet-2x.jpg);
+    }
+  }
+  .hero-title {
+    width: 332px;
+    margin-right: -14px;
+    letter-spacing: 0.2em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hero-wrap.container {
+    position: relative;
+  }
+  .hero-section {
+    padding-top: 188px;
+    padding-bottom: 15px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../../img/home_page/hero/home-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-section {
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)
+        ),
+        url(../../img/home_page/hero/home-desktop-2x.jpg);
     }
   }
   .btn-wrap {
@@ -211,7 +221,6 @@ address {
   }
 }
 @media screen and (min-width: 1280px) {
- 
   .hero-soc-list {
     display: none;
   }
@@ -221,13 +230,13 @@ address {
     margin-right: auto;
     padding-top: 164px;
     padding-bottom: 65px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url(../../img/home_page/hero/home-desktop.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
   }
-  @media (min-device-pixel-ratio: 2),
+  /* @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero-section {
@@ -237,7 +246,7 @@ address {
         ),
         url(../../img/home_page/hero/home-desktop-2x.jpg);
     }
-  }
+  } */
   .hero-title {
     margin-bottom: 32px;
   }
