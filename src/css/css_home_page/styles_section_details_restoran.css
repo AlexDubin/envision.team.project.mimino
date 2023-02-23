@@ -98,7 +98,7 @@
   top: 458px; */
 
   fill: var(--hero-text-color);
-  top: 500px;
+  top: 76%;
   right: 25%;
   left: 28px;
 
@@ -111,7 +111,7 @@
   right: auto;
   top: 40px; */
   fill: var(--hero-text-color);
-  top: 500px;
+  top: 76%;
   left: 25%;
 
   height: 46px;
