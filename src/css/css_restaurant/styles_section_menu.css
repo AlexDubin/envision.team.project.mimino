@@ -58,7 +58,7 @@
 .rest-menu {
     padding: 32px 0;
     color:  var(--black-text-color);
-    background-color: var(--dark-background-color);
+    background-color: var(--light-background-color);
 }
 
 .menu-item {
@@ -121,6 +121,10 @@
     .menu-wrapp .right-side {
         flex-basis: calc(100% - 176px);
     }
+
+    .rest-menu {
+    background-color: var(--dark-background-color);
+   }
 
     .rest-menu .btn {
         margin-right: 0;
