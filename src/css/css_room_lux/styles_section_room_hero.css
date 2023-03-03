@@ -18,6 +18,7 @@
   fill: var(--yellow-hover);
 }
 .room-page-hero {
+  position: relative;
   max-width: 100%;
   padding-top: 484px;
   padding-bottom: 18px;
@@ -36,6 +37,49 @@
     background-image: url(../../img/room_double/hero-room-main-bg-2x-min.jpg);
   }
 }
+
+/* .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.back-img-first {
+  max-width: 414px;
+  height: 740px;
+  background-image: url(../../img/room_double/hero-room-main-bg-1x-min.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .back-img-first {
+    background-image: url(../../img/room_double/hero-room-main-bg-2x-min.jpg);
+  }
+} */
 .room-name {
   font-family: 'Times New Roman';
   color: #ffffff;
